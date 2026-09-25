@@ -1,0 +1,75 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-03/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: La Pastorale
+C: J. F. F. Burgmüller
+M: 6/8
+L: 1/8
+Q:1/4=100
+K:G % 1 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+GBc dBe| \
+dge dBc| \
+d3 Bde| \
+d3 gdB|
+A3 cAB| \
+G3 GBc| \
+d3 Bde| \
+d3 dBg|
+f3 efe| \
+d3 d'2z| \
+a3 ced| \
+B3 d^cd|
+a3 ced| \
+B3 ded| \
+^c6| \
+d^dd d=dc|
+Bcd fec| \
+B3 Add| \
+d3 Bde| \
+d3 gdB|
+A3 cAB| \
+G3 GBc| \
+d3 Bde| \
+d3 ceg|
+gdB B2A| \
+G3 AEF| \
+G3 AEF| \
+GBd gbd'|
+g'2
+V:2
+%%MIDI program 0
+%%MIDI program 0
+z6| \
+z6| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3|
+[DCG,][DCG,][DCG,] [DCG,]3| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3|
+A,AA GAG| \
+FAF D2z| \
+[C-F,-][DC-F,-][DC-F,-] [DCF,]3| \
+[B,-G,-][DB,-G,-][DB,-G,-] [DB,G,]3|
+[C-F,-][DC-F,-][DC-F,-] [DCF,]3| \
+[B,-G,-][DB,-G,-][DB,-G,-] [DB,G,]3| \
+z^AA A=AG| \
+F6|
+G3 [EC]3| \
+D-[GD-][GD-] [FD]2z| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3|
+[DCG,][DCG,][DCG,] [DCG,]3| \
+[DB,G,][DB,G,][DB,G,] [DB,G,]3| \
+[DB,G,=F,][DB,G,F,][DB,G,F,] [DB,G,F,]3| \
+[CG,E,][CG,E,][CG,E,] [CG,E,]3|
+[B,G,D,]3 D,DC| \
+[B,G,][DB,G,][DB,G,] [DCG,]3| \
+[DB,G,][DB,G,][DB,G,] [DCG,]3| \
+[DB,G,]2z [DB,G,]2z|
+G,,2

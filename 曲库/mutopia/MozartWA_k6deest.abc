@@ -1,0 +1,67 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/MozartWA/K6deest/k6deest/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Sonata in C major (fragment)
+C: Wolfgang Amadeus Mozart
+M: 3/4
+L: 1/8
+Q:1/4=120
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+[gecG]2 f/2e/2d/2c/2 c'b| \
+a3g/2a/2 g2| \
+z/2d/2f/2d/2 z/2c/2e/2c/2 z/2B/2d/2B/2| \
+z/2c/2B/2A/2 G/2A/2G/2F/2 E/2F/2E/2D/2|
+Cz f/2e/2d/2c/2 c'b| \
+a3g/2a/2 g2| \
+z/2d/2f/2d/2 z/2c/2e/2c/2 z/2B/2d/2B/2| \
+z/2c/2B/2A/2 G/2A/2G/2F/2 E/2F/2E/2D/2|
+C2 z2 e3/2d/2| \
+[cB-]/2B3/2 [fdBG]4| \
+e2 z2 e3/2d/2| \
+[cB-]/2B3/2 [fdBG]4|
+e2 z/2G/2c/2e/2 g/2e/2d/2c/2| \
+d2 z/2G/2B/2d/2 g/2d/2B/2G/2| \
+c2 z/2A/2c/2^f/2 a/2f/2d/2c/2| \
+B/2G/2g/2a/2 f/2g/2e/2f/2 d/2e/2c/2d/2|
+B/2d/2G/2A/2 F/2G/2E/2F/2 D/2E/2C/2D/2| \
+B,2 [gdBG]2 z2| \
+d2 dc/2B/2 gg| \
+ge e2 z2|
+a2 ag/2^f/2 d'd'| \
+d'b b2 z2| \
+d2 dc/2B/2 gf| \
+z/2G/2e/2G/2 z/2G/2e/2G/2 z/2G/2e/2G/2|
+z/2e/2c'/2e/2 ^f/2-[f-e]/2[c'f-]/2[fe]/2 z/2e/2c'/2e/2|
+V:2
+%%MIDI program 0
+%%MIDI program 0
+[EC][EC] [EC][EC] [EC][EC]| \
+[FC][FC] [FC][FC] [EC][EC]| \
+Fz Gz G,z| \
+Cz4z|
+z[EC] [EC][EC] [EC][EC]| \
+[FC][FC] [FC][FC] [EC][EC]| \
+Fz Gz G,z| \
+Cz4z|
+C,/2G,/2E,/2G,/2 C,/2G,/2E,/2G,/2 C,/2G,/2E,/2G,/2| \
+D,/2G,/2F,/2G,/2 B,,/2G,/2D,/2G,/2 B,,/2G,/2D,/2G,/2| \
+C,/2G,/2E,/2G,/2 C,/2G,/2E,/2G,/2 C,/2G,/2E,/2G,/2| \
+D,/2G,/2F,/2G,/2 B,,/2G,/2D,/2G,/2 B,,/2G,/2D,/2G,/2|
+z/2C,/2E,/2G,/2 C2 z2| \
+z/2B,,/2D,/2G,/2 B,2 z2| \
+z/2A,,/2C,/2^F,/2 A,2 z2| \
+G,E DC B,A,|
+G,E, D,C, B,,A,,| \
+G,,2 z4| \
+[B,G,][B,G,] [B,G,][B,G,] [B,G,][B,G,]| \
+[CG,][CG,] [CG,][CG,] [CG,][CG,]|
+[D^F,][DF,] [DF,][DF,] [DF,][CF,]| \
+[B,G,][B,G,] [B,G,][B,G,] [B,G,][B,G,]| \
+[B,G,][B,G,] [B,G,][B,G,] [B,G,][B,G,]| \
+C2 [CC,]2 [B,B,,]2|
+[A,A,,]2 z2 [A,A,,]2|

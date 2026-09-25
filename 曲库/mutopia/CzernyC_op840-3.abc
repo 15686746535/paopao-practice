@@ -1,0 +1,113 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/O840/op840-3/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 50 Melodische Übungsstücke, No. 3
+C: Carl Czerny
+M: 3/8
+L: 1/16
+Q:1/4=78
+K:C % 0 sharps
+V:1
+K:Eb % 3 flats
+[cE]2 [cE]2 [cE]2| \
+[eG-]4 [cG]2| \
+[d=B]2 [dB]2 [dB]2| \
+[fd]4 [dG]2|
+[eG]2 [eG]2 [eG]2| \
+[ge]2 [fd]2 [ec]2| \
+[d=B]4 [ec]2| \
+[d=B]2 z2 g2|
+a2 d2 z2| \
+a2 d2 z2| \
+g2 c'2 z2| \
+g2 c'2 z2|
+[fd]2 [ge]2 [af]2| \
+[ec]2 [fd]2 [=BF]2| \
+[dF]6| \
+[cE]2 z4|
+B4 e2| \
+g3f e2| \
+ed fe d2| \
+d6|
+B4 f2| \
+a3g f2| \
+fe gf e2| \
+e6|
+[gd=B]2 [gdB]2 [gdB]2| \
+[gd-=B-]4 [fdB]2| \
+[ecG]2 [ecG]2 [ecG]2| \
+[ecG]4 ge|
+d2 a2 z2| \
+g2 =B2 z2| \
+[dF]6| \
+[cE]2 z4|
+K:C % 0 sharps
+EG ce dc/2B/2| \
+fz/2f/2 d3B| \
+GB df ed/2c/2| \
+gz/2f/2 e3c|
+a/2g/2^f/2e/2 dd' d'd'| \
+d'/2c'/2b/2a/2 gg' g'g'| \
+g'd' bg/2b/2 a/2d'/2a/2b/2| \
+a2 g4|
+[fdBG]2 [fdBG]2 [fdBG]2| \
+[fd][ge] [fd][ec] [dB]2| \
+[d'gf]2 [d'gf]2 [d'gf]2| \
+[d'gf]4 c'/2b/2a/2g/2|
+e'z/2e'/2 c'3g| \
+ac' [bg][af] [ge][fd]| \
+ec' ge/2e/2 d/2c/2d/2e/2| \
+c2 
+V:2
+K:Eb % 3 flats
+C,6| \
+z2 C,2 E,2| \
+G,6| \
+z2 G,,2 =B,,2|
+C,6| \
+C2 =B,2 C2| \
+G,2 G2 _G2| \
+G2 z4|
+F,2- [D=B,A,F,-]2 [DB,A,F,]2| \
+F,2- [D=B,A,F,-]2 [DB,A,F,]2| \
+E,2- [CG,E,-]2 [CG,E,]2| \
+E,2- [CG,E,-]2 [CG,E,]2|
+F,4 F,2| \
+G,4 G,2| \
+G,,2 =B,,2 G,,2| \
+C,2 z4|
+[G,-E,-]2 [B,G,-E,-]2 [B,G,E,]2| \
+[G,-E,-]2 [B,G,-E,-]2 [B,G,E,]2| \
+[F,-B,,-]2 [A,F,-B,,-]2 [A,F,B,,]2| \
+[F,-B,,-]2 [A,F,-B,,-]2 [A,F,B,,]2|
+[D,-B,,-]2 [A,D,-B,,-]2 [A,D,B,,]2| \
+[D,-B,,-]2 [A,D,-B,,-]2 [A,D,B,,]2| \
+[G,-E,-]2 [B,G,-E,-]2 [B,G,E,]2| \
+[G,-E,-]2 [B,G,-E,-]2 [B,G,E,]2|
+G,,2 =B,,2 D,2| \
+G,2 G,,2 z2| \
+C,2 E,2 G,2| \
+C2 C,2 z2|
+F,2- [DA,F,-]2 [DA,F,]2| \
+G,2- [FDG,-]2 [FDG,]2| \
+G,2 =B,2 G,2| \
+C2 z4|
+K:C % 0 sharps
+C,2- [G,E,C,-]2 [G,E,C,]2| \
+D,2- [B,G,F,D,-]2 [B,G,F,D,]2| \
+D,2- [B,G,F,D,-]2 [B,G,F,D,]2| \
+E,2- [CG,E,-]2 [CG,E,]2|
+^F,2- [DCF,-]2 [DCF,]2| \
+G,2- [DB,G,-]2 [DB,G,]2| \
+D,2- [B,G,D,]2 [C^F,D,]2| \
+[C^F,D,]2 [B,G,]4|
+G,,B,, D,G, B,D| \
+G,2 G4| \
+GD B,G, D,B,,| \
+G,,2 G,4|
+C,2- [G,E,C,-]2 [G,E,C,]2| \
+F,2- [A,F,-]2 [DF,]2| \
+G,2- [ECG,]2 [FB,G,]2| \
+[EC]2 C,4|

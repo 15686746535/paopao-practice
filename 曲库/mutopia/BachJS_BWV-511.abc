@@ -1,0 +1,33 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV511/BWV-511/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Chorale setting "Gib dich zufrieden und sei stille" in D minor
+C: Johann Sebastian Bach
+M: 4/4
+L: 1/8
+Q:1/4=60
+K:F % 1 flats
+V:1
+dB2c d/2_e/2d3| \
+cB2A B/2c/2B AG-| \
+G_e2d2g2f-| \
+fA _ed cc2B|
+zd c2 dB c2| \
+d_e f2 ed ed| \
+c_e A2 g_g =gf| \
+_ed cb ag _g=e|
+dg _e2 dc d_G| \
+Gc B2 AG G2-|G
+V:2
+G,,G, _G,=G, A,B, A,B,| \
+CD CD D,G,3-| \
+G,G,, G,2 F,_E,, E,2| \
+D,C,2B,,2F,,2B,,|
+zB,, F,A, B,B,, F,G,| \
+F,_E, D,2 G,2 C,2-| \
+C,C _G,A, D,C B,D| \
+G,B, _E,2 C,2 D,2-|
+D,B,, C,2 F,2 B,,A,,| \
+B,,_E, D,C, D,D,, G,,2-|G,,

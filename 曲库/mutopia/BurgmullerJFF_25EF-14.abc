@@ -1,0 +1,96 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-14/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: La Styrienne
+C: J. F. F. Burgmüller
+M: 3/4
+L: 1/8
+Q:1/4=176
+K:C % 0 sharps
+V:1
+K:G % 1 sharps
+%%MIDI program 0
+D2- [AD-]2 [AD]2| \
+D2- [^GD-]2 [GD]2| \
+D2- [GD-]2 [GD]2| \
+[FD]2 zd ef|
+ag Bc ^cd| \
+ez Fz Fz| \
+ez Fz Fz| \
+GB dd ef|
+ag Bc ^cd| \
+ez Fz Fz| \
+ez Fz Fz| \
+G2 zf ga|
+bg fg fe| \
+e2 ^df B2| \
+e2 ^df Bd| \
+e^d ef ga|
+c'b ag fe| \
+e2 ^df B2| \
+e2 ^df Bd| \
+e3^d =dc|
+B2 A2 A2| \
+A2 G2 G2| \
+d^c =ca Af| \
+Bg B2 B2|
+B2 A2 A2| \
+A2 G2 G2| \
+d^c =ca Af| \
+[gB]2 z
+K:C % 0 sharps
+G AG|
+Fz d'z F2| \
+E3E FE| \
+Dz gz D2| \
+G3G AG|
+Fz c'z F2| \
+E3G AG| \
+^FG e2 [d=F]2| \
+[cE]2 z[c-E-]3|
+[cE]
+V:2
+%%clef bass
+K:G % 1 sharps
+z2 
+%%MIDI program 0
+[CD,]2 [CD,]2| \
+z2 [B,D,]2 [B,D,]2| \
+z2 [^A,D,]2 [A,D,]2| \
+[A,D,]2 z4|
+G,z [DB,]z [DB,]z| \
+D,z [DC]z [DC]z| \
+D,z [DC]z [DC]z| \
+G,z [DB,]z [DB,]z|
+G,z [DB,]z [DB,]z| \
+D,z [DC]z [DC]z| \
+D,z [DC]z [DC]z| \
+[DB,G,]2 z4|
+E,z [GEB,]2 [GEB,]2| \
+B,2- [AFB,-]2 [AFB,]2| \
+B,2- [AFB,-]2 [AFB,]2| \
+E,z [GEB,]2 [GEB,]2|
+E,z [GEB,]2 [GEB,]2| \
+B,2- [AFB,-]2 [AFB,]2| \
+B,2- [AFB,-]2 [AFB,]2| \
+[GE]2 [AF]2 z2|
+D,2 [DC]2 [DC]2| \
+G,2 [DB,]2 [DB,]2| \
+D,2 D2 D2| \
+G,2- [DG,-]2 [DG,]2|
+D,2 [DC]2 [DC]2| \
+G,2 [DB,]2 [DB,]2| \
+D,2 D2 D2| \
+[DG,]2 z4|
+K:C % 0 sharps
+G,,2 [B,G,]2 [B,G,]2| \
+C,2 [CG,]2 [CG,]2| \
+F,2- [B,G,F,-]2 [B,G,F,]2| \
+E,2- [CG,E,-]2 [CG,E,]2|
+A,2- [CA,-]2 [CA,]2| \
+G,2- [CG,-]2 [CG,]2| \
+G,,2 G,2 B,2| \
+C2 zC3-|
+C

@@ -1,0 +1,65 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-10/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Tendre Fleur
+C: J. F. F. Burgmüller
+M: 4/4
+L: 1/8
+Q:1/4=152
+K:D % 2 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+DE FA Ad df| \
+fe cA a4| \
+af' f'd' d'a af| \
+fe cA a4|
+ag fe d2 ef| \
+gf ed ce ac'| \
+d'b ag fg fe| \
+dB AG [dF]2 z2|
+c4- cc ea| \
+^g4- gf ed| \
+c4- cc ea| \
+^g4- gf ed|
+ce dc Bd cB| \
+Ae cA ^GE FG| \
+A^G BA =GF AG| \
+FE GF AG FE|
+DF FA Ad df| \
+fe cA a4| \
+af' f'd' d'a af| \
+fe cA a4|
+ag fe d2 ef| \
+gf ed ce ac'| \
+d'b ag fg fe| \
+dB AG [dF]2 
+V:2
+%%MIDI program 0
+%%MIDI program 0
+z8| \
+[GA,]4 GE CA,| \
+[FD]2 z6| \
+[GA,]4 GE CA,|
+[FD]2 z2 BA GF| \
+EF G^G2<A2=G| \
+FG FB AB AG| \
+FG FE D2 z2|
+A,C CE E4| \
+B,D DE E4| \
+A,C CE E4| \
+B,D DE E4|
+A,2 z2 [FD]2 z2| \
+[CE,]2 z2 [DE,]2 z2| \
+[CA,]2 z6| \
+z8|
+z8| \
+[GA,]4 GE CA,| \
+[FD]2 z6| \
+[GA,]4 GE CA,|
+[FD]2 z2 BA GF| \
+EF G^G2<A2=G| \
+FG FB AB AG| \
+FG FE D2 

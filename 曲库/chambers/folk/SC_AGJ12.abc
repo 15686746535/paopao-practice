@@ -1,0 +1,98 @@
+X: 0
+T: Scottish Jigs 12 ()
+K:
+
+
+X: 1
+P: Betsy Hooper's Jig
+C: Terry Traub 1995
+R: jig
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+N: by Terry Traub <ttraub:world.std.com>
+M: 6/8
+L: 1/8
+K: E
+   B "A"\
+| "E"efg gfe | "A"cec "E"BGE | B,EG BGE | "B7"GFF F2B \
+| "E"efg gfe | "A"cec "E"BGE | B,EG "B7"A2F | "E"GEE E2 :|
+ y2B "B"\
+| "E"Bef gBg | bBg gfe | Bef gBg | "F#m"gfe "B7"f2B \
+| "E"Bef gBg | bBg gfe | "A"cec "B7"BGF | "E"GEE E2 ||
+ y2B "C"\
+| "E"Bef gBg | bBg gfe | Bef gBg | "F#(m)"gfe "B7"f2B \
+| "E"efg gfe | "A"cec "E"BGE | B,EG "B7"A2F | "E"GEE E2 |]
+
+
+X: 2
+P: Buttermilk Mary
+O: Howe c.1867
+R: jig
+M: 6/8
+L: 1/8
+Z: John Chambers <jc:trillian.mit.edu>
+N: Cole's p.64
+K: A
+{A}B \
+| "A"cAE "(E7)"FEC | "A"EAc ecA | "D"def "A"edc | "Bm"cBB "E7"Bed \
+| "A"cea ecA | "D"dfa "A"ecA | edc "E7"efg | "A"aec A2 :|
+|: {c}d \
+| "A"eaa "D"agf | "A"ecA Ace | "Bm"fbb "B7"b2a | "E7"gee efg \
+| "A"aba "E7"gag | "D"fgf "A"ecA | "D"def "A"edc | "E7"BFG "A"A2 :|
+
+
+X: 3
+P: the Frost is All Over  (the American Dwarf)
+O: Trad
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"def edB | AFD "A7"E2D | "D"DFA "Bm"AFA | "E(m)"Bee "A7"edB \
+| "D"def edB | AFD "A7"E2D | "D"DFA AFA | "G"Bdd "D"d2 :|
+|: g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fdf "Bm"afd | "Em"gfg "A7"e2g \
+| "D"fdf afd | "G"gfg "(A7)"bag | "D"fga "A7"efg | "D"fdd d2 :|
+
+
+X: 4
+M: 6/8
+L: 1/8
+P: the Kelloholm Jig
+C: Peter Hyssett
+S: RSCDS Leaflet 32
+R: Jig
+K: G
+|: "G"D2B B^AB |   d^cd BGE |     D2B B^AB |  dcB "Am"c3 \
+| "D7"D2A A^GA |   cBc  AFE |     D2A A^GA |1 ed^c "G"d3 :|2 "D7"cBA "G"G3 |]
+[| "G"DGB d2d  |   ed^c dBG |     DGB dcB  | "Am"c2A  A3 \
+| "D7"DFA c2c  |   dcB  cAF |     DFA c2c  |    ed^c "G"d3 |]
+[| "G"DGB d2d  |   ed^c dBG |     DGB dBG  |  "C"F2E  E3 \
+| "Am"EAc ecA  | "G"DGB dBG | "D7"FAc e2F  |  "G"G3-  G3 |]
+
+
+X: 5
+P: Jig of Slurs
+C:G.S. MacLennan
+Z:2015 John Chambers <jc:trillian.mit.edu>
+N:From a printed version from Dan Wheatley 2015-6
+M:6/8
+L:1/8
+K:D
+B |\
+"D"Add dcd | "G"Bdd "D"Add | "G"Bdd "D"Add | "Em"Bee "A7"edB |\
+"D"Add dcd | "G"Bdd "D"Add | "G"Bdd "A7"cde | "(D)"fdc "D"d2 :|
+|: B |\
+"D"Aff fef | aff fed | "Em"Bee ede | "D"fed "Em"edB |\
+"D"Aff fef | aff fed | "G"Bdd "A7"cde | "(D)"fdc "D"d2 :|
+K:G
+|: B |\
+"G"G2g gfg | "D7"agf "G"gdB | "G"G2g gfg | "D7"agf "G"g2B |\
+"G"G2g gfg | "D7"agf "G"gdB | "Em"Bee efg | "D"fed "Em"e2 :|
+|: B |\
+"G"GBB Bdd | "C"dee "D7"edB | "G"GBB Bdd | "C"dee "D7"efg |\
+"G"GBB Bdd | "C"dee "D"edB | "Em"Bee efg | "D"fed "Em"e2 :|
+%%textfont Times-Roman 10
+%%text Arranged by John Chambers
+

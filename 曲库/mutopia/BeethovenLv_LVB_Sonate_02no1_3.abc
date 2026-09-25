@@ -1,0 +1,165 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BeethovenLv/O2/LVB_Sonate_02no1_3/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Sonata No. 1 (3rd Movement: Allegretto)
+C: Ludwig van Beethoven
+M: 3/4
+L: 1/8
+Q:1/4=168
+K:F % 1 flats
+V:1
+K:Ab % 4 flats
+[AC]2 [BD]2 [GB,]2| \
+z2 [AC]2 [FA,]2| \
+[FC]2 [=EC]2 [FC]2| \
+[GC]2 [BC-]2 [AC]2|
+[cE]2 [dF]2 [BD]2| \
+z2 [cE]2 [AC]2| \
+[AE]2 [GE]2 [AE]2| \
+[BE]2 [dE-]2 [cE]2|
+[eA]2 [eG]2 [eA]2| \
+[eB]2 [e-d]2 [ec]2| \
+f2 A4| \
+[BG]2 A2 z2|
+gf A4| \
+[BG]2 A2 z2| \
+[ec]2 [=ed]2 [dB]2| \
+z2 [ec]2 [cA]2|
+z2 [_ge]2 [ec]2| \
+z2 [fd]2 [dB]2| \
+z2 [BF]4| \
+[c=A]2 B2 z2|
+_gf B4| \
+[c=A]2 B2 z2| \
+[d=A]c B2 z2| \
+[d=A]c B2 z2|
+dc Bc dc| \
+Bc BA GA| \
+GF =EF GF| \
+A=B, C2 z2|
+z6| \
+=e2 f2 a2| \
+c'3/2-c'/2 d'2 b2| \
+b3/2-b/2 c'2 a2|
+a3/2-a/2 b2 g2| \
+g3/2-g/2 a2 f2| \
+f2 f4| \
+[g=e]2 f2 z2|
+ed F4| \
+[G=E]2 F2 z2| \
+z6| \
+z6|
+K:F % 1 flats
+C2 AG AF| \
+GA BA BG| \
+AB c=B cd| \
+cB AG AB|
+AF A2- [cA-]2| \
+[fA]2 G2- [dG-]2| \
+[fG]2 G2- [fG-]2| \
+[eG]2 F2- [dF]2|
+[cE]2 zG EC| \
+[F=B,-][DB,] C2 z2| \
+C2 ED EC| \
+DE FE FD|
+EF G_G =GE| \
+FG AF Ac| \
+fa [c'-c-]4| \
+[c'c]2 [=b-B-]4|
+[=bB]2 [_bB]2 zG| \
+AB cB cA| \
+Bc dc d[eB]| \
+[fc][gd] [ae][gd] [ae][fc]|
+[gd][ae] [bf][ae] [gd][ae]| \
+[gd][fc] [eB][fc] [eB][dA]| \
+[cG][dA] [c-G-]4| \
+[cG]2 [=B-F-]4|
+[=BF]2 [_B-E-]4| \
+[BE]2 AG AF| \
+GA BA BG| \
+A=B cB cd|
+cB AG AB| \
+AF A2 c2| \
+f2 d2 G2| \
+F2 E2 G2|
+c2 F2 
+V:2
+%%clef bass
+K:Ab % 4 flats
+z6| \
+F,2 z4| \
+[A,F,]2 [B,G,]2 [A,F,]2| \
+[G,=E,]2 [A,F,]4|
+z6| \
+[A,A,,]2 z4| \
+[CA,]2 [DB,]2 [CA,]2| \
+[B,G,]2 [CA,]4|
+[EC]2 [DB,]2 [CA,]2| \
+[B,G,]2 A,4| \
+[B,D,]2 [CE,]4| \
+[DE,]2 [CA,]2 z2|
+z2 [CE,]4| \
+[DE,]2 [CA,]2 z2| \
+z4 [B,G,]2| \
+[DB,]2 z2 [CA,]2|
+[EC]2 z2 [C=A,]2| \
+[EC]2 z2 [DB,]2| \
+[FD]2 [DF,]4| \
+[EF,]2 [DB,]2 z2|
+z2 [DF,]4| \
+[EF,]2 [DB,]2 z2| \
+[EF,]2 [DB,]2 z2| \
+[EF,]2 [DB,]2 z2|
+DC B,C DC| \
+B,C B,A, G,A,| \
+G,F, =E,F, G,F,| \
+A,=B,, C,2 C2|
+[AC]2 [BD]2 [GB,]2| \
+[GB,]2 [AC]2 [FA,]2| \
+[A,F,]2 [G,=E,]2 [B,G,]2| \
+[B,G,]2 [A,F,]2 [CA,]2|
+[FCA,]2 [=EB,G,]2 [EDB,]2| \
+[=EDB,]2 [F=D-=B,-]2 [ADB,]2| \
+[A=D=B,]2 [AC]4| \
+[BC]2 [AF]2 z2|
+z2 [A,C,]4| \
+[B,C,]2 [A,F,]2 z2| \
+z2 [C-G,-=E,-C,-C,,-]4| \
+[CG,=E,C,C,,]2 [F,F,,]2 z2|
+z2 
+K:F % 1 flats
+F,2 A,2| \
+C2 D2 G,2| \
+F,2 E,2 G,2| \
+C2 F,2 A,2|
+C2 A,,_A,, =A,,F,,| \
+G,,A,, B,,A,, B,,G,,| \
+A,,=B,, C,B,, C,A,,| \
+=B,,_D, =D,A,, B,,G,,|
+C,_G,, =G,,4| \
+G,,,2 C,,2 C,2| \
+z2 [C-C,-]4| \
+[CC,-]2 [=B,-C,-]4|
+[=B,C,-]2 [_B,-C,-]4| \
+[B,C,-]2 [A,C,]2 z2| \
+z2 ED EC| \
+DE FE FD|
+EF GF GE| \
+FG AG AF| \
+GA BA BG| \
+AB cB cA|
+Bc dc Bc| \
+BA GA GF| \
+EF E4-| \
+E2 D4-|
+D2 C4-| \
+C2 F,2 A,2| \
+C2 D2 G,2| \
+F,2 E,2 G,2|
+C2 F,2 A,2| \
+C2 A,,_A,, =A,,F,,| \
+G,,A,, B,,A,, B,,G,,| \
+A,,=B,, C,B,, C,_B,,|
+A,,G,, F,,2 F,2|

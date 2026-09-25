@@ -1,0 +1,33 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/Op_821/Czerny_Op_821_No_004/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 160 Eight-Measure Exercises, No. 4
+C: Carl Czerny
+M: 6/8
+L: 1/8
+Q:1/4=110
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+efg gfe| \
+def fed| \
+edc c[dB][ec]| \
+[ec]3 [dB]z2|
+efg gfe| \
+abc' c'ba| \
+gc'[ge] [gB]f[dB]| \
+c
+V:2
+%%MIDI program 0
+%%MIDI program 0
+C/2G/2D/2G/2E/2G/2 E/2G/2D/2G/2C/2G/2| \
+B,/2G/2C/2G/2D/2G/2 D/2G/2C/2G/2B,/2G/2| \
+C/2G/2D/2G/2E/2G/2 E/2G/2D/2G/2C/2G/2| \
+G,/2G/2^F/2G/2F/2G/2 F/2G/2A/2G/2=F/2D/2|
+C/2G/2D/2G/2E/2G/2 E/2G/2D/2G/2C/2G/2| \
+F,/2C/2G,/2C/2A,/2C/2 A,/2C/2G,/2C/2F,/2C/2| \
+G,/2-[EG,-]/2[CG,-]/2[EG,-]/2[CG,-]/2[EG,]/2 G,/2-[FG,-]/2[DG,-]/2[FG,-]/2[DG,-]/2[FG,]/2| \
+C/2E/2G/2E/2G/2E/2 C

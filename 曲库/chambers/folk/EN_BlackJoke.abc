@@ -1,0 +1,58 @@
+X: 0
+T: The Black Joke(r)
+T: Heigh Ho
+K: F
+
+X: 1
+P: The Black Joke(r) (Black Jack)
+R: jig
+O: trad England
+B: One Thousand English Country Dance Tunes, M. Raven, p.116
+B: English Dance Airs (Book 3), Nan Fleming-Williams and Pat Shaw, p. 7
+Z: John Chambers <jc:trillian.mit.edu>
+N: Morris Ring (two versions)
+N: Fleming-Williams & Shaw, English Dance Airs (Book 3), 1968
+N: Raven, p.116 (1984)
+M: 6/8
+L: 1/8
+K: F
+"A"\
+|: C | "F"C>FF FEF | "Gm"GBA "C7"GFE | "F"FGA "(Dm)"cBA | "Gm"GBA "C7"GFE | "F"[FF]>GA "Bb"[DD]>EF | "C7"CDE "F"F2 :|
+"B"\
+[| B | "F"A>cc c>Ac | "Bb"d>Bd "C7"c2B | "F"A>FA cAc | "G7"d>[fc]d "C7"c2B | "F"A2A AGF |
+| "Gm"GBA "C7"GFE | "F"FGA "(Dm)"cBA | "Gm"GBA "C7"GFE | "F"[FF]>GA "Bb"[DD]>EF | "C7"CDE "F"F2 |]
+
+X: 2
+P: The Black Joke(r) (Black Jack)
+R: jig
+O: trad England
+B: One Thousand English Country Dance Tunes, M. Raven, p.116
+B: English Dance Airs (Book 3), Nan Fleming-Williams and Pat Shaw, p. 7
+Z: John Chambers <jc:trillian.mit.edu>
+N: Morris Ring (two versions)
+N: Fleming-Williams & Shaw, English Dance Airs (Book 3), 1968
+N: Raven, p.116 (1984)
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|: D | "G"D>GG GFG | "Am"AcB "D7"AGF | "G"GAB "(Em)"dcB | "Am"AcB "D7"AGF | "G"[GG]>AB "C"[EE]>FG | "D7"DEF "G"G2 :|
+"B"\
+[| c | "G"B>dd d>Bd | "C"e>ce "D7"d2c | "G"B>GB dBd | "A7"e>[gd]e "D7"d2c | "G"B2B BAG |
+| "Am"AcB "D7"AGF | "G"GAB "(Em)"dcB | "Am"AcB "D7"AGF | "G"[GG]>AB "C"[EE]>FG | "D7"DEF "G"G2 |]
+
+X: 3
+P: Black Jack (Black Joke)
+O: Cecil Sharp Mss
+Z: 2004 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+"A"\
+|: D- \
+| "G"D2G GFG | "C"ABA- "D7"AGA | "G"BcB BAG | "C"ABA "D7"AFD | "G"G2B "C"EFG | "D7"DEF "G"G2 :|
+"B"[|]\
+G \
+| "G"B2d- dcB | "C"dee "D7"d2c | "G"B2d- dcB | "C"dee "D7"d2c | "Em"B2B- BAG |
+| "Am"ABA "D7"AGA |  "G"BcB  BAG |  "C"ABA "D7"AGF | "G"G2B "C"EFG | "D7"DEF "G"G2 |]
+

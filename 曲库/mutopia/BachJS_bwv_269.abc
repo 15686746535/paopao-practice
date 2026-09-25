@@ -1,0 +1,59 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV269/bwv_269/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Aus meines Herzens Grunde (Chorale 1)
+C: Johann Sebastian Bach
+M: 3/4
+L: 1/8
+Q:1/4=72
+K:G % 1 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+[GD]2 [G-D]2 [GE]2| \
+[dD]2 [BD-]3[AD]| \
+[GB,]2 [G-E][G-D] [GE][AF]| \
+[BG]2 [AF]4|
+[BG]2 [d-D]2 [dE]2| \
+[cF]2 [BG-]2 [A-G]2| \
+[AF]2 [GD]4| \
+[BG-]2 [B-G][BF] [c-E][cF]|
+[dG-]2 [d-G][d-A] [dG][cF]| \
+[BG]2 [AF]4| \
+[GE]2 [B-E]2 [B-F][BG]| \
+[cA]2 [d-A]2 [dG-]2|
+[c-G][cF] [B-G]4| \
+[B=F]2 [GE]4| \
+[BG]2 [d-A]3[dG]| \
+[cF]2 [BG]4|
+[AF-]2 [G-F][G-E] [GE][AF]| \
+[BG]2 [AF]4| \
+[BG]2 [dA]4| \
+[c-G][cF] [BG-]2 [A-G]2|
+[AF]2 [GD]4|
+V:2
+%%MIDI program 0
+%%MIDI program 0
+[B,G,,]2 [B,G,]2 [CE,-][B,E,]| \
+[A,F,]2 G,2 [F,D,]2| \
+[G,E,]2 [CC,-][B,C,] [C-B,,][CA,,]| \
+[DG,,]2 [DD,]4|
+[DG,,]2 [A,F,,]2 [B,G,,]2| \
+[CA,,]2 [DB,,]2 [EC,]2| \
+[DD,-][CD,] [B,G,,]4| \
+[DG,,]2 [DG,,]2 [CA,,]2|
+[B,B,,-][A,B,,] [B,B,,-][CB,,-] [D-B,,][DA,,]| \
+[DG,,]2 [DD,]4| \
+[B,E,-]2 [G,E,]2 [A,D,]2| \
+[EC,]2 [D-B,,]3[DC,]|
+[DD,]2 [D-G,,][D-A,,] [D-B,,]2| \
+[DG,,]2 [CC,]4| \
+[DG,,]2 [DF,,-][CF,,] [B,G,,]2| \
+[CA,,]2 [D-B,,]2 [DG,,]2|
+[DD,-][CD,] [B,-E,][B,D,] [C-C,][CB,,]| \
+[D-A,,][DG,,] [DD,]4| \
+[DG,-]2 [D-G,]2 [DF,]2| \
+[EE,-]2 [E-E,][E-D,] [EC,]2|
+[DD,-][CD,] [B,G,,]4|

@@ -1,0 +1,33 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/Op_821/Czerny_Op_821_No_003/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 160 Eight-Measure Exercises, No. 3
+C: Carl Czerny
+M: 4/4
+L: 1/8
+Q:1/4=110
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+z/2[ec]/2[fd]/2[ec]/2 z/2[ec]/2[fd]/2[ec]/2 z/2[ec]/2[fd]/2[ec]/2 z/2[ec]/2[fd]/2[ec]/2| \
+z/2[dB]/2[ec]/2[dB]/2 gg gf dB| \
+z/2[cA]/2[dB]/2[cA]/2 z/2[cA]/2[dB]/2[cA]/2 z/2[fd]/2[ge]/2[fd]/2 z/2[fd]/2[ge]/2[fd]/2| \
+z[ec]/2[fd]/2 [ge][ec] [dB]^F/2G/2 A/2B/2c/2d/2|
+z/2[ec]/2[fd]/2[ge]/2 z/2[ge]/2[fd]/2[ec]/2 z/2[ec]/2[fd]/2[ge]/2 z/2[ge]/2[fd]/2[ec]/2| \
+z/2[af]/2[bg]/2[c'a]/2 z/2[c'a]/2[bg]/2[af]/2 z/2[af]/2[bg]/2[c'a]/2 z/2[c'a]/2[bg]/2[af]/2| \
+z/2[ge]/2[af]/2[ge]/2 z/2[ec]/2[fd]/2[ec]/2 z/2[fd]/2[ge]/2[fd]/2 z/2[dB]/2[ec]/2[dB]/2| \
+c/2G/2c/2e/2 g/2e/2g/2e/2 c
+V:2
+%%MIDI program 0
+%%MIDI program 0
+[GC]z [GC]z [GC]z [GC]z| \
+[FG,]8| \
+[EA,]z [EA,]z [DA,F,]z [DA,F,]z| \
+[ECG,]4 [DB,G,]z3|
+C,z Cz C,z Cz| \
+F,z Fz F,z Fz| \
+[ECG,]z [ECG,]z [DB,G,]z [FDG,]z| \
+[EC]z [EC]z [EC]

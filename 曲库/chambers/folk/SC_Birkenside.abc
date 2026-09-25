@@ -1,0 +1,90 @@
+X: 0
+T: Birkenside
+T: 8x32S2
+C: Roy Goldring
+B: 24 Graded and Social Dances #4
+N: Suggested tune: Lady Ann Hope (John Pringle)
+R: strathspey
+K:
+
+
+X: 1
+P: Lady Ann Hope
+C: Kerr's First
+Z: Terry Traub 10-26-98
+R: strathspey
+M: 4/4
+L: 1/8
+K: G
+D !segno!|\
+"G"G<G G>B "Am"A>G E2 | "C"c<c c>e "G"d>c B<g |\
+"G"B<B "(Em)"B>G "Am"c>A "G"B>G | "Am"E>A "D7"G/F/E/D/ "G"{D}G2- G :|
+d |\
+"G"g2 d>g B>g "(D7)"d>f | "G"g<g b>g "C"e2 e>f |\
+"G"(3gab "D"(3agf "C"(3efg "G"(3dcB | "Am"(3cde "D"(3def "G"(3ged "D"(3cBA |
+"G"G<gd>g B>g "(D7)"d>f | "Em"g<g b>g "C"e2 e>f |\
+"G"(3gab "D"(3agf "Em"(3gfe "Bm"(3dcB | "Am"(3cde "D"(3def "G"Hg2 g<b !segno!|]
+
+
+X: 2
+P: Source of Spey  (Mathair Spe)
+C: Lachlan MacPherson
+B: Skye p.100 (1887)
+B: Kerr (Merry Melodies), V.3; p.9 #65
+B: Neil, p.166 #127 (1991)
+B: Athole, p.169 (1884)
+B: Fraser, The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles, p.26 #72 (1816, 1874)
+R: strathspey
+Z: 1998 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: Em
+"A"[|] B \
+| "Em"G<E E>F G>A B<e | "G"d<B B>A G>A B<e | "Em"G<E E>F G>A B<e | "E7"d<B B>^G "Am"A2 A :|
+"B1"[|] B \
+| "Em"e>f g>e d>e B<e | "G"d<B g>e d>e B<g | "Em"e>f g>e d<e B<g | "E7"d<B B>^G "Am"A2 A |]
+"B2"[|] B \
+| "Em"e>f g>e d>e B<e | "G"d<B g>e d>e B<g | "Em"e<B g<B "B7"a<B b>a | "Em"g>e "(E7)"d>B "Am"A2 A |]
+
+
+X: 3
+P: Thorn Bush
+O: Trad
+R: strathspey
+B: RSCDS 37-4
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Kerr's Collection
+M: C
+L: 1/8
+K: A
+%%staffsep 35
+E \
+| "A"A>B c>A "D"F<A "A"E>C | "Bm"B,<B B>c "E7"d/c/B/A/ G<B \
+| "A"A>B c>A "D"F<A "A"E>C | "Bm"D<F "E7"E>G [1 "A"A<A, A, :|2 "A"A/A/A A ||
+e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B d/c/B/A/ "E7"G<B B>e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B "E7"d/c/B/A/ "A"E<A A |]
+e \
+| "A"d/c/B/A/ e>A "D"f<a "A"e>c | "Bm"d>B d/c/B/A/ "E7"G<B B>d \
+| "A"(3cAc (3ece "D"(3fdf (3agf | "E7"(3edc (3cBA "A"E<A A |]
+
+
+X: 4
+P: Jessie Smith
+R: strathspey
+O: 1870
+B: "Middleton's Selection of Strathspeys Reels &c. for the Violin" 1870 p.18
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/16
+K: D
+d2 \
+| "D"AF3 F3E D3A GFED | AF3 F3A "G"~B4 Bd3 \
+| "D"AF3 F3E "Bm"D3A GFED | "Em"GB3 "D"A3F "A7"E6 :|
+A2 \
+| "D"d4 f3d "G"B3e "A7"dcBA | "D"d3e f3d "G"B4- "(A7)"B3A \
+| "D"d3e f3d "G"B3e "A7"dcBA | "Bm"d3B AF3 "A7"E6 |]
+c2 \
+| "D"d4 f3d "G"B3e "A7"dcBA | "D"d3e f3d "G"B4- "(A7)"B3g \
+| "D"(3f2e2d2 "A"(3c2d2e2 "Bm"(3d2c2B2 "A"(3A2B2c2 | "G"d3B "D"AF3 "A7"E6 |]
+

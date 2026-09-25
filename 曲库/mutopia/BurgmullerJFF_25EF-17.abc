@@ -1,0 +1,87 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-17/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: La Babillarde
+C: J. F. F. Burgmüller
+M: 3/8
+L: 1/16
+Q:1/4=108
+K:F % 1 flats
+V:1
+%%MIDI program 0
+%%MIDI program 0
+[G-E-]6| \
+[GE]2 [GE-]2 [BE]2| \
+[A-F-]6| \
+[AF]2 [AF-]2 [dF]2|
+[c-E-]6| \
+[cE-]2 [BE]2 G2| \
+z2 cc ca| \
+g2 cc cg|
+f2 AA Ad| \
+cE _E=E dc| \
+z2 cc ca| \
+g2 GG Ge|
+d2 GG Gd| \
+c2 =Bc dc| \
+[GE]4 [AF]2| \
+[BG]4 [GE]2|
+[dB]4 [cA]2| \
+[dB]4 [cA]2| \
+[BG]4 [BG]2| \
+[AF]4 [AF]2|
+[GE]2 G_G =GA| \
+BA B=B dc| \
+z2 cc ca| \
+g2 cc cg|
+f2 AA Ad| \
+cE _E=E dc| \
+z2 cc ca| \
+g2 GG Gd|
+E2 EE Ec| \
+F4 z2| \
+F2 AA Ac| \
+f2 cc cf|
+a2 ff fa| \
+c'2 aa ac'| \
+f'4 
+V:2
+%%MIDI program 0
+%%MIDI program 0
+z2 C,,2 C,2| \
+C4 z2| \
+z2 C,,2 C,2| \
+C4 z2|
+z2 C,,2 C,2| \
+C4 z2| \
+[CA,F,]2 z2 [CA,F,]2| \
+[CB,E,]2 z2 [CB,E,]2|
+[CA,F,]2 z2 [CA,F,]2| \
+[CB,G,]6| \
+[CA,F,]2 z2 [CA,F,]2| \
+[ECG,]2 z2 [ECG,]2|
+[F=B,G,]2 z2 [FB,G,]2| \
+[EC]2 z4| \
+C,C CC CC| \
+C,C CC CC|
+C,C CC CC| \
+C,C CC CC| \
+E,C =B,C E,C| \
+F,C =B,C F,C|
+C,2 z4| \
+z6| \
+[CA,F,]2 z2 [CA,F,]2| \
+[CB,E,]2 z2 [CB,E,]2|
+[CA,F,]2 z2 [CA,F,]2| \
+[CB,G,]6| \
+[CA,F,]2 z2 [CA,F,]2| \
+[D=B,F,]2 z2 [DB,F,]2|
+[CB,F,]2 z2 [CB,F,]2| \
+[CA,F,]4 z2| \
+[CA,F,]6| \
+[CA,F,]6|
+[CA,F,]6| \
+[CA,F,]6| \
+F,,4 

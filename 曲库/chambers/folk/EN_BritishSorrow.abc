@@ -1,0 +1,82 @@
+X: 0
+T: British Sorrow
+O: 18th C
+N: Revived by Ralph Page
+N: Several march-type tunes are used for this dance
+M: C|
+L: 1/8
+K: C
+
+X: 1
+P: World Turned Upside Down
+C:
+M:4/4
+L:1/8
+%Q:1/2=110
+F:http://everythingdulcimer.com/tab/turned.abc	 2005-01-28 18:45:20 UT
+K:D
+ cB \
+| "D"A2 A2 d2 d2 | "A7"efga "D"f2 ef | "G"g2 B2 c2 f2 | "A7"e3 c A4 \
+| "D"A2 A2 d2 d2 | "A7"efga "Bm"f2 ef | "Em"g2 B2 "A7"c2 f2 | "A7"e3 d "D"d2 :|
+|: "D"d2 \
+| "A"e2 cd e2 A2 | "A"edef e2 A2 | "A"edef e2 dc | "E7"B3 A "A"A4 \
+| "D"a2 ag f2 ed | "Em"efga "Bm"f2 ef | "Em"g2 B2 "A7"c2 f2 | "A7"e3 d "D"d2 :|
+
+X: 2
+P: March of St Timothy
+% Nottingham Music Database
+C: Judi Morningstar, 1992
+D: "Michigan Spring" from the Detroit Country Dancers
+M: 2/4
+L: 1/4
+K: G
+| "G"B3/4c/4 d/B/ | "D"A3/4B/4 c/A/ \
+| "Em"G3/4A/4 B/G/ | "Bm"G/F/ E/D/ \
+| "C"E3/4F/4 G/E/ | "G"D/G/ B/d/ \
+|[1"Am"c3/4B/4 "A7"A/G/ | "D7"F/A/ D/c/ \
+:|2"Am"c/4B/4A/ "D7"F/A/ | "G"G3/d/4d/4 ||
+|| "D7"c/d/ A/c/ | F/A/ D/d/4d/4 \
+| "G"B/d/ G/B/ | D/G/ B,/d/4d/4 \
+| "D7"c/d/ A/c/ | F/A/ D/d/4d/4 \
+| "G"B/D/ E/F/ | G/A/ B/d/4d/4 |
+| "D7"c/d/ A/c/ | F/A/ D/d/4d/4 \
+| "G"B/d/ G/B/ | D/G/ B,/D/ \
+| "C"E3/4F/4 G/E/ | "G"D/G/ B/d/ \
+| "Am"c/4B/4A/ "D7"F/A/ | "G"G2 |]
+
+X: 3
+P: Whalen's Breakdown
+C:Don Messer
+R:Breakdown
+B:TV Favorites with Don Messer and his Islanders
+B:Northern Junket p.22
+N:) 1949 Canadian Music Sales, Toronto
+Z:posted by Chris Falt 8/97
+M:C|
+L:1/8
+K:C
+ ef \
+| "C"g2^f2 a2g2 | gage c2dc | "G7"B2G2 A2B2 | "C"cBcd e2ef \
+| g2^f2 a2g2 | gage c2dc | "G7"B2G2 A2B2 | "C"(c4 c2) :|
+|: GF \
+| "C"E2C2 D2E2 | "F"FEFG A2dc | "G7"B2G2 A2B2 | "C"cBcd e2GF \
+| E2C2 D2E2 | "F"FEFG A2dc | "G7"B2G2 A2B2 | "C"(c4 c2)z2 :|
+
+X: 4
+M:4/4
+L:1/8
+P: Down The Brae
+%Q:200
+C:Traditional
+S:From J.R. Rhodebeck
+R:Reel
+F:http://www.blackflute.com/music/tunes/reels/downbrae.abc	 2005-01-28 19:03:22 UT
+K:Em
+B,2 \
+| "Em"E3D E2F2 | G3F G2A2 | B4 e4 | "(G)"d2 B4A2 \
+| G3F G2B2 | "D"A2F2 D2E2 | "Bm"F4 E4 |1 "Bm"D2 B,4 :|2 "Em"E4 e2d2 ||
+|| "Em"B4 e4 | e4 d2e2 | "D"f4 e4 | d2 B4 B2 \
+| "D"A3G A2B2 | d3B d2e2 | "D"d2B2 A2B2 | d4 B2A2 |
+| "Em"B4 e4 | e4d2 e2 | "D"f4 e4 | d2 B4 A2 \
+| "Em"G3F G2B2 | "D"A2F2 D2E2 | "(Bm)"F4 E4 | "Em"E4 z2 |]
+

@@ -1,0 +1,65 @@
+X: 1
+T: the Accomplished Maid   [F]
+T: (Miss) Grace Hay's Delight
+C: Niccol\`o Piccini
+O: 1767 Carlo Goldoni opera by same name
+S: Niel Gow Colln. (1790)
+N: Niel Gow published this tune as "Miss Grace Hay's Delight" in 1790
+M: 6/8
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+K: F
+|: "F"F2A A2B | cAc "Bb"def | "F"F2A A2B | cAF "C7"GEC \
+|  "Bb"D2B, B,2F | "C7"E2C C2B | "F"A{B}cA "C7"BGE | "F"F3 F3 :|
+[| "C(Am)"A2e e2f | e2c "Gm"dBG | "F"c2A "G7"G2f | "C"e2c "G7"d=BG \
+|  "C"g2e "G7"f2d | "C"e2c "G"d=BG | "F"A=Bc "G7"dcB | "C"c3 [c2C2]A |]
+[| "Bb"B2B BgB | "F"A2A AfA | "Gm"G2G GAB | "F"cAF "C7"GEC \
+|  "Bb"D2B, B,2F | "C7"E2C C2B | "F"A{B}cA "C7"BGE | "F"F3 F3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Accomplished Maid
+C: Niccol\`o Piccini
+O: 1767 Carlo Goldoni opera by same name
+M: 6/8
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+N: Was this written by Niccolo Piccinni?
+K: G
+|: "G"G2B B2c | dBd "C"efg | "G"G2B B2c | dBG "D7"AFD \
+|  "C"E2C C2G | "D7"F2D D2c | "G"B{c}dB "D7"cAF | "G"G3 G3 :|
+[| "D(Bm)"B2f f2g | f2d "Am"ecA | "G"d2B "A7"A2g | "D"f2d "A7"e^cA \
+|  "D"a2f "A7"g2e | "D"f2d "A"e^cA | "G"B^cd "A7"edc | "D"d3 [d2D2]B |]
+[| "C"c2c cac | "G"B2B BgB | "Am"A2A ABc | "G"dBG "D7"AFD \
+|  "C"E2C C2G | "D7"F2D D2c | "G"B{c}dB "D7"cAF | "G"G3 G3 |]
+
+%%sep 1 1 500
+
+X: 1
+T: The Accomplished Maid
+C: Niccol\`o Piccini
+O: 1767 Carlo Goldoni opera by same name
+M: 6/8
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+K: A
+|: "A"A2c c2d | ece "D"fga | "A"A2c c2d | ecA "E7"BGE \
+|  "D"F2D D2A | "E7"G2E E2d | "A"c{d}ec "E7"dBG | "A"A3 A3 :|
+[| "E(C#m)"c2g g2a | g2e "Bm"fdB | "A"e2c "B7"B2a | "E"g2e "B7"f^dB \
+|  "E"b2g "B7"a2f | "E"g2e "B"f^dB | "A"c^de "B7"fed | "E"e3 [e2E2]c |]
+[| "D"d2d dbd | "A"c2c cac | "Bm"B2B Bcd | "A"ecA "E7"BGE \
+|  "D"F2D D2A | "E7"G2E E2d | "A"c{d}ec "E7"dBG | "A"A3 A3 |]
+
+%%sep 1 1 500
+
+X: 0
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4
+
+%%sep 1 1 500

@@ -1,0 +1,117 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV775/bach-invention-04/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Invention 4
+C: Johann Sebastian Bach
+M: 3/8
+L: 1/16
+Q:1/4=90
+K:F % 1 flats
+V:1
+DE FG AB| \
+_DB AG FE| \
+F2 A2 d2| \
+G2 _d2 e2|
+de fg ab| \
+_db ag fe| \
+fd ef ga| \
+Ba gf ed|
+ec de fg| \
+Ag fe dc| \
+de fd ef| \
+G2 z4|
+cd ec de| \
+F2 z2 B2-| \
+B2 A2 G2| \
+cB AG FE|
+FG2<G2F| \
+F2 c2 c2| \
+c6-| \
+c6-|
+c6-| \
+cB AG FE| \
+cD E_G =GA| \
+BA GF ED|
+BC DE FG| \
+A=B cd ef| \
+_Af ed c=B| \
+c=B dc BA|
+_A=A _A_G ED| \
+CD E_G _A=A| \
+Dc =BA _A_G| \
+E_G _A=A =Bc|
+_Ge dc =BA| \
+_A=A =Bc de| \
+Af ed c=B| \
+a_a _ge =a2-|
+ad2<=B2A| \
+A3A Bc| \
+D2 _G2 A2| \
+BG AB cd|
+Ed cB AG| \
+A2 fe f2| \
+G2 e2 z2| \
+de fg ab|
+_db ag fe| \
+f2 d2 G2-| \
+Gd _de Ad| \
+d=B2<_d2=d|
+dc BA GF| \
+B_D =DE FG| \
+Ad F2 ED| \
+D6|
+V:2
+z6| \
+z6| \
+D,E, F,G, A,B,| \
+_D,B, A,G, F,E,|
+F,2 A,2 D2| \
+E,2 G,2 _D2| \
+D,2 D2 F,2| \
+G,2 A,2 B,2|
+C,2 C2 E,2| \
+F,2 G,2 A,2| \
+B,G, A,B, CD| \
+E,D CB, A,G,|
+A,F, G,A, B,C| \
+D,C B,A, G,F,| \
+E,C, D,E, F,G,| \
+A,,G, F,E, D,C,|
+D,B,, C,2 C,,2| \
+F,,G,, A,,B,, C,D,| \
+E,,D, C,B,, A,,G,,| \
+A,,B,, C,D, E,F,|
+G,,F, E,D, C,B,,| \
+A,,B,, C,A,, B,,C,| \
+_G,,2 z4| \
+G,,A,, B,,G,, A,,B,,|
+E,,2 z4| \
+F,,2 F,2 D,2| \
+=B,,2 _A,,2 E,,2| \
+A,,_A,, =A,,=B,, C,D,|
+E,6-| \
+E,6-| \
+E,6-| \
+E,6-|
+E,6-| \
+E,2 E2 D2| \
+C2 =B,2 A,2| \
+D2 E2 F2|
+D2 E2 E,2| \
+A,A,, B,,C, D,_E,| \
+_G,,_E, D,C, B,,A,,| \
+G,,3G,, A,,B,,|
+C,,2 G,,2 C,2| \
+F,G, A,=B, _D=D| \
+E,D _D=B, A,G,| \
+F,2 A,2 D2|
+E,2 G,2 _D2| \
+D,E, F,G, A,B,| \
+_D,B, A,G, F,E,| \
+F,G, A,2 A,,2|
+B,,3C, B,,A,,| \
+G,,B, A,G, F,E,| \
+F,G, A,2 A,,2| \
+D,,6|

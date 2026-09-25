@@ -1,0 +1,125 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/MozartWA/KV154/k154/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Fugue in G Minor KV 154/385k
+C: Wolfgang Amadeus Mozart
+M: 4/4
+L: 1/8
+Q:1/4=110
+K:Bb % 2 flats
+V:1
+%%MIDI program 0
+%%MIDI program 0
+G4 D4| \
+E2 =E2 F2 _G2| \
+G4 D4| \
+d-[d-G,] [d-G,][dA,] [G-B,][G-C] [G-B,][GA,]|
+[B-G,][BD] [=B-G][BF] [c-=E][cA,] [_d-A][dG]| \
+[d-_G][d-=E] [d-D][dC] [=G-B,][G-C] [G-B,][GA,]| \
+G,-[BG,-] [cG,-][dG,] e-[e-C] [e-D][e-E]| \
+[eF-][AF-] [BF-][cF-] [d-F][d-B,] [d-C][d-D]|
+[dE-][GE-] [AE-][BE-] [c-E][c-A,] [c-B,][c-C]| \
+[cD-][B-D] [BC-][A-C] [AB,-][G-B,] [GA,-][_GA,]| \
+[GB,-][DB,] G-[BG-] [A-G][A_G] [dD][GC]| \
+GC cB AD dc|
+B-[B-D] [BG-][cG-] [A-G][A-D] [AF-][dF-]| \
+[G-F][G-B,] [GE-][AE-] [F-E][F-B,] [FD-][BD-]| \
+[E-D][E-G,] [EC-][FC-] [D-C][D-G,] [DB,-][G-B,]| \
+G_D2<G2=D G2-|
+GG2G2B AG| \
+[AA,-][F-A,] [FB,-][=E-B,] ED2_D| \
+DF GA B-[dB-] [gB-][fB-]| \
+[=e-B][e-E] [e-F][e-G] [eA-][gA-] [fA-][eA-]|
+[d-A][d-D] [d-=E][d-F] [dG-][fG-] [eG-][dG-]| \
+[_d-G][dB] [=dA][=eG] [AG-][d-G] [dF-][_dF-]| \
+[BF-][AF-] [B-F]B2G c2-| \
+cc2c2e [dA-][cA]|
+[cD-][=BD] _BA2G2_G| \
+G2- [dG-][cG] [BD-]2 [AD]2| \
+[G-E]2 [G=E]2 [A-F]2 [A_G-][_eG]| \
+[dG-]2 G2 D4|
+c4 [G-E][GF] G-[GE]| \
+[_A-C][AG] [=A-F][AE] [B-D][B_A] [=B-G][BF]| \
+[c-E][c-C] [cF-]2 [G-F][G-D] [G-E][G-D]| \
+[GC-][=EC] [_GD][c-E] [cG-][AG] [B-=G][B-F]|
+[B=E-][_AE-] [=A-E][A-_E] [A-D][A_G] =G-[dG-]| \
+[c-G][c-=E] [c-A][c-G] [c_G-][AG] [dA-][cA]| \
+[BD-][cD-] [d-D]2 [dG-][cG-] [dG-][e-G]| \
+[e_G-][AG] [d-F]2 [d=E-][=GE] [c-_E]2|
+[cD-][FD-] [B-D]2 [BG-][=BG-] [cG-][_dG-]| \
+[d-G][d-_G] [d-=G][d-A] [dB][ec] [d-B][d-A]| \
+[dG][c_A] [d-G][d-F] [dE-][cE] [BG-][=AG]| \
+[A-_G][AE] [G-D][GC] [=GB,][AC] Bc|
+d-[d-c] [d-B][dA] [g-G]2 g2| \
+[_gd-]2 [fd]2 [=e=G-]2 [_eG]2| \
+[d-_A]2 [d=A]2 [BG-]2 [=BG]2| \
+c-[gc-] [ec-][dc] [cG-]2 [e-G]2|
+[eF-][fF-] [dF-][cF-] [B-F][B-G] [B-E][B-D]| \
+[BE-][cE-] [AE-][GE-] [_G-E][G-A,] [G-D][GC-]| \
+[G-C][G-C] [G-B,][GA,] [D-B,][D-A,] [D-B,][DC]| \
+[F-A,][FD-] [_G-D][GC] [=G-=B,][GF-] [_A-F][A=E-]|
+[A-=E]A3 D4| \
+D-[_GD-] [=GD-][AD] [BG-][cG-] [dG-][BG]| \
+[c_G-][BG] [AF-][=BF] [c=E-][dE] [c_E-][AE]| \
+[_GD-][AD-] [dD-][cD] [B=G-][AG-] [BG-][cG-]|
+[A-G][A-G] [A-_G][A-=E] [AD-][=G-D] [GC-][_GC]| \
+[GB,]8|
+V:2
+%%MIDI program 0
+%%MIDI program 0
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+G,4 D,4| \
+[B,E,-][G,-E,] [G,=E,-][C-E,] [CF,-][A,-F,] [A,_G,-][DG,]|
+[DG,-]G,3 D,4| \
+E,4 B,,4| \
+C,4 G,,4| \
+[=E,A,,-]3[_D,A,,] [=D,B,,-]3[G,B,,]|
+[F,=B,,]2 [=E,-C,]2 [E,_D,-]2 D,2| \
+D,2 G,,2 [F,A,,-]2 [=E,A,,]2| \
+[F,D,-]D, z3G, A,B,| \
+C4- CF, G,A,|
+B,4- B,=E, F,G,| \
+A,2 =B,_D =D4| \
+D,3-[F,D,] [G,E,-]3[CE,]| \
+[B,=E,]2 [A,-F,]2 [A,_G,-]2 G,2|
+G,2 C,2 D,E DC| \
+C=B, _B,A, A,G,2_G,| \
+G,C, CB, A,D, DC-| \
+CC B,A, B,A, B,G,|
+[C_A,][=B,G,] [CA,][DF,] CG, E,C,| \
+F,4 G,4| \
+C,E, _A,F, =B,2 C_B,| \
+A,4 D4|
+_D2 C2 =B,2 _B,2| \
+A,4 D2 _G,2| \
+G,A, B,C B,A, B,C| \
+D2 =B,G, C2 A,F,|
+B,2 G,F, E,4| \
+D,4 G,,4| \
+B,,2 =B,,2 C,2 _D,2| \
+D,4 G,,2- [B,G,,][A,A,,]|
+[G,B,,]_G,, =G,,A,, B,,C, D,E,| \
+D,A, B,=B, CD EC| \
+FF,2F2E DF| \
+E4- ED CB,|
+A,2 B,A, G,2 G,,2| \
+C,4 D,4| \
+G,,8| \
+D,8|
+_D,-[=E,D,-] [A,D,-][G,D,] [_G,C,-][E,C,-] [G,C,-][A,C,]| \
+=B,,4 _B,,4| \
+A,,8| \
+D,8-|
+D,2- [CD,-]2 [B,D,-]2 [A,D,]2| \
+[G,G,,]8|

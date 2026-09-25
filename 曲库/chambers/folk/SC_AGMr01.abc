@@ -1,0 +1,91 @@
+X: 0
+T: Scottish Marches 1 (A D G e a)
+K:
+
+
+X: 1
+P: the Sweet Maid of Glendaruel
+O: Scots Guards
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+N: Scots Guard p.153
+N: BSFC XI-1
+M: 2/4
+L: 1/8
+K: AMix
+e \
+| "A"A>B cd | e>c Ad    | cA     ec | "E7"cBB || e \
+| "A"A>B cd | e>c AB/c/ | "G"d>B GB | "A"BA  A :|
+g \
+| "A"fe "(D)"a>f | "A"ec Ag    |    fe  ac | "E7"cBB || g \
+| "A"fe "(D)"a>f | "A"ec AB/c/ | "G"d>B GB | "A"BA  A |]
+g \
+| "A"fe "(D)"a>f | "A"ec Ag    |    fe  ac | "E7"cBB || g \
+| "A"fe  "D"fd   | "A"ec AB/c/ | "G"d>B GB | "A"BA  A |]
+
+
+X: 2
+P: the Barren Rocks of Aden
+C: James Mauchlinei, P/M Alexander Mackellar
+B: Scots Guards #217 p.116
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/4
+K: D
+d/e/ \
+|: "D"f>g fe | df Ad | "A7"ce Ad/e/ | "D"fA d>e \
+|  "D"f>g fe | df Ad | "A7"ce Af/e/ | "D"d4 :|
+f/g/ \
+|: "D"a>f df | "A7"ef Ae/f/ | ge cA | "D"df "A7"f/e/f/g/ \
+|  "D"a>f df | "A7"ef Ae/f/ | ge cA | "D"d4 :|
+
+
+X: 3
+P: the Girl I Left Behind Me  (Brighton Camp)
+O: 1758
+R: march
+Z: John Chambers <jc:trillian.mit.edu>
+B: E.Hunt p.13(F)
+B: Karpeles & Schofield P.31(F), p.55(G)
+B: Nan Fleming-Williams and Pat Shaw "English Dance Airs" Book 3 p.5 (1968, 1984)
+N: Many versions exist from all over the British Isles. Commonly used for sword dances.
+M: C
+L: 1/4
+K: G
+g/f/ \
+| "G"ed/c/ BA | "C(Em)"BG E>F | "G"GG G/A/B/c/ | "D7"d2 Bg/f/ \
+| "G"ed/c/ BA | "C(Em)"BG E>G | "D7"FA DE/F/ | "G"G2 G :|
+|: d/c/ \
+| "G"Bd "D7"ef | "G"gd "D7"B>A | "G"Bd "Em"ef | "C(Am)"g2 "D7"fg/f/ \
+| "G"ed/c/ BA | "C(Em)"BG E>G | "D7"FA DE/F/ | "G"G2 G :|
+
+
+X: 4
+P: Hey! Johnnie Cope
+O: Kerr's 3
+M: C|
+L: 1/8
+K: Am
+e2 \
+| "Am"A2A2 ABcd | e2A2 "D7"A2BA | "G"G2G2 GABc | d2g2 B2G2 \
+||"Am"c2Bc "G"d2cd | "C"e2g2 "G"B2AG | "Am"A2a2 "E7"edcB | "Am"A6 :|
+|: "G7"G2 \
+| "C"c3d c2G2 | cdef gedc | "G7"B2G2 d2G2 | Bcde d2cB \
+||"Am"c2Bc "G"d2cd | "C"e2g2 "G"B2AG | "Am"A2a2 "E7"edcB | "Am"A6 :|
+
+
+X: 5
+P: the Cork March
+Z: John Chambers <jc:trillian.mit.edu>
+R: march
+M: C|
+L: 1/8
+K: Em
+BA \
+| "Em"G2GF    E2EF |    G2G2 "D"A2GA |  "G"B2B2    BAGA |     B2D2 "D"D2BA \
+| "Em"G2GF "C"E2EF | "G"G2GB "D"A2GA | "Em"B2e2 "D"dBAB | "Em"G2E2    E2 :|
+|: Bc \
+|  "G"d2de    d2Bd | "C"edBc "G"d2ed |  "C"c2B2 "Am"A2GA |  "G"B2D2 "D"D2BA \
+| "Em"G2GF "C"E2EF | "G"G2GB "D"A2GA | "Em"B2e2  "D"dBAB | "Em"G2E2    E4 :|
+

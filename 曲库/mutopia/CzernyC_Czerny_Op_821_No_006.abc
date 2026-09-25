@@ -1,0 +1,33 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/Op_821/Czerny_Op_821_No_006/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 160 Eight-Measure Exercises, No. 6
+C: Carl Czerny
+M: 3/4
+L: 1/8
+Q:1/4=60
+K:F % 1 flats
+V:1
+%%MIDI program 0
+%%MIDI program 0
+[AF]c [AF]c [AF]c| \
+[BE]c [BE]c [BE]c| \
+[BE]c [BE]c [BE]c| \
+[AF]c [AF]c [AF]c|
+[cA]f [cA]f [cA]f| \
+ (3B/2c/2B/2 (3A/2B/2c/2  (3d/2e/2d/2 (3_d/2=d/2e/2  (3f/2d/2g/2 (3f/2e/2d/2| \
+ (3c/2c'/2=b/2 (3_b/2a/2g/2  (3f/2e/2d/2 (3c/2B/2A/2  (3c/2B/2A/2 (3G/2F/2E/2| \
+Fz [fcA]
+V:2
+%%MIDI program 0
+%%MIDI program 0
+ (3F,/2G,/2F,/2 (3G,/2F,/2G,/2 [G,F,]/2[G,F,]/2[G,F,]/2[G,F,]/2 [G,F,]/2[G,F,]/2[G,F,]/2[F,E,]/2| \
+[G,-F,]/2G,/2z C,z C,z| \
+ (3G,/2A,/2G,/2 (3A,/2G,/2A,/2 [A,G,]/2[A,G,]/2[A,G,]/2[A,G,]/2 [A,G,]/2[A,G,]/2[A,G,]/2[G,F,]/2| \
+[A,-G,]/2A,/2z F,z F,z|
+ (3_E,/2F,/2E,/2 (3F,/2E,/2F,/2 [F,E,]/2[F,E,]/2[F,E,]/2[F,E,]/2 [F,E,]/2[F,E,]/2[F,E,]/2[E,D,]/2| \
+[_E,D,-]/2D,/2F, B,,F, =B,,F,| \
+C,-[A,F,C,-]2[A,F,C,] C,-[B,G,C,]| \
+[A,F,]F, C,A,, F,,

@@ -1,0 +1,51 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-05/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Innocence
+C: J. F. F. Burgmüller
+M: 3/4
+L: 1/8
+Q:1/4=112
+K:F % 1 flats
+V:1
+%%MIDI program 0
+%%MIDI program 0
+a/2g/2f/2e/2 f/2e/2d/2c/2 d/2c/2B/2A/2| \
+cB B2 z2| \
+g/2f/2e/2d/2 c/2d/2e/2f/2 g/2a/2b/2c'/2| \
+ba a2 z2|
+a/2g/2f/2e/2 f/2e/2d/2_d/2 =d2| \
+g/2f/2e/2d/2 e/2d/2c/2=B/2 c/2B/2A/2G/2| \
+_AG =AG ed| \
+c2 z4|
+cc =Bc dc| \
+cc/2d/2 ee/2f/2 g2| \
+ff/2g/2 aa/2b/2 c'2| \
+c'c'/2d'/2 e'e'/2f'/2 g'2|
+f'f'/2g'/2 a'a'/2b'/2 c''2| \
+c''/2b'/2a'/2g'/2 f'/2e'/2d'/2c'/2 b/2a/2g/2f/2| \
+d'd'/2c'/2 bb/2a/2 gg/2f/2| \
+e/2d/2c/2d/2 e/2f/2g/2a/2 b/2c'/2d'/2e'/2|
+f'z [FA,]2 
+V:2
+%%MIDI program 0
+%%MIDI program 0
+[CA,F,]6| \
+[DG,F,]2 [DG,F,]2 [DG,F,]2| \
+[CB,E,]6| \
+[CA,F,]2 [CA,F,]2 [_DA,F,]2|
+[DA,F,]4 [DA,F,]2| \
+[ECG,]4 [ECG,]2| \
+[F=B,G,]2 [FB,G,]2 [FB,G,]2| \
+[EC]C =B,C _B,G,|
+[EC]z4z| \
+B,C B,C B,C| \
+A,C A,C A,C| \
+B,C B,C B,C|
+A,C A,C A,C| \
+[A,F,]6| \
+[DB,]z4z| \
+[B,C,]6|
+[A,F,]z F,,2 

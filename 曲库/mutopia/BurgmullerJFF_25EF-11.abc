@@ -1,0 +1,78 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-11/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: La Bergeronnette
+C: J. F. F. Burgmüller
+M: 2/4
+L: 1/16
+Q:1/4=158
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+g'e' c'2 e'c' g2| \
+c'g e2 ge c2| \
+[^fc]2 z2 [=fc]2 z2| \
+[ec]2 z2 [a^dc]2 z2|
+[dc]4 z4| \
+[gB]4 z4| \
+ce g2 g2 g2| \
+eg c'2 c'2 c'2|
+c'a f2 c'^g f2| \
+c'g e2 e2 e2| \
+gf d2 gf d2| \
+ag c2 c2 c2|
+ed A2 cB G2| \
+c4 z4| \
+[ec]4 [cA]4| \
+[ec]4 [cA]4|
+[af]4 [fd]4| \
+[ec]8| \
+ec G2 ge c2| \
+c'g e2 e'c' g2|
+g'f' e'd' e'd' c'b| \
+c'4 z4| \
+c'e' g'2 g'2 g'2| \
+g'4 b4|
+c'e' g'2 g'2 g'2| \
+g'4 b4| \
+c'e' g'2 bd' g'2| \
+c'e' g'2 bd' g'2|
+c'2 z2 [cE]4| \
+[cE]4 
+V:2
+%%clef treble
+%%MIDI program 0
+%%MIDI program 0
+ce g2 Gc e2| \
+EG c2 CE G2| \
+A2 z2 ^G2 z2| \
+G2 z2 ^F2 z2|
+G4 z4| \
+[FG,]4 z4| \
+[EC]2 z6| \
+[GEC]2 z6|
+[AFC]2 z2 [^GFC]2 z2| \
+[GEC]4 z4| \
+[GB,]2 z2 [GB,]2 z2| \
+[EC]4 z4|
+[^FC]2 z2 [=FC]2 z2| \
+[EC]2 z2 C,2 z2| \
+A,C E2 E2 E2| \
+A,C E2 E2 E2|
+DF A2 DF A2| \
+A,C E2 E2 E2| \
+G,C E2 CE G2| \
+EG c2 Gc e2|
+G2 z2 [FG,]4| \
+[EC]2 z2 C,2 z2| \
+[EC]4 z4| \
+G,B, D2 D2 D2|
+[EC]4 z4| \
+G,B, D2 D2 D2| \
+[EC]2 z2 DB, G,2| \
+EC G,2 DB, G,2|
+[EC]2 z2 [G,C,]4| \
+[G,C,]4 

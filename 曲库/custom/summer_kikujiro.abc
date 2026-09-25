@@ -1,0 +1,35 @@
+X:1
+T:菊次郎的夏天 Summer
+C:久石让 Joe Hisaishi
+M:4/4
+L:1/16
+Q:1/4=100
+K:D
+V:1 name="Right" clef=treble
+z16 |z16 |z16 |z12 A d e f |
+e z d6 z4 A d e f |e z d e3 f z f2 z2 A d e f |e z d6 z4 A d e f |e z d e3 a z f4 [AFf]2 [BGg]2 |
+[A^ca]2 [A^ca] [A^ca]3 [A^ca]2 [Aad]2 f [Bd]3 f g |[A^ca]2 [A^ca] [A^ca]3 [A^ca]2 [Aad]2 f [Bd]3 [Bd] [^ce] |[^Gdf]2 [^Gdf] [^Gdf]3 [^Gdf]2 [Bdf]2 b2 [be] [ef] d2 |[Ge]4 [BGe]2 B B [A^ce]2 ^c2 A d e f |
+e z d6 z4 A d e f |e z d e3 f z f2 z2 A d e f |e z d6 z4 A d e f |e z d e3 a z f4 [AFf]2 [BGg]2 |
+[A^ca]2 [A^ca] [A^ca]3 [A^ca]2 [Aad]2 f [Bd]3 f g |[A^ca]2 [A^ca] [A^ca]3 [A^ca]2 [Aad]2 f [Bd]3 d e |[^Gdf]2 [^Gdf] [^Gdf]3 [^Gdf]2 [Bdf]2 b2 [be] [ef] d B |d4 d2 A2 F4 z4 |
+F4 z2 F2 z8 |z F3 [AF]2 z3 F3 [AF]2 z2 |z F3 [AF]2 z10 |a A d e a e d A a A d e a e d A |
+[Fa] A d e [Fa] e d A [Ga] A d [Fe] a e d A |a A d e a e d A a A d e a e d A |[Fa] A [Fd] e [Fa] e [Fd] A [Ga] A d [Fe] a e d A |[Gd'] d g a [Gd'] a g d [AGd'] d g a [AGd'] a g d |
+[BGd'] d g a [BGd'] a g d [=cGd'] d g [BGa] d' a [AGg] d |[Gd'] d [Gg] a [Gd'] a [Gg] d [Ad'] d [Ag] a [Ad'] a [Ag] d |[BGd'] d [BGg] a [BGd'] a [BGg] d [=cGd'] d g [BGa] d' a [AGg] d |a A d e a e d A a A d e a e d A |
+a A d e a e d A a A d e a e d A |a A d e a e d A a A d e a e d A |a A d e a e d A a A d e a e d A |[A^ca]2 [A^ca] [A^ca]3 [A^ca]2 [Aad]2 f [Bd]3 f g |
+[A^ca]2 [A^ca] [A^ca]3 [A^ca]2 [Aad]2 f [Bd]3 d e |[^Gdf]2 [^Gdf] [^Gdf]3 [^Gdf]2 [Bdf]2 b2 [be] [ef] d2 |[Ge]4 [BGe]2 B B [A^ce]2 ^c2 A d e f |[^Gdf]2 [^Gdf] [^Gdf]3 [^Gdf]2 [Bdf]2 b2 [be] [ef] d B |
+[Ad]4 [dd']4 [^c^c']6 [Aa]2 |[Fdf]4 z2 F2 z4 A d e f |e2 d2 d'3 ^c ^c'6 a B |[bf]4 z4 F G z2 A d e f |
+e2 d2 d'4 [^c^c']6 [Aa]2 |[Fdf]4 z2 F2 z4 A d e f |e2 d2 z4 B3 A3 G2 |F16 |
+z16 |
+V:2 name="Left" clef=bass
+B,,2 F, z B, z F, z G,,2 D, z G, z D, z |A,,2 E, z A, z E, z D,2 A, z D z A, z |B,,2 F, z B, z F, z G,,2 D, z G, z D, z |A,,2 E, z A, z E, z D,2 A, z D z A, z |
+B,,2 F, z B, z F, z G,,2 D, z G, z D, z |A,,2 E, z A, z E, z D,2 A, z D z A, z |B,,2 F, z B, z F, z G,,2 D, z G, z D, z |A,,2 E, z A, z E, z D,2 A,2 D2 A,2 |
+A,,2 E,2 A,2 E,2 G,,2 D,2 G,2 D,2 |F,,2 ^C,2 F,2 ^C,2 B,,2 F,2 B,2 F,2 |E,,2 B,,2 E,2 B,,2 G,,2 D,2 G,2 D,2 |A,,2 E,2 A,2 [EE,] E A,,2 E,2 A,2 E,2 |
+B,,2 F, z B, z F, z G,,2 D, z G, z D, z |A,,2 E, z A, z E, z D,2 A, z D z A, z |B,,2 F, z B, z F, z G,,2 D, z G, z D, z |A,,2 E, z A, z E, z D,2 A,2 D2 A,2 |
+A,,2 E,2 A,2 E,2 G,,2 D,2 G,2 D,2 |F,,2 ^C,2 F,2 ^C,2 B,,2 F,2 B,2 F,2 |E,,2 B,,2 E,2 B,,2 A,,8 |D,2 A,2 [DE]2 A,2 B,,2 F,2 B,2 F,2 |
+G,,2 D,2 [B,DG,]2 D,2 [A,,B,E^C]2 E,2 A,2 E,2 |[DD,] E A,2 D2 [A,E] D [B,,D] E F,2 B,2 [EF,] D |[DG,,] E D,2 G,2 [D,E] D [A,A,,^C]2 E,2 A,2 E,2 |[A,DD,F,]4 [A,DD,F,]4 [DEE,G,]4 [DEE,G,]4 |
+[A,DF,]4 [A,DF,]4 [B,DG,]3 [A,DF,]3 [DEE,G,]2 |[A,DD,F,] z [A,DD,F,] z [A,DD,F,] z [A,DD,F,] z [A,EE,G,] z [A,EE,G,] z [A,EE,G,] z [A,EE,G,] z |[A,DF,] z [A,DF,] z [A,DF,] z [A,DF,] z [B,DG,]3 [A,DF,]3 [DEE,G,]2 |[B,DG,]4 [B,DG,]4 [=CA,]4 [=CA,]4 |
+[B,D]4 [B,D]4 [=CE]3 [B,D]3 [=CA,]2 |[B,DG,] z [B,DG,] z [B,DG,] z [B,DG,] z [=CA,D] z [=CA,D] z [=CA,D] z [=CA,D] z |[B,D] z [B,D] z [B,D] z [B,D] z [=CE]3 [B,D]3 [=CA,]2 |D,,2 A,,2 E,2 F,2 E,,2 E,2 G,2 A,2 |
+F,,2 F,2 A,2 D2 [A,,G,]3 [F,F,,]3 [E,E,,]2 |D,,2 A,,2 E,2 F,2 E,,2 E,2 G,2 A,2 |F,,2 F,2 A,2 D2 [A,,G,]3 [F,F,,]3 [E,E,,]2 |[A,,A,,,]4 [A,E,^C]4 [G,,G,,,]4 [B,DG,]4 |
+[F,,F,,,]4 [A,F,^C]4 [B,,B,,,]4 [B,DF,]4 |[E,E,,]4 [B,E^G,]4 [G,,G,,,]4 [B,DG,]4 |[A,,A,,,]4 [A,E^C]2 E E [A,,A,,,]4 z4 |E,,2 B,,2 E,2 B,,2 A,,8 |
+D,2 A,2 D2 A,2 B,,2 F,2 B,2 F,2 |G,,2 D,2 [B,DG,]2 [DD,]2 [A,,E^C]2 E,2 A,2 E,2 |D,2 A,2 D2 A,2 B,,2 F,2 B,2 F,2 |G,,2 D,2 [B,G,] ^C [DD,] E A,,2 [EE,]2 A,2 E,2 |
+D,2 A,2 D2 A,2 B,,2 F,2 B,2 F,2 |G,,2 D,2 [B,DG,]2 [DD,]2 [A,,E^C]2 E,2 A,2 E,2 |D,2 A,2 D4 [B,,DD,G,G,,]3 [A,,DF,F,,^C,]3 [B,,DE,E,,G,,]2 |[A,,DD,D,,F,,]16 |
+z16 |]

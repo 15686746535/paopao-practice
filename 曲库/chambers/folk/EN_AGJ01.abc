@@ -1,0 +1,81 @@
+X: 0
+T: English Jig Set 1 (G a A D)
+K: D
+
+
+X: 1
+P: Jockey to the Fair
+O: Trad
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Used as Irish step-dancing tune, and as a Morris-dance tune.
+M: 6/8
+%Q: Rather slow
+L: 1/8
+K: G
+|: D \
+| "G"G2A B2c | d2g d2c \
+| B>AB GAB | "D"c2B A2d \
+| d>^cd "A7"efg | "D"a2f d2g \
+| fed "A7"AB^c | "D"d3- d2 :|
+f/g/ \
+| "D"a>fd afd | "D7"c>Bc "G"B2d \
+| d>gd dgd | "D7"c>Bc "G"B2d \
+| "C"e2f g>fe | "D7"d2c "G"B2d |
+| "C"e>dc "D7"B2A | "G"B2G "C"E2F \
+| "G"G>AG GBd | "C"e2"D"f "G"g2e \
+| d>BG A2B | "C"E2"D"F "G"G2A \
+| B<gB "D7"B2A | "G"G3- G2 |]
+
+
+X: 2
+P: Bung Your Eye  (the Braw Young Man)  (There Came a Young Man)
+C: Niel Gow
+R: jig
+Z: John Chambers <jc:trillian.mit.edu>
+N: Bang your Eye in Clark Collection
+B: D.A.Young "A Collection of the Newest Country Dances Performed in Scotland" 1740
+B: Mel Bay 165
+B: Williamson p.50
+B: BSFC IV-1
+M: 6/8
+L: 1/8
+K: Am
+"E7"E \
+| "Am"A>BA c2d | "Am"e>dc "D7"B2A | "G"G>AG B2c | "G"dge dBG \
+| "Am"A>BA c2d | "Am"e>dc "(G)"Bcd | "(F)"e2A "E7"AB^G | "Am"A3- A2 :|
+|:"G7"B \
+| "C"c2e g2a | "C"g>ec gec | "G"G2B d2e | "G"dge dBG \
+| "C"c2e g2a | "C"g>ec "E7"de^g | "Am"a2A "E7"AB^G | "Am"A3- A2 :|
+
+
+X: 3
+P: the Stool of Repentance
+N: The title refers to the "dunking chair" that was used to punish
+N: people in some parts of the British Isles and New England.
+R: Jig
+Z: 1997 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: A
+|: {efg}"A"a2e c2e | agf edc | "Bm"aff f2e | "D"fag "E7"f2e \
+| "A"a2e c2e | agf edc | "D"d2e f2e | "Bm"f<ac "E7"B2A :|
+|: "A"cAA eAA | cAc edc | "Bm"dBB fBB | dBd "E7"fed \
+| "A"cAA eAA | cAc edc | "D"d2e f2e | "Bm"f<ac "E7"B2A :|
+
+
+X: 4
+P: Off She Goes
+O: Murphy MS 1780
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Cole p.58; Skye p.175
+M: 6/8
+L: 1/8
+K: D
+   A \
+| "D"F2A "G"G2B | "A7"ABc "D"d2A | "D"F2A "G"G2B | "D"AFD "A7"E2D \
+| "D"F2A "G"G2B | "A7"ABc "D"d2e | "D"fed "G"g2f | "A7"edc "D"d2 :|
+|: g \
+| "D"faf     d2f |  "G"gbg "A7"e2g | "D"faf    d2f | "A7"ecA    A2g \
+| "D"faf "Bm"d2f | "Em"gbg "A7"e2g | "D"fed "G"g2f | "A7"edc "D"d2 :|
+

@@ -1,0 +1,77 @@
+X: 0
+T: English Jig Set 4 (D G e a)
+K: G
+
+
+X: 1
+P: Haste to the Wedding
+O: 1760
+M: 6/8
+L: 1/8
+R: jig
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+B: Cole p.53
+B: Called "The Small Pin Cushion" in J. Oswald's "Caledonian Pocket Companion" (bk. 10, c 1760)
+B: Called "Carrick Fergus" in J. Brysson's "A Curious Collection of Favourite Tunes" (Edinburgh 1791)
+N: "The tune 'Come, Haste to the Wedding,' of Gaelic origin, was introduced in the pantomime, The Elopement, staged in London in 1767." (Linscott, 1939)
+K: D
+F/G/ \
+| "D"A>BA Agf | "G"ede "A7"fdB | "D"A>BA "Bm"AdF | "Em"GFG "A7"EFG | "D"A>BA Aaf |
+| "G"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :: f/g/ | "D"a>fa afa | "G"b>gb "(A7)"bag |
+| "D"fga "Bm"agf | "Em"g>fg "A7"efg | "D"a2z "Bm"f2z | "Em"ede "A7"fdB | "D"A>BA "A7"faf | "D"d>ed d2 :|
+
+
+X: 2
+P: Bellman's Jig   [G]
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: G
+D \
+| "G"GDG BGB | "(D7)"d2c B2A | "G"GDG A2B | "Am"c2B "D7"A2D \
+| "G"GDG BGB | d2c BcB | "Am"ABc "D7"DEF | "G"G2G G2 :|
+|: d \
+| "D7"cAA A2f | "G"gdd d2d | "D7"cAA A2f | "G"gdd d2B \
+| "C"cdc "G"BcB | "Am"ABA "Em"GAG | "D7"FGA DEF | "G"G2G G2 :|
+
+
+X: 3
+P: Swallowtail Jig    [Em]
+O: Ryan 1883
+Z: 1999 John Chambers <jc:trillian.mit.edu>
+R: jig
+B: Ryan’s Mammoth Collection, 1883; pg. 100
+B: Kerr (Merry Melodies), vol. 2; No. 271, pg. 29
+B: White's Unique Collection, 1896; No. 42
+M: 6/8
+L: 1/8
+K: Edor
+   E/F/ \
+| "Em"GEE BEE | GEG BAG | "D"FDD ADD | dcd AGF \
+| "Em"GEE BEE | GEG B2c | "D"dcd AGF | "Em"GEE E2 :|
+|: B \
+| "Em"Bcd e2f | e2f edB | Bcd e2f | edB "D"d2B \
+| "Em"Bcd e2f | e2f edB | "D"dcd AGF | "Em"GEE E2 :|
+
+
+X: 4
+P: Green Sleeves (and Yellow Lace)   [Am]
+O: 1580
+S: Gillespie Manuscript, 1768, pg. 96
+N: Registered 1580 at the Stationer's Company (London) as "A new Northern Dittye of the Lady Greene Sleeves"
+B: Playford, 1686 as "Green Sleeves and Pudding Pies"
+B: Johnson "Scots Musical Museum", 1792, #388
+B: Gow - 4th Repository  (1817)
+Z: John Chambers <jc:trillian.mit.edu>
+R: jig
+M: 6/8
+L: 1/8
+K: ADor
+  AB \
+| "Am"c2c c>de | "G"dBG G>AB | "Am(F)"c2A A>Bc | "E7"B2^G E2B \
+| "Am"c2c c>de | "G"dBG G>AB | "Am(F)"c>BA "E7"B^G2 | "Am"A3 z :|
+|: ef \
+| "C"g2g g>fe | "G"d>BG G2g | "Am"a2b c'ba | "Em"g>ee e2f \
+| "C"g2g g>fe | "G"d>BG GAB | "Am(F)"c>BA "E7"B^G2 | "Am"A3 z :|
+

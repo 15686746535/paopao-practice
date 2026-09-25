@@ -1,0 +1,81 @@
+X: 0
+T: The Black Dance
+T: 8x35R3
+B: RSCDS 12-10
+O: RSCDS 12-10
+K:
+
+X: 2
+P: The Black Dance
+O: Rutherford 1772
+R: march
+B: RSCDS 12-10(I)
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: "Adapted from Rutherford 1772"
+M: C|
+L: 1/8
+K: F
+cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Bb"F2F2 "Gm"GABG | "C7"c6 cA \
+| "F"F2F2 "Gm"GABG | "C7"cdcB "F"A2cA | "Dm"F2F2 "C7"GABG | "F"F6 |]
+yde \
+| "Bb"f2f2 f2ed |  "F"c2c2 c2AG | "Dm"F2GA "Am"c2BA | "Gm"G2G2 "C7"G2de \
+| "Dm"f2f2 f2ed | "Am"c2c2 c2AG | "Bb"F2GA "C7"B2AG | "F"F2F2 F2 |]
+
+X: 3
+P: The World Turned Upside Down (When the King Receives His Own Again)
+O: England late 1600s
+M: C|
+L: 1/8
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+K: C
+  BA \
+| "C"G2G2 c2c2 | "G7"defg  "C"e2de |  "F"f2A2     B2e2 | "G7"d3B    G4 \
+| "C"G2G2 c2c2 | "G7"defg "Am"e2de | "Dm"f2A2 "G7"B2e2 | "G7"d3c "C"c2 |]
+y c2 \
+| "G"d2Bc d2G2 |  "G"dcde     d2G2 |  "G"dcde     d2cB | "D7"A3G "G"G4 \
+| "C"g2gf e2dc | "Dm"defg "Am"e2de | "Dm"f2A2 "G7"B2e2 | "G7"d3c "C"c2 |]
+
+X: 4
+P: Su(c)k(e)y bids me
+O: 1747
+R: reel
+B: Johnson's "200 Country Dances" 1751
+B: Rutherford's "200 Country Dances" 1756 p.25
+B: The Imperial Magazine (1761),
+B: RSCDS 12-10(II)
+B: Gow's Repository
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: F
+A \
+| "F"F2CD "Bb"F2d2 | "F"cAFA "C7"GEDC \
+| "F"F2CD "Bb"F2d2 | "C7"cABG "F"F3 :|
+A \
+|  "F"c2AB     c2f2 |  "C"egec  "G7"dfd=B \
+| "C7"c2AB  "F"c2f2 | "G7"efd=B "C7"c3 |]
+d \
+|  "F"cfed     cBAF | "G9"A2AF  "C7"GEDC \
+|  "F"F2CD "Bb"F2d2 | "C7"cABG   "F"F3 |]
+
+X: 5
+P: The Lass o' Gowrie
+O: by 1751
+R: march
+B: RSCDS __-9
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C|
+L: 1/8
+K: C
+[GE][FD] \
+| "C"[E2C2][G2E2] [G2E2][AF][BD] | [c3E3][dF] [c2E2][B2G2] \
+| "F"A3G A2c2 | "G"d3e d2 GF \
+| "C"E2G2 G2[AF]B | "Am"[c3E3][dF] [e3G4]d \
+| "F"cBAG "C"c2E2 | "G7"D4 "C"C2 ||
+gf \
+| "C"e2g2 c3d | edef "(A7)"g2fe \
+| "Dm"f2a2 d3e | fefg "G7"a2gf \
+| "C"e2g2 "G7"d3e | "Am"cBcd e3d \
+| "F"cBAG "C"c2E2 | "G7"D4 "C"C2 |]
+

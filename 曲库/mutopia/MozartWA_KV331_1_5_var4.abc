@@ -1,0 +1,85 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/MozartWA/KV331/KV331_1_5_var4/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Sonate Opus KV 331 - Variation 4
+C: Wolfgang Amadeus Mozart
+M: 6/8
+L: 1/8
+Q:1/4=76
+K:A % 3 sharps
+V:1
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'E]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2| \
+[BG]/2E/2[b-g-BG]/2[bgE]/2[c'-a-cA]/2[c'aE]/2 [d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2| \
+[AE]/2C/2[a-AE]/2[aC]/2[AE]/2C/2 [BG]/2E/2[b-BG]/2[bE]/2[BG]/2E/2| \
+[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2 [b-g-BG]/2[bgE]/2^d/2e/2d/2e/2|
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'E]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2| \
+[BG]/2E/2[b-g-BG]/2[bgE]/2[c'-a-cA]/2[c'aE]/2 [d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2| \
+[AE]/2C/2[a-c-AE]/2[acC]/2[b-e-BG]/2[beE]/2 [c'-a-cA]/2[c'aE]/2[cA]/2E/2[dB]/2E/2| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2 [a-A]/2[aE]/2C/2E/2A|
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'E]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2| \
+[BG]/2E/2[b-g-BG]/2[bgE]/2[c'-a-cA]/2[c'aE]/2 [d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2| \
+[AE]/2C/2[a-AE]/2[aC]/2[AE]/2C/2 [BG]/2E/2[b-BG]/2[bE]/2[BG]/2E/2| \
+[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2 [b-g-BG]/2[bgE]/2^d/2e/2d/2e/2|
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'E]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2| \
+[BG]/2E/2[b-g-BG]/2[bgE]/2[c'-a-cA]/2[c'aE]/2 [d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2| \
+[AE]/2C/2[a-c-AE]/2[acC]/2[b-e-BG]/2[beE]/2 [c'-a-cA]/2[c'aE]/2[cA]/2E/2[dB]/2E/2| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2 [a-A]/2[aE]/2C/2E/2A|
+e3/2 (3f/2e/2d/2[cB]/2 [=fA]/2^f/2fz| \
+a/2g/2b/2a/2g/2f/2 ^d/2e/2ez| \
+e3/2 (3f/2e/2d/2[cB]/2 [eA]/2d (3e/2d/2c/2[BA]/2| \
+[A-G]/2A/2G[A^D] [cAE-]2[BGE]|
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'E]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2| \
+[BG]/2E/2[b-g-BG]/2[bgE]/2[c'-a-cA]/2[c'aE]/2 [d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2| \
+[AE]/2C/2[a-c-AE]/2[acC]/2[b-e-BG]/2[beE]/2 [c'-a-cA]/2[c'aE]/2[cA]/2F/2[dB]/2F/2| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2 [b-g-BG]/2[bg-E]/2[=c'-g-cG]/2[c'gE]/2[^c'-a-cA]/2[c'aE]/2|
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'A]/2[ec]/2A/2[fd]/2A/2| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2 [a-A]/2[aE]/2C/2E/2A| \
+e3/2 (3f/2e/2d/2[cB]/2 [=fA]/2^f/2fz| \
+a/2g/2b/2a/2g/2f/2 ^d/2e/2ez|
+e3/2 (3f/2e/2d/2[cB]/2 [eA]/2d (3e/2d/2c/2[BA]/2| \
+[A-G]/2A/2G[A^D] [cAE-]2[BGE]| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'E]/2[d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2| \
+[BG]/2E/2[b-g-BG]/2[bgE]/2[c'-a-cA]/2[c'aE]/2 [d'-b-dB]/2[d'bE]/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2|
+[AE]/2C/2[a-c-AE]/2[acC]/2[b-e-BG]/2[beE]/2 [c'-a-cA]/2[c'aE]/2[cA]/2F/2[dB]/2F/2| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2 [b-g-BG]/2[bg-E]/2[=c'-g-cG]/2[c'gE]/2[^c'-a-cA]/2[c'aE]/2| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[d'-b-dB]/2[d'bE]/2 [e'-c'-ec]/2[e'c'A]/2[ec]/2A/2[fd]/2A/2| \
+[cA]/2E/2[c'-a-cA]/2[c'aE]/2[b-g-BG]/2[bgE]/2 [a-A]/2[aE]/2C/2E/2A|
+V:2
+[A,A,,]z4z| \
+[E,E,,]z4z| \
+[A,A,,]z[A,A,,] [E,E,,]z[E,E,,]| \
+z4EE,|
+[A,A,,]z4z| \
+[E,E,,]z4z| \
+[A,A,,]z3[F,F,,][D,D,,]| \
+[E,E,,]z3A,A,,|
+[A,A,,]z4z| \
+[E,E,,]z4z| \
+[A,A,,]z[A,A,,] [E,E,,]z[E,E,,]| \
+z4EE,|
+[A,A,,]z4z| \
+[E,E,,]z4z| \
+[A,A,,]z3[F,F,,][D,D,,]| \
+[E,E,,]z3A,A,,|
+A,/2C/2E/2C/2E/2C/2 A,/2D/2F/2D/2F/2D/2| \
+A,/2D/2F/2D/2F/2D/2 A,/2C/2E/2C/2E/2C/2| \
+[C,A,,][CA,]z [D,B,,][DB,]z| \
+[EC][DB,][CA,] [CA,E,-]2[B,G,E,]|
+[A,A,,]z4z| \
+[E,E,,]z4z| \
+[A,A,,]z3[F,F,,][D,D,,]| \
+[E,E,,]z4z|
+[A,A,,]z3[A,A,,][D,D,,]| \
+[E,E,,]z3A,A,,| \
+A,/2C/2E/2C/2E/2C/2 A,/2D/2F/2D/2F/2D/2| \
+A,/2D/2F/2D/2F/2D/2 A,/2C/2E/2C/2E/2C/2|
+[C,A,,][CA,]z [D,B,,][DB,]z| \
+[EC][DB,][CA,] [CA,E,-]2[B,G,E,]| \
+[A,A,,]z4z| \
+[E,E,,]z4z|
+[A,A,,]z3[F,F,,][D,D,,]| \
+[E,E,,]z4z| \
+[A,A,,]z3[A,A,,][D,D,,]| \
+[E,E,,]z3A,A,,|

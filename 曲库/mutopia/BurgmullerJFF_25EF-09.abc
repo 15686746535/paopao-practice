@@ -1,0 +1,131 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-09/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: La Chasse
+C: J. F. F. Burgmüller
+M: 6/8
+L: 1/8
+Q:1/4=200
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+z6| \
+z6| \
+z6| \
+z6|
+zgG GgG| \
+GgG GgG| \
+GgG GgG| \
+Ggf dBA|
+GgG GgG| \
+GgG GgG| \
+GgG GgG| \
+Gge cc'2|
+z[dB]3[d-B-]2| \
+[dB][fd]3[^d-c-]2| \
+[^dc][gd]3[d-c-]2| \
+[^dc][=d-B-]4[d-B-]|
+[dB][dB]3[d-B-]2| \
+[dB][fd]3[^d-c-]2| \
+[^dc][gd]3[d-c-]2| \
+[^dc][=dB]4z|
+zgG GgG| \
+GgG GgG| \
+GgG GgG| \
+Ggf dBA|
+GgG GgG| \
+GgG GgG| \
+GgG GgG| \
+Gge cc'2|
+ze3A2-| \
+Ac3B2-| \
+BA3^G2-| \
+^GB3A2-|
+Ae3a2-| \
+agf edc| \
+BAf eBd| \
+cAc ea2|
+zgG GgG| \
+GgG GgG| \
+GgG GgG| \
+Ggf dBA|
+GgG GgG| \
+GgG GgG| \
+GgG GgG| \
+Gge cc'z|
+z6| \
+z6| \
+z6| \
+zgG Ggz|
+z6| \
+z6| \
+z6| \
+zgG Ggz|
+zgG Ggz| \
+zgG Ggz| \
+[EC][EC]2 [EC][EC]2| \
+[EC][E-C-]4[E-C-]|
+[EC]
+V:2
+%%MIDI program 0
+%%MIDI program 0
+[G,E,C,][G,E,C,]2 [G,E,C,][G,E,C,]2| \
+[G,E,C,][G,E,C,]2 [CG,E,][CG,E,]2| \
+[ECG,][ECG,]2 [CG,E,][CG,E,]2| \
+[DB,G,][D-B,-G,-]4[D-B,-G,-]|
+[DB,G,][CE,]3[D-G,-]2| \
+[DG,][FD]3[E-C-]2| \
+[EC][CE,]3[E-C-]2| \
+[EC][D-G,-]4[D-G,-]|
+[DG,][CE,]3[D-G,-]2| \
+[DG,][FD]3[E-C-]2| \
+[EC][CE,]3[D-G,-]2| \
+[DG,][CE,]3C,2|
+z2^F GzF| \
+Gz^F GzF| \
+Gz^F GzF| \
+GzG, B,DB,|
+G,z^F, G,zF,| \
+G,z^F, G,zF,| \
+G,z^F, G,zF,| \
+G,z^F, G,G,,z|
+z[CE,]3[D-G,-]2| \
+[DG,][FD]3[E-C-]2| \
+[EC][CE,]3[E-C-]2| \
+[EC][D-G,-]4[D-G,-]|
+[DG,][CE,]3[D-G,-]2| \
+[DG,][FD]3[E-C-]2| \
+[EC][CE,]3[D-G,-]2| \
+[DG,][CE,]3C,2|
+zA,C EA,C| \
+EA,D FA,D| \
+FA,D FA,D| \
+FA,C EA,C|
+EA,^C GA,C| \
+G[FD]2 z3| \
+z[CA,E,]2 z[D^G,E,]2| \
+z[CA,]2 zA,,2|
+z[CE,]3[D-G,-]2| \
+[DG,][FD]3[E-C-]2| \
+[EC][CE,]3[E-C-]2| \
+[EC][D-G,-]4[D-G,-]|
+[DG,][CE,]3[D-G,-]2| \
+[DG,][FD]3[E-C-]2| \
+[EC][CE,]3[D-G,-]2| \
+[DG,][CE,]4z|
+[G,E,C,][G,E,C,]2 [G,E,C,][G,E,C,]2| \
+[G,E,C,][G,E,C,]2 [CG,E,][CG,E,]2| \
+[ECG,][ECG,]2 [CG,E,][CG,E,]2| \
+[DB,G,][DB,G,]4z|
+[G,E,C,][G,E,C,]2 [G,E,C,][G,E,C,]2| \
+[G,E,C,][G,E,C,]2 [CG,E,][CG,E,]2| \
+[ECG,][ECG,]2 [CG,E,][CG,E,]2| \
+[DB,G,][D-B,-G,-]4[DB,G,]|
+[DG,][C-E,-]4[CE,]| \
+[DG,][CE,]4z| \
+[G,C,][G,C,]2 [G,C,][G,C,]2| \
+[G,C,][G,-C,-]4[G,-C,-]|
+[G,C,]

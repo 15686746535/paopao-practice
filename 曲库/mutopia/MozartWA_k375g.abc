@@ -1,0 +1,67 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/MozartWA/Anh41/k375g/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Fugue fragment Anh. 41 (375g)
+C: Wolfgang Amadeus Mozart
+M: 4/4
+L: 1/8
+Q:1/4=110
+K:G % 1 sharps
+V:1
+z2 e2 d2 c2| \
+B2 c2 d3c/2B/2| \
+A2 B2 E3F/2G/2| \
+A2 DE FG AB|
+G2 [d-B]2 [dA-][^cA] [gG-][cG]| \
+[a-F]2 [aG-][gG-]/2[fG]/2 [eA-]2 [f-A][f-G]/2[fF]/2| \
+[gE]2 [fF-][eF] [dB,-][^cB,-] [BB,][A-C]/2[AD]/2| \
+[G-E]2 [GA,][FB,-]/2[GB,]/2 [E-^C][ED] [c-E][cF]|
+[dD-][^GD-] [AD-][BD-] [c-D][c-^D] [c-E][c-F]| \
+[cG-][BG-] [e-G][e-F] [eB-][dB-] [g-B][g-A]| \
+[gd-][fd] [gG-][^cG-] [d-G][d-F] [d-=c][dF]| \
+d2- [e-d][e-c]/2[eB]/2 [fA]2 [gB]2|
+[ac]2 [^d-B][dA] [g-G][gF] [^c-E][c=D]| \
+[e^C-]2 [FC][G-B,]/2[GC]/2 [AA,-][BA,] [cF-][dF]| \
+[B-G][B-^C] [B-D][B-F] [BG-][cG-] [dG-][BG-]| \
+[A-G][AF] B2- [d-B][dA] [bd-]2|
+[e-d][e-^c] [e-d][e-^G] [eA-][=gA-] [cA-][eA]| \
+d2 B2 ^c2 [ad]2| \
+[ge]2 [^c^A]2 [dB]2 [d^G]2| \
+[BG]2 [E-^C][ED] EF GA|
+F4- FA G^D| \
+EG zA GB z^c| \
+d2 e2 [d-A][dc] [c-F][cA]| \
+[BG]2 [cA]2 [dB]3[cA]/2[BG]/2|
+[AF]2 B2 E3F/2G/2| \
+A2 D-[ED-] [FD-][GD] [AD-][BD]| \
+[GD]2 
+V:2
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z8| \
+z2 E2 D2 C2| \
+B,2 C2 D3C/2B,/2|
+A,2 B,2 E,3F,/2G,/2| \
+A,2 D,E, F,G, A,B,| \
+G,4- G,^A, B,^C| \
+D3^C2<F2E|
+A2 [D-B,]2 [DA,-][^CA,] [GG,-][CG,]| \
+[A-F,]2 [AG,-][GG,-]/2[FG,]/2 [EA,-]2 [F-A,][F-G,]/2[FF,]/2| \
+[GE,]2 [FF,-][EF,] [DB,,-][^CB,,-] [B,B,,][A,-C,]/2[A,D,]/2| \
+[G,-E,]2 [G,A,,][F,B,,-]/2[G,B,,]/2 [E,-^C,][E,D,] [C-E,][CF,]|
+[DD,-][^G,D,-] [A,D,-][B,D,-] [C-D,][C-^D,] [C-E,][C-F,]| \
+[CG,-][B,G,-] [E-G,][E-F,] [EB,-][DB,-] [G-B,][G-A,]| \
+[GD-][FD] [GG,,-][^CG,,-] [D-G,,][D-F,,] [D-=C,][DF,,]| \
+[DG,,-][G,G,,] G,G, G,G, B,C|
+D-[DD,] [F,-D,][F,D,] [^G,-D,][G,-D,] [G,C,][A,B,,-]/2[B,B,,]/2| \
+[CA,,-][A,A,,] [F,C,-][G,C,] [A,D,,-][G,D,,] [F,C,]2| \
+[G,B,,]2 

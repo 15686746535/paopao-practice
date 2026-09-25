@@ -1,0 +1,45 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV515/anna-magdalena-20a/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Aria
+C: Johann Sebastian Bach
+M: 3/4
+L: 1/8
+Q:1/4=105
+K:F % 1 flats
+V:1
+D2 D2 D2| \
+G3A/2B/2 A2| \
+G2 FE A2| \
+F2 EF D2|
+F2 F2 F2| \
+A3B/2c/2 F2| \
+G2 E4| \
+F6|
+G2 G2 G2| \
+G4 E2| \
+A2 GF ED| \
+_D6|
+A,2 _D2 E2| \
+G3A/2B/2 A2| \
+F2 D2 _D2| \
+D6|
+V:2
+D,2 D2 C2| \
+B,2 E,2 F,2| \
+G,2 A,2 A,,2| \
+D,2 A,,2 F,,2|
+D,,2 D,2 B,,2| \
+F,2 C,2 D,2| \
+B,,2 C,2 C,,2| \
+F,,6|
+C2 E,2 G,2| \
+=B,2 G,2 C2| \
+F,4 G,2| \
+A,2 G,F, E,D,|
+_D,=B,, A,,B,, D,=D,| \
+E,2 D,2 _D,2| \
+D,2 F,2 A,2| \
+D,2 A,,2 D,,2|

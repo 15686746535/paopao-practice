@@ -1,0 +1,82 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/O840/op840-10/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 50 Melodische Übungsstücke, No. 10
+C: Carl Czerny
+M: 4/4
+L: 1/8
+Q:1/4=121
+K:E % 4 sharps
+V:1
+K:G % 1 sharps
+z/2E/2F/2G/2 A/2B/2^c/2^d/2 e2 Bz| \
+z/2G/2A/2B/2 ^c/2^d/2e/2f/2 g2 ez| \
+z/2B/2^c/2^d/2 e/2f/2g/2a/2 b[bg] [af][ge]| \
+[f^d][ge] [fd][ge] [fd]B df|
+aa/2g/2 f2 c'c'/2b/2 a2| \
+gg/2a/2 b2 ff/2g/2 a2| \
+ge ge bB ^c^d| \
+eB gB ez3|
+[bgd]4 z[bgd] [bgd][bgd]| \
+[af]/2d/2e/2f/2 g/2a/2b/2^c'/2 d'a fd| \
+[geB]4 z[geB] [geB][geB]| \
+[f^d]/2B/2^c/2d/2 e/2f/2^g/2^a/2 bb bb|
+c'c'/2b/2 a2 aa/2g/2 f2| \
+gg/2b/2 e'3d'/2c'/2 b/2a/2g/2f/2| \
+bb ge BB ^c^d| \
+eB gB ez3|
+K:E % 4 sharps
+g2 g2 b3a/2g/2| \
+f3/2g<ff/2 f4| \
+f2 f2 a3g/2f/2| \
+e3/2f<ef/2 e4|
+c'2 c'2 e'3d'/2c'/2| \
+b2 g'3/2f'<e'd'<c'b/2| \
+a3/2b<ab<gb<gb/2| \
+f4 z4|
+ (3baf  (3ddd  (3baf  (3ddd| \
+ (3egb  (3gbe' b3-b/2g/2| \
+ (3baf  (3ddd  (3baf  (3ddd| \
+ (3egb  (3gbe' b4|
+b2 b2 g'2 f'3/2e'/2| \
+d'3/2c'<ba<gf<ac'/2| \
+b3/2g<ee<da<fd/2| \
+e4 
+V:2
+%%clef treble
+K:G % 1 sharps
+[B,G,E,]4 z[B,G,E,] [B,G,E,][B,G,E,]| \
+[B,G,E,]4 z[B,G,E,] [B,G,E,][B,G,E,]| \
+[B,G,E,]4 zE ^DE| \
+B,^A, B,A, B,z3|
+^D-[BAFD-] [BAFD-][BAFD] D-[cAFD-] [cAFD-][cAFD]| \
+E-[BGE-] [BGE-][BGE] A,-[FCA,-] [FCA,-][FCA,]| \
+B,-[GEB,-] [GEB,-][GEB,] B,-[AFB,-] [AFB,-][AFB,]| \
+[GE]2 [GE]2 [GE]z3|
+z/2G,,/2A,,/2B,,/2 C,/2D,/2E,/2F,/2 G,2 B,2| \
+D2 D,2 z4| \
+z/2E,,/2F,,/2G,,/2 A,,/2B,,/2^C,/2^D,/2 E,2 G,2| \
+B,2 B,,2 z4|
+^D,-[CA,F,D,-] [CA,F,D,-][CA,F,D,] D,-[B,A,F,D,-] [B,A,F,D,-][B,A,F,D,]| \
+E,-[B,G,E,-] [B,G,E,-][B,G,E,] A,,-[F,C,A,,-] [F,C,A,,-][F,C,A,,]| \
+B,,-[G,E,B,,-] [G,E,B,,-][G,E,B,,] B,,-[A,F,B,,-] [A,F,B,,-][A,F,B,,]| \
+[G,E,]2 [G,E,]2 [G,E,]z3|
+K:E % 4 sharps
+E/2-[GE-]/2E/2-[BE]/2 E/2-[GE-]/2E/2-[BE]/2 E/2-[GE-]/2E/2-[BE]/2 E/2-[GE-]/2E/2-[BE]/2| \
+D/2-[AD-]/2D/2-[BD]/2 D/2-[AD-]/2D/2-[BD]/2 D/2-[AD-]/2D/2-[BD]/2 D/2-[AD-]/2D/2-[BD]/2| \
+B,/2-[DB,-]/2B,/2-[AB,]/2 B,/2-[DB,-]/2B,/2-[AB,]/2 B,/2-[DB,-]/2B,/2-[AB,]/2 B,/2-[DB,-]/2B,/2-[AB,]/2| \
+E/2-[GE-]/2E/2-[BE]/2 E/2-[GE-]/2E/2-[BE]/2 E/2-[GE-]/2E/2-[BE]/2 E/2-[GE-]/2E/2-[BE]/2|
+A,/2-[CA,-]/2A,/2-[EA,]/2 A,/2-[CA,-]/2A,/2-[EA,]/2 A,/2-[CA,-]/2A,/2-[EA,]/2 A,/2-[CA,-]/2A,/2-[EA,]/2| \
+G,/2-[B,G,-]/2G,/2-[EG,]/2 G,/2-[B,G,-]/2G,/2-[EG,]/2 G,/2-[B,G,-]/2G,/2-[EG,]/2 G,/2-[B,G,-]/2G,/2-[EG,]/2| \
+D,/2-[F,D,-]/2D,/2-[B,D,]/2 D,/2-[F,D,-]/2D,/2-[B,D,]/2 E,/2-[G,E,-]/2E,/2-[B,E,]/2 E,/2-[G,E,-]/2E,/2-[B,E,]/2| \
+ (3B,,D,F,  (3B,F,D, B,,z3|
+[AFB,]z [AFB,]z [AFB,]z [AFB,]z| \
+[GEB,]z [GEB,]z [GEB,]z [GEB,]z| \
+[AFB,]z [AFB,]z [AFB,]z [AFB,]z| \
+[GE]2 [GE]2 [GE]2 [GE]2|
+G,/2-[B,G,-]/2G,/2-[EG,]/2 G,/2-[B,G,-]/2G,/2-[EG,]/2 G,/2-[B,G,-]/2G,/2-[EG,]/2 G,/2-[B,G,-]/2G,/2-[EG,]/2| \
+A,/2-[CA,-]/2A,/2-[FA,]/2 A,/2-[CA,-]/2A,/2-[FA,]/2 A,/2-[CA,-]/2A,/2-[FA,]/2 A,/2-[CA,-]/2A,/2-[FA,]/2| \
+B,/2-[EB,-]/2B,/2-[GB,]/2 B,/2-[EB,-]/2B,/2-[GB,]/2 B,/2-[FB,-]/2B,/2-[AB,]/2 B,/2-[FB,-]/2B,/2-[AB,]/2| \
+E/2-[GE-]/2E/2-[BE]/2 E/2-[GE-]/2E/2-[BE]/2 E2 

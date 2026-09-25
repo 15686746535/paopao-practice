@@ -1,0 +1,72 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-13/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Consolation
+C: J. F. F. Burgmüller
+M: 4/4
+L: 1/8
+Q:1/4=152
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+G-[dG-] [eG-][dG-] [eG-][dG-] [eG-][dG]| \
+G-[cG-] [dG-][cG-] [dG-][cG-] [dG-][cG]| \
+B-[fB-] [gB-][fB-] [gB-][fB-] [gB-][fB]| \
+c-[ec-] [fc-][ec-] [fc-][ec-] [fc-][ec]|
+A-[eA-] [fA-][eA-] [^dA-][eA-] [fA-][eA]| \
+ed ^cd ba fd| \
+cG Bc e-[eG] d-[dG]| \
+zG c-[cG] d-[dG] e-[eG]|
+e-[eG] d-[dG] ^c-[cG] d-[dG]| \
+c-[cG] B-[BG] A-[AG] B-[BG]| \
+d-[dG] c-[cG] AG ^FG| \
+AG c-[cG] d-[dG] e-[eG]|
+e-[eG] B-[BG] c-[cG] B-[BG]| \
+B^A Bc B=a g^f| \
+eB gB e2 z2| \
+d2 ^c2 d2 B2|
+c2 B2 c2 A2| \
+B2 c2 ^c2 d2| \
+c2 d2 ^d2 e2| \
+d-[gd] ^c-[gc] d-[gd] B-[gB]|
+c-[gc] B-[gB] c-[gc] A-[gA]| \
+Bc de fd AB| \
+cG eG c2 z2| \
+cG eG dA BG|
+cG eG dA BG| \
+cB ce g^d eg| \
+c'2 
+V:2
+%%clef bass
+%%MIDI program 0
+%%MIDI program 0
+[FG,]8| \
+[EG,]8| \
+[DG,]8| \
+[CG,]8|
+[^CA,G,]8| \
+[DA,F,]8| \
+[ECG,]4 [FB,G,]4| \
+[EC]8|
+[FB,]8| \
+[FG,]8| \
+[EC]8| \
+[EC]8|
+[EB,]8| \
+[^D-B,-]4 [DB,]^F BA| \
+[GE]6 z2| \
+F-[GF] E-[GE] F-[GF] D-[GD]|
+E-[GE] D-[GD] E-[GE] C-[GC]| \
+D-[GD] E-[GE] E-[GE] F-[GF]| \
+E-[GE] B,-[GB,] B,-[GB,] C-[GC]| \
+F2 E2 F2 D2|
+E2 D2 E2 C2| \
+D4 G,4| \
+[EC]6 z2| \
+[EC]4 [FG,]4|
+[EC]4 [FG,]4| \
+[EC]4 z4| \
+C,2 

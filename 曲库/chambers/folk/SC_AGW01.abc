@@ -1,0 +1,83 @@
+X: 0
+T: Scottish Waltzes 1 (A D G)
+K:
+
+
+X: 1
+P: In Memory of Herbie MacLeod
+C: Jerry Holland
+R: waltz or lament
+Z: 2009 John Chambers <jc:trillian.mit.edu>
+F: http://www.jerryholland.com/tunes/herbiemacleod.jpg
+B: BSFC Session Tune Book 2016 p.71
+B: BSFC Tune Book XXIX-10
+M: 3/4
+L: 1/8
+K: A
+E AB \
+| "A"c4 (dc) | "E"{A}B3 (TB A)B | "A7"c a3 ((3gag) | "D"f3 Tf ec \
+| "A"{cd}e2 A2 B2 | "F#m"c e3 ((3cec) | "Bm"B6 | "E7"TB3 E AB |
+| "A"c4 (dc) | "E"{A}B3 (TB A)B | "A7"c a3 ((3gag) | "D"f3 Tf ec \
+| "A"{cd}e2 A2 (Bc) | "E"(B c2) Tc (BA) | "A"{FG}A4- "(D)"A2- | "A"A6 :|
+ag \
+| "D"f4 ed | "D"f a3 ((3faf) | "A"e4 ((3edc) | "A"Tc4 AB \
+| "A"c4 BA | "F#m"c a3 ((3cec) | "Bm"B6 | "E"B4 ag |
+| "D"f4 ed | "D"f a3 ((3faf) | "A"e4 ((3edc) | "A"Tc4 AB \
+| "F#m"c a3 c2 | "E"(B c3) B2 | "A"A4- "(D)"A2- | "A"A4 |]
+ag \
+| "D"f4 ed | "D"f a3 ((3faf) | "A"e4 ((3edc) | "A"Tc4 AB \
+| "A"c4 BA | "F#m"c a3 ((3cec) | "Bm"B6 | "E"B3 E AB |
+| "A"c4 (dc) | "E"{A}B3 (TB A)B | "A7"c a3 ((3gag) | "D"f3 Tf ec \
+| "A"{cd}e2 A2 (Bc) | "E"(B c2) Tc (BA) | "A"{FG}A4- "(D)"A2- | "A"A3 |]
+
+
+X: 2
+P: Niel Gow's Lament for the Death of His Second Wife
+C: Niel Gow
+R: waltz, air
+%date: 1805
+Z: John Chambers <jc:trillian.mit.edu>
+N: By Niel Gow (1727-1807).  His second wife was Margaret Urquhart of Perth,  to
+N: whom  he  was  happily married for three decades.  A note in Gow's Collection
+N: reads "They lived together upwards of 30 years.  She died 2 years before him;
+N: she had no issue." [From the Fiddler's Companion]
+N: Similar to the Irish air Kitty Tyrrell (or Ketty Terrol).
+M: 6/8
+L: 1/8
+K: D
+|: D/B,/ \
+| "D"A,>B,D "Bm"D>ED | "Em"E>FA "G"{A}B2{c}d | "D"A>FD "Em"E>DE | "Bm"{DE}F>DB, "G"B,2 ||
+   D/B,/ \
+|  "D"A,>B,D "Bm"D>ED | "Em"EFA "G"{c}d2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 :|
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "D"{DE}FED | "Bm"{DE}F>DB, "G"B,2 ||
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | "Em"E>DE "Bm"{DE}F>DB, | "D"A,<D"(G)"D "D"D2 |]
+(3A/B/c/ \
+| "D"d>fd "A7"ecA | "G"B/A/B/c/d "D"B/A/G/F/E/D/ | F/D/A/F/d/A/ "Bm"B/A/G/F/E/D/ | "Em"FEE "A7"E2 ||
+   D/B,/ \
+| "D"A,>B,D "Bm"D>ED | "Em"EFA "G"Hd2c/B/ | "D"A>FD "G"{=C}B,2A, | "G"B,<DD "D"D3 |]
+
+
+X: 3
+P: the Dark Island   [G]  (Dr Mackay's Farewell to Creagorry)
+C: Iain MacLachlan
+R: air, waltz
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: Used as the theme song to The Dark Island, a 1962 BBB television miniseries.
+M: 3/4
+L: 1/4
+K: G
+G \
+| "Am"A>EA | "G"G>AG | "C"E>DC | "D"D2G/A/ \
+|  "G"B>AG | "G"G<dD | "(C)"B>dB | "D"A2 ||
+D/E/ \
+| "Am"A>EA | "Em"G>AG | "C"E>DC | "D"D2G/A/ \
+| "G"B>D d/B/ | "D"A>D B/A/ | "C"G3 | "G"G2 |]
+B/c/ \
+| "G"d>DD2 | "G"B>AG  | "C"E<CE | "D"D2G/A/ \
+| "G"B>AG | "G"G<dD | "(C)"B>dB | "D"A2 ||
+D/E/ \
+| "Am"A>EA | "Em"G>AG | "C"E>DC | "D"D2G/A/ \
+| "G"B>D d/B/ | "D"A>D B/A/ | "C"G3 | "G"G2 |][dC]
+

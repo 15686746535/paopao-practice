@@ -1,0 +1,77 @@
+X: 0
+T: 12 Coates Crescent
+T: 4x32S4
+N: The title is the street address of RSCDS headquarters.
+B: RSCDS 40-5
+R: strathspey
+K:
+
+
+X: 12
+P: The Glendale Strathspey
+N: Suggested tune for the dance 12 Coates Crescent
+C: Roddy Matthews
+R: Strathspey (4x32)
+B: RSCDS 40-5
+Z: Anselm Lingnau <anselm@strathspey.org>
+M: 4/4
+L: 1/8
+K: G
+D |\
+"G"G>A B>A G2 D>G | "C"E<C C>G "G"D<B, B,>D |\
+"B7"G>A B>A "Em"G2 d>B | "D"A<D F>A "D7"c2 B>A |
+y2 |\
+"G"G>A B>A G2 D>G | "C"E<C C>G "G"D<B, B,>D |\
+"G"(3GAB "D7/F#"(3ABc "Em"(3Bcd "(C)"d>c | "G/D"B>G "D7"F<A "G"G2-G |]
+d |\
+"G"g>f e>d "C"(3efg "D7"d>c | "G"B>c d>c B<G G2 |\
+"D"a>g f>e (3fga a>g | "D/A"f>d "A7"e<^c "D7"d2 (3def |
+y2 |\
+"G"g>f e>d "C"(3efg "D7"d>c | "G"B>c d>c "(Em)"B<G G>F |\
+"Am"(3EAc (3ecA "G"(3DGB (3dBG | "D7"A<D F>A "G"G2-G |]
+
+
+X: 13
+P: the Banks of Spey
+C: William Marshall
+%date: c.1786
+N: Caledonian Companion p.88.
+N: Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+N: played by Ed Pearlman on BH 4A; Dancing Strings tape Siegal/Payne
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: ADor
+E | "Am"{E}[A2A2] A>B A>B c>e | "G"d<c B->A ~G3 E \
+  | "Am"[A2A2] A>B A>B c>d | "C"e<c d->e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+c | "Am"A-<E A>c A-<E A>c | "G"B>c d>{c}B {A}~G3 B \
+  | "Am"A-<E A>c A-<E c>d | "C"e>c d-<e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+
+
+X: 14
+P: Scotch Mist
+C: Trad.
+R: strathspey
+%B: Kerr's Merry Melodies 3-16, 4-10
+B: James Kerr "Merry Melodies" v.4 p.10 #68
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+F>G "A1"|\
+"D"A>F A<d "G"B>G B<d | "A7"c>d e>c "D"d2 f2 |\
+"G"g>f g>b "D"a>f e>d | "Em"B<B g>f "A"e2 ||
+F>G "A2"|\
+"D"A>F A<d "G"B>G B<d | "A7"c>d e>c "Bm"d2 f2 |\
+"Em"g>f g>b "D"a>f e>d | "Em"B>g "A7"f/e/d/c/ "D"d2 ||
+f>g  "B"|\
+"D"a>b a>f "Bm"d>e f>d | "Em"g/f/g/a/ b>g "A7"e2 f>g |\
+"D"a>b a>f "D7"d>e f{e}d | "G"B<B g>f "A7"e2 ||
+F>G "A2"|\
+"D"A>F A<d "G"B>G B<d | "A7"c>d e>c "Bm"d2 f2 |\
+"Em"g>f g>b "D"a>f e>d | "Em"B>g "A7"f/e/d/c/ "D"d2 |]
+

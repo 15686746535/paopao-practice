@@ -1,0 +1,78 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/O840/op840-1/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 50 Melodische Übungsstücke, No. 1
+C: Carl Czerny
+M: 4/4
+L: 1/8
+Q:1/4=140
+K:Eb % 3 flats
+V:1
+g3/2_g/2 =gz =e'z gz| \
+d'z gz =e'z g3/2_g/2| \
+g3/2_g/2 =gz d'z g3/2=a/2| \
+g3/2=a/2 gz =e'z e3/2c/2|
+f3/2d/2 gz =e'z gz| \
+d'z gz c'z g3/2_g/2| \
+g3/2=a/2 [=bd][c'=e] [d'f][e'g] [f'a][g'b]| \
+[=a'c'][=b'd'] [c''=e']z4z|
+G3/2_G/2 =Gz [=BGFD]z [dBGF]z| \
+G3/2_G/2 =Gz [cG=E]z [ecG]z| \
+G3/2_G/2 =Gz [d=BG]z [fBG]z| \
+[gd]z [fdG-]4 [=ecG]z|
+g3/2_g/2 =gz =e'z gz| \
+d'z gz c'z2[=e''g']| \
+[d''f'][c''=e'] [=b'd'][=a'c'] [g'b][f'a] [e'g][d'f]| \
+[c'=e][=bd] [c'e]z4z|
+G2 e2 e2 d2| \
+c2 g4 d2-| \
+d2 e2 e2 d2| \
+c2 [d=B]4 G2-|
+G2 e2 e2 d2| \
+c2 _g4 =g2-| \
+g2 b2 g2 _g2| \
+=a2 g4 z2|
+g2 f3d e2| \
+c2 g2 G2 Gz| \
+g2 f3d e2| \
+c2 [gd=B]6|
+G2 e2 e2 d2| \
+c2 c'4 _g2-| \
+_g2 =g2 e2 d2| \
+g2 c2 
+V:2
+z2 [G=EC]z [GEC]z [F=B,G,]z| \
+[F=B,G,]z [=EC]z [EC]z [EC]z| \
+[=EC]z [GF=B,]z [GFB,]z [GFB,]z| \
+[GF=B,]z [G=EC]z [GEC]z [EC]2|
+[FD]2 [G=E]z [GEC]z [F=B,G,]z| \
+[F=B,G,]z [=EC]z [EC]z [EC]z| \
+[=EC]z [FDG,]z [FDG,]z [FDG,]z| \
+[FDG,]z [=EC]z Cz C,z|
+z2 G,,z [=B,G,]z [B,G,]z| \
+z2 G,,z [CG,]z [CG,]z| \
+z2 G,,z [DG,]z [DG,]z| \
+[=B,G,]z B,2 G,2 Cz|
+z2 [G=EC]z [GEC]z [GF=B,]z| \
+[GF=B,]z [G=EC]z [GEC]z [GEC]z| \
+[G=EC]z [FDG,]z [FDG,]z [FDG,]z| \
+[FDG,]z [=EC]z Cz C,z|
+z2 
+C,-[G,C,-] [E,C,-][G,C,] C,-[G,C,-]| \
+[E,C,-][G,C,] =B,,-[G,B,,-] [F,B,,-][G,B,,] B,,-[G,B,,-]| \
+[F,=B,,-][G,B,,] C,-[G,C,-] [E,C,-][G,C,] C,-[G,C,-]| \
+[E,C,-][G,C,] G,,=B,, D,G, F,E,|
+F,D, C,-[G,C,-] [E,C,-][G,C,] C,-[G,C,-]| \
+[E,C,-][G,C,] C,-[=A,C,-] [E,C,-][A,C,] _D,-[B,D,-]| \
+[=E,_D,-][B,D,] =D,-[B,D,-] [G,D,-][B,D,] D,-[CD,-]| \
+[_G,D,-][CD,] =G,-[B,G,-] [DG,-][B,G,] G,z|
+z2 G,-[=B,G,-] [DG,-][B,G,] G,-[CG,-]| \
+[EG,-][CG,] G,-[=B,G,-] [DG,-][B,G,] G,-[B,G,-]| \
+[DG,-][=B,G,] G,-[B,G,-] [DG,-][B,G,] G,-[CG,-]| \
+[EG,-][CG,] G,-[=B,G,-] [DG,-][B,G,] G,F,|
+E,D, C,-[G,C,-] [E,C,-][G,C,] C,-[G,C,-]| \
+[E,C,-][G,C,] A,,-[E,A,,-] [C,A,,-][E,A,,] A,,-[E,A,,-]| \
+[C,A,,-][E,A,,] G,,-[E,G,,-] [C,G,,-][E,G,,] G,,-[F,G,,-]| \
+[=B,,G,,-][F,G,,] C,-[E,C,-] [G,C,-][E,C,] C,

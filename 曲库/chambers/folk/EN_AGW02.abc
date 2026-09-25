@@ -1,0 +1,57 @@
+X: 0
+T: English Waltzes 2 (Am D G)
+R: waltz
+K: A
+
+X: 1
+P: Flowers of the Thorn (Blodau'r Drain)
+R: waltz
+O: Wales
+B:
+D:
+Z: John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: Am
+|: E2 \
+| "Am"A4 B2 | c2 B2 A2 | e2 dc BA | "E7"B4 E2 \
+| "Am"A2 Ac "Bm"Bd | "Am"c2 B2 A2 | "E7"^G2 GB "Am"Ac | "E7"B4 :|
+[| B2 \
+| "Am"c4 c2 | "G"d4 d2 | "C"e2 e2 "F"f2 | "C"e4 "G7"d2 \
+| "Am"cB cd c2 | "G7"dc de d2 | "C"ed ef ef | "G7"g3 fed |
+| "C"cB cd ec | "Dm"dc de fd | "Am"e2 e2 a2 | "E7"^g4 b2 \
+| "Am"a2 e2 c2 | "Dm"f2 e2 d2 | "E7"c2 dc Bc | "Am"A4 |]
+
+X: 2
+M:3/4
+L:1/4
+P: Wenlock Edge
+C:trad
+R:waltz
+Z: Tim Willets <tlw@redowa.co.uk> tradtunes 2003-10-22
+K:D
+f/g/ \
+| "D"a>fd | d2f | "G"B2d | "D"A2e/g/ | a2a | "G"bag | "D"fed | "A"e2A |
+| "G"BB/c/d | "A"cde | "D"dd/e/f | "A"efg | "D"a>fd | "Em"eB"A"c | "D"df"A"e | "D"d2 :|
+|: d \
+| "A"c>de | "A"efg | "D"agf | "A"e3e | "A"c>de | "A"efg | "D"agf | "A"e2 a |
+| "D"f/g/aa | "A"eaa | "D"d/e/ff | "A"efg | "D"a>fd | "Em"eB"A"c | "D"df"A"e | "D"d2 :|
+
+X: 3
+P: Margaret's Waltz
+C: Pat Shaw
+N: Composed for Margaret Grant when she was retiring from the EFDSS.
+R: waltz
+Z: 1997 by John Chambers <jc@trillian.mit.edu>
+M: 3/4
+L: 1/8
+K: G
+|: B2 \
+| "G"D3 EGA | "Em"B4 B2 | "C"AG E2 G2 | "D7"A4 B2 \
+| "G"D3 EGA | "Em"B3 c d2 | "D7"B4 A2 | "G"G4 :|
+|| Bc \
+| "G"d3 efd | "Em"g4 g2 | "C"ed c2 e2 | "D7"d3 cBA \
+| "Em"G3 ABc | "Bm"d4 B2 | "C"AG E2 G2 | "D7"A4 Bc |
+| "G"d3 efd | "Em"g3 f e2 | "Am"d2 c2 B2 | "D7"A4 B2 \
+| "G"D3 EGA | "Em"B3 c d2 | "D7"B4 A2 | "G"G4 |]
+

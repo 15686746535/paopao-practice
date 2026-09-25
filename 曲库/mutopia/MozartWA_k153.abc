@@ -1,0 +1,145 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/MozartWA/KV153/k153/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Fugue in E-flat Major KV 153/375f
+C: Wolfgang Amadeus Mozart
+M: 4/4
+L: 1/8
+Q:1/4=110
+K:Eb % 3 flats
+V:1
+z8| \
+z8| \
+z8| \
+z8|
+z8| \
+z/2E2E2D2z3/2| \
+F/2B=AGFEDCB,/2-| \
+B,/2z6z3/2|
+z8| \
+B,/2[E-G,][EF,][E-G,][E=A,][DB,-]2B,3/2-| \
+[EB,]/2[A-D][AE][A-F][AD][GE-]2E3/2-| \
+[BE-]/2[eE-][dE-][cE-][BE][AD][GE][FB,][E-=A,-]/2|
+[E=A,]/2[DB,]CB,_A,G,B,EG/2-| \
+G/2[AE-][cE][BF-][AF][GB,-][=AB,]Bd/2-| \
+d/2egfed-[dD]FG/2-| \
+[bG]/2[c'-A][c'c][d-B][dA][eG-][dG][c_G-][=A-G-]/2|
+[=A_G]/2[BF-][fF][_aB-][=gB-][fB-][eB][d=B-][f-B-]/2| \
+[f=B]/2[e_B-][bB][e'g-][bg-][c'g][bf][ae][g-d-]/2| \
+[gd]/2[fc][eB][dA][cG][BF][AE][GD][F-C-]/2| \
+[FC]/2[EB,]2z3/2 [BE]/2[cE]2[F-D-]3/2|
+[FD]/2[GE]2z3/2 [c_G]/2[_dF]2[=G-=E-]3/2| \
+[G=E]/2[AF]2z3/2 [dA]/2[_eG]2[=A-_G-]3/2| \
+[=A_G]/2[=B=G]GBdf_agf/2-| \
+f/2f2e2dFA3/2-|
+[A-C]/2[AF]2[G-F]2[GE-][gE]c'b/2-| \
+[bG]/2[ac][gB][fA][eG][dF][cE][=BD][A-C-]/2| \
+[AC]/2[G=B,]FEDC3-C/2-| \
+C/2[=B,G,-]2G,3/2- [CG,]/2[G-B,][GD][G-E][G-C-]/2|
+[GC]/2[_GD-]2D3/2- [=GD]/2[c-_G][c=G][c-=A][c-_G-]/2| \
+[c_G]/2[B=G-]2G3/2- [dG]/2gfed/2-| \
+d/2[c_G][B=G][=AE][GC][_GA,-][EA,]DC/2-| \
+C/2B,DGB/2- [BD]/2[AE-][cE][BF-][A-F-]/2|
+[AF]/2[GE][FD][GC][=AF][B-B,][B-F][B-_A][B-G-]/2| \
+[BG]/2[c-F][cE][B-D][B-F][BE]B[ge][f-d-]/2| \
+[fd]/2[e-c][e-B][e-A][eG][fF-][eF][dA-][c-A-]/2| \
+[cA-]/2[BA]2[d-G][dF][eE-][_dE]cB/2-|
+B/2A2B3_DFE/2-| \
+E/2_D-[FD][BD-][GD][EC]2c3/2-| \
+[c-E]/2[c-A][cG][BF][cE][_dD]ef3/2-| \
+f3/2B2<e2cz3/2|
+e/2f2B2c-[cD]EG/2-| \
+[BG]/2[cA]c[d-B][dA][eG-][BG]cd/2-| \
+[dF]/2[eG-][gG][f=A-][eA][dB][c_A][BG][A-F-]/2| \
+[AF]/2[G-E]Gz3/2 E/2B-[BF][B-A][B-G-]/2|
+[BG]/2[A-F][AE]DF/2- [BF]/2e-[eE][e-G][eF-]/2| \
+[dF]/2[c-G][cF]EG/2- [cG]/2[fC-][eC][dD][c-E-]/2| \
+[cE]/2[BF-][AF][GD-][FD][EB,-][DB,]CB,/2-| \
+B,/2CE[AC-][BC-][c-C][c-A][c-F][c-E-]/2|
+[cE]/2[B-D][BE]FG/2- [BG]/2[cA]c[d-B][d-A-]/2| \
+[dA]/2[eG-][BG]cd/2- [dF]/2[eG-][gG][f=A-][e-A-]/2| \
+[e=A]/2[dB-][eB]fg_ac'ba/2-| \
+a/2g2z3/2 E/2FzBz/2|
+z/2E2zB,/2- [EB,]/2[A-E][AD][A-E][A-F-]/2| \
+[AF]/2[G-B,][G_D]FE/2- [AE]/2[d-G][dA][d-B][d-G-]/2| \
+[_dG]/2[cE]2A3/2- [eA]/2[ac-][gc-][fc-][e-c-]/2| \
+[ec]/2[dF-][cF][BD-][AD][GE-][FE]ED/2-|
+D/2[CA,]C[D-B,][DA,][E-G,][EB,]CD/2-| \
+[FD]/2[GE]G[=A-F][AE][BD]2z3/2| \
+[BE]/2[c-E][cA][d-G][dF][eB]2z3/2| \
+[EB,]/2[FC]2[AF-]2[G-F][GE-][F-E][F-D-]/2|
+[FD]/2E-[EG,]B,_D/2- [ED]/2[A-C][AB,][A-C][A-=D-]/2| \
+[AD]/2[G-E][GB,]_DC/2- [AC]/2[d-B,][dE][d-F][d-G-]/2| \
+[_dG]/2[c-A][cG]AB/2- [eB]/2[ac-][gc][fA-][e-A-]/2| \
+[eA]/2[dF][cA][BD][AF][GE][FB,][EG,][D-B,-]/2|
+[DB,]/2[CA,]2[cA]2z2[D-A,-]3/2| \
+[DA,]/2[DA,]4[E-G,-]3[E-G,-]/2|[EG,]/2
+V:2
+B,,/2E,2E,2D,2z3/2| \
+E,/2A,2A,2G,2z3/2| \
+B,/2EDCB,A,G,F,E,/2-| \
+E,/2D,C,B,,A,,G,,F,,E,,F,,/2-|
+[E,F,,]/2[B,-G,,][B,F,,][B,-=E,,][B,C,,][=A,-F,,][A,C,]_E,D,/2-| \
+[B,D,]/2C,B,,=A,,F,,B,,F,B,A,/2-| \
+=A,/2G,F,E,D,C,B,,A,,G,,/2-| \
+G,,/2[=A,F,,][G,G,,][F,A,,][E,F,,][D,B,,][E,C,][F,D,][G,-E,-]/2|
+[G,E,]/2[A,F,][B,G,][C-F,][C-E,][CD,][F,B,,][B,C,][A,-D,-]/2| \
+[A,D,]/2E,D,E,C,B,,F,A,G,/2-| \
+G,/2F,E,D,B,,E,B,ED/2-| \
+D/2CB,A,G,F,E,D,C,/2-|
+C,/2B,,[F,A,,][G,G,,][D,F,,][E,E,,]2z3/2| \
+E,/2C,2D,2E,2z3/2| \
+B,/2G,2=A,2B,z2z/2| \
+z4 B,,/2E,2E,3/2-|
+E,/2D,2z3/2 E,/2A,2A,3/2-| \
+A,/2G,2z3/2 B,/2EDCB,/2-| \
+B,/2A,G,F,E,D,C,B,,A,,/2-| \
+A,,/2G,,B,,E,G,A,CB,A,/2-|
+A,/2G,E,G,=A,B,_DCB,/2-| \
+B,/2A,F,A,=B,CEDC/2-| \
+C/2=B,2z3/2 G,/2A,2B,,3/2-| \
+[G,=B,,]/2[C-C,][CD,][C-E,][CF,][B,-G,][B,A,]F,D,/2-|
+D,/2=B,,G,,=A,,B,,C,CD=E/2-| \
+=E/2F2F,G,A,2D,_E,/2-| \
+E,/2F,-[A,F,][G,=A,,][F,=B,,][E,C,][=E,_B,,][F,A,,][_G,-_A,,-]/2| \
+[_G,A,,]/2=G,,D,F,E,D,=B,,C,=A,,/2-|
+=A,,/2D,A,CB,A,G,_G,D,/2-| \
+D,/2G,DGFEDCB,/2-| \
+B,/2=A,G,C,E,D,C,[_G,-B,,][G,-A,,-]/2| \
+[_G,=A,,]/2[=G,G,,]2z3/2 G,/2C,2D,z/2|
+B,,/2E,2E,2D,2z3/2| \
+E,/2A,2A,2G,2z3/2| \
+B,/2EDCB,A,G,F,E,/2-| \
+E,/2D,C,B,,A,,G,,B,,C,_D,/2-|
+[E,_D,]/2[A,-C,][A,F,,][A,-=D,][A,B,,][G,-E,][G,B,,]_D,C,/2-| \
+[A,C,]/2B,,A,,G,,E,,A,,E,A,G,/2-| \
+G,/2F,E,_D,C,B,,[CC,][B,D,][A,-=D,-]/2| \
+[A,D,]/2[G,E,-][F,E,][E,G,,-][_D,G,,][C,A,,-][E,A,,]A,C/2-|
+[CA,]/2[_DF,-][FF,][EG,-][DG,][CA,-]A,z3/2| \
+G,/2F,2B,2E,2z3/2| \
+D,/2C,2F,2B,,2z3/2| \
+B,,/2E,-[B,E,][G,E,-][CE,][F,D,-]D,z3/2|
+E,/2A,2A,2[B,G,-]G,z3/2| \
+B,/2EDCB,A,G,F,E,/2-| \
+E,/2D,C,B,,A,,G,,2[G,-E,-]3/2| \
+[G,E,]/2[A,A,,-]2A,,3F,,A,,=A,,/2-|
+=A,,/2B,,6-B,,3/2-| \
+B,,8-| \
+B,,/2B,,2z3/2 [DB,]/2[EC]2[F-D-]3/2| \
+[FD]/2[GE][G,E,][A,F,][B,G,][CA,][EC][DB,][C-A,-]/2|
+[CA,]/2[B,G,][A,F,][G,E,]_D,C,B,,C,=D,/2-| \
+D,/2E,B,,_D,C,B,,A,,G,,B,,/2-| \
+B,,/2A,,B,,C,A,,F,,G,,A,,=A,,/2-| \
+=A,,/2B,,6-[G,-B,,-]3/2|
+[G,B,,-]/2B,,6-B,,3/2-| \
+B,,4- B,,3/2D,F,G,/2-| \
+G,/2A,CB,A,G,2z3/2| \
+G,,/2A,,2F,,2B,,3-B,,/2-|
+B,,/2E,,6-E,,3/2-| \
+E,,8-| \
+E,,8-| \
+E,,6- E,,3/2G,,/2-|
+G,,/2A,,2z2B,,3-B,,/2-| \
+B,,/2E,,6-E,,3/2-|E,,/2

@@ -1,0 +1,49 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV462/bwv_462/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Gott, wie gross ist deine Güte
+C: Johann Sebastian Bach
+M: 4/4
+L: 1/8
+Q:1/4=70
+K:Bb % 2 flats
+V:1
+%%MIDI program 0
+%%MIDI program 0
+d2 dc c2 c2| \
+fg fe d2 d2| \
+e3f dc de| \
+c3B B4|
+d2 d2 B3B| \
+ed cB A2 A2| \
+d2 d2 B3c| \
+A2 d2 =B4|
+d3d e2 e2| \
+ec de c2 c2| \
+f3g ed ef| \
+d3c c4|
+e2 e2 ed ef| \
+d3d dc de| \
+c3c ce dc| \
+c3B B2 B2|
+V:2
+%%MIDI program 0
+%%MIDI program 0
+B,2 B,,2 F,G, F,E,| \
+D,2 D,2 G,A, B,G,| \
+CB, A,F, B,2 E,2| \
+F,E, F,F,, B,,4|
+B,,C, D,B,, E,F, E,D,| \
+C,2 G,,2 D,E, D,C,| \
+B,,A,, G,,_G,, =G,,2 C,2| \
+D,2 D,,2 G,,D, G,A,|
+=B,D G,B, C_B, A,G,| \
+F,2 B,,2 F,G, F,E,| \
+D,C, =B,,G,, C,2 F,2| \
+G,F, G,G,, C,4|
+CD CB, A,2 F,2| \
+B,C B,A, G,2 F,2| \
+E,C, D,E, F,2 B,,2| \
+F,E, F,F,, B,,4|

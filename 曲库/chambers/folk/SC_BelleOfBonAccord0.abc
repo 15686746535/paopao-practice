@@ -1,0 +1,47 @@
+X: 0
+T: Belle of Bon Accord
+T: 4x32S
+C: John Drwery
+B: Deeside Book Part 2 #10
+R: strathspey
+K:
+
+% air/BonnieLassOBonAccordA.abc
+
+
+X: 1
+P: the Bonnie Lass o' Bon Accord
+C: James Scott Skinner
+R: air
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 4/4
+L: 1/8
+K: A
+ "(E7)"E \
+| "A"A>B "E7"c>B "A"AA, CE | "A"A/G/A/f/ e/c/B/A/ "E7"B3 E \
+| "A"A>B "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 :|
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 e \
+| "A"a>c "D"df "A"eA a=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+ "(E7)"e \
+| "A"a>c "D"df "A"eA "D"ag/f/ | "A"eA "D"f/e/d/c/ "E7"B3 c \
+| "A"A,/C/E/A/ "E7"c>B "A"AC E=G | "D"F/D/F/A/ "E7"G/E/G/B/ "A"A3 |]
+
+% ../misc/x11.abc
+
+
+X: 2
+M:none
+K:C clef=none
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4
+x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4 x4
+

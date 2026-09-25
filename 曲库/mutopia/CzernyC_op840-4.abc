@@ -1,0 +1,147 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/O840/op840-4/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 50 Melodische Übungsstücke, No. 4
+C: Carl Czerny
+M: 3/4
+L: 1/8
+Q:1/4=168
+K:G % 1 sharps
+V:1
+K:Bb % 2 flats
+d2 d4| \
+g2 b4| \
+b2 b4| \
+a2 g2 z2|
+z2 d'_d' =d'b| \
+gz g2 _g2| \
+g2 [b-g-]4| \
+[bg]2 [a_g]2 z2|
+z2 d4| \
+a2 c'4| \
+c'2 c'4| \
+a2 e'4-|
+e'2 d'2 c'b| \
+ag fe dc| \
+BA d2 _G2| \
+_G2 =G2 z2|
+D2 [dA_G]2 [dAG]2| \
+[dA_G]2 [dAG]2 [dAG]2| \
+[dA_G]2 [c'a]4| \
+[a_g]2 [c'a]4|
+[a_g]2 [dB=G]2 [dBG]2| \
+[dBG]2 [dBG]2 [dBG]2| \
+[dBG]2 [d'b]4| \
+[bg]2 [d'b]4|
+[bg]2 e'2 e'2| \
+e'2 e'2 e'2| \
+e'2 d'4| \
+g'2 a4|
+e'2 d'2 b2| \
+g2 c'2 a2| \
+_g2 =g2 d2| \
+b2 g2 z2|
+K:G % 1 sharps
+d2 d2 g2| \
+b2 [bd]4| \
+ag f2 a2| \
+c'2 c'4|
+af d2 a2| \
+c'2 c'4| \
+ba g2 b2| \
+d'2 d'4|
+bg [e'c']2 [e'c']2| \
+[e'c']2 [g'e']4| \
+[e'c']2 [d'b]2 [d'b]2| \
+[d'b]2 [g'b]4|
+[d'b]2 [c'a]2 [c'a]2| \
+d'c' [bg]2 [bg]2| \
+c'b [af]2 [d'af]2| \
+[d'af]2 [d'af]2 z2|
+DE FG AB| \
+cd ef ga| \
+bc' d'e' f'g'| \
+a'b' c''2 a'2|
+f'2 d''c'' b'a'| \
+g'f' e'd' c'b| \
+ag [b-g-]4| \
+[bg]2 [af]2 z2|
+d2 d2 g2| \
+b2 d'4| \
+bg e'4| \
+c'g g'4-|
+g'2 b2 b2| \
+d'b a2 a2| \
+c'a g2 [gdB]2| \
+[gdB]2 [gdB]2 
+V:2
+%%clef bass
+K:Bb % 2 flats
+z2 G,2- [DB,G,-]2| \
+[DB,G,]2 G,2- [DB,G,-]2| \
+[DB,G,]2 D,2- [C_G,D,-]2| \
+[C_G,D,]2 =G,2- [DB,G,-]2|
+[DB,G,]2 G,2- [DB,G,-]2| \
+[DB,G,]2 G,2- [DB,G,-]2| \
+[DB,G,]2 D,2 D2| \
+D2 D2 A,2|
+_G,2 D,2- [A,G,D,-]2| \
+[A,_G,D,]2 D,2- [A,G,D,-]2| \
+[A,_G,D,]2 C,2- [A,G,E,C,-]2| \
+[A,_G,E,C,]2 C,2- [A,G,E,C,-]2|
+[A,_G,E,C,]2 B,,2- [=G,D,B,,-]2| \
+[G,D,B,,]2 C,2- [A,E,C,-]2| \
+[A,E,C,]2 D,2- [CA,D,-]2| \
+[CA,D,]2 [B,G,]2 z2|
+z2 D,,2 _G,,2| \
+A,,2 D,2 A,,2| \
+_G,,2 D,,2 D,2| \
+D,2 D,2 D,2|
+D,2 D,,2 _G,,2| \
+A,,2 D,2 A,,2| \
+_G,,2 D,,2 D,2| \
+D,2 D,2 D,2|
+D,2 C,2- [A,_G,C,-]2| \
+[A,_G,C,]2 C,2- [A,G,C,-]2| \
+[A,_G,C,]2 B,,2- [=G,D,B,,-]2| \
+[G,D,B,,]2 C,2- [A,E,C,-]2|
+[A,E,C,]2 D,2- [B,G,D,-]2| \
+[B,G,D,]2 D,2- [CA,D,-]2| \
+[CA,D,]2 [B,G,]2 [B,G,]2| \
+[B,G,]2 [B,G,]2 z2|
+z2 
+K:G % 1 sharps
+[BG]2 [BG]2| \
+[BG]2 [BG]2 [BG]2| \
+[BG]2 [cAD]2 [cAD]2| \
+[cAD]2 [cAD]2 [cAD]2|
+[cAD]2 [cFD]2 [cFD]2| \
+[cFD]2 [cFD]2 [cFD]2| \
+[cFD]2 [BG]2 [BG]2| \
+[BG]2 [BG]2 [BG]2|
+[BG]2 C2- [GEC-]2| \
+[GEC]2 C2- [GEC-]2| \
+[GEC]2 G,2- [DB,G,-]2| \
+[DB,G,]2 G,2- [DB,G,-]2|
+[DB,G,]2 F,2- [DA,F,-]2| \
+[DA,F,]2 G,2- [DB,G,-]2| \
+[DB,G,]2 D,2 A,2| \
+F,2 D,2 z2|
+z2 D,2- [CA,D,-]2| \
+[CA,D,]2 D,2- [CA,D,-]2| \
+[CA,D,]2 D,2- [CA,D,-]2| \
+[CA,D,]2 D,2- [CA,D,-]2|
+[CA,D,]2 D,2- [B,G,D,-]2| \
+[B,G,D,]2 D,2- [B,G,D,-]2| \
+[B,G,D,]2 D,2 D2| \
+D2 D2 C2|
+A,2 [B,G,]2 [B,G,]2| \
+[B,G,]2 [B,G,]2 [B,G,]2| \
+[B,G,]2 [G,E,C,]2 [G,E,C,]2| \
+[G,E,C,]2 [G,E,C,]2 [G,E,C,]2|
+[G,E,C,]2 D,2- [B,G,D,-]2| \
+[B,G,D,]2 D,2- [CF,D,-]2| \
+[CF,D,]2 [B,G,]2 D2| \
+B,2 G,2 

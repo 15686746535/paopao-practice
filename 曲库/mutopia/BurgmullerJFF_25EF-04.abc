@@ -1,0 +1,77 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-04/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: La Petite Réunion
+C: J. F. F. Burgmüller
+M: 4/4
+L: 1/8
+Q:1/4=152
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+z8| \
+[fd][ec] [dB][cA] [BG][AF] [GE][FD]| \
+[EC]2 z6| \
+[fd][ec] [dB][cA] [BG][AF] [GE][FD]|
+[EC]2 z2 [cE]2 z2| \
+[DC]2 z2 [GB,]2 z2| \
+[e'c']2 [d'b][c'a] [c'a]2 [bg][af]| \
+[ge]2 [ec][fd] [ge]2 [fd][ec]|
+[ec]2 [dB][ec] [fd]2 [fd][ec]| \
+[dB][ec] [fd][ge] [af][bg] [c'a][d'b]| \
+[e'c']2 [d'b][c'a] [c'a]2 [bg][af]| \
+[ge]2 [ec][fd] [ge]2 [fd][ec]|
+[fA]2 [eG][dF] [dF]2 [cE][BD]| \
+[cE]2 ED C2 z2| \
+z8| \
+[BG]2 [cA][dB] [dB]2 [ec][fd]|
+[fd]4 z4| \
+[BG]2 [cA][dB] [dB]2 [ec][fd]| \
+[fd]2 [dB][ec] [f-d-]4| \
+[fd]2 [dB][ec] [f-d-]4|
+[fd]2 [dB][ec] [fd]2 [dB][ec]| \
+[fd]2 [fd][ge] [af][bg] [c'a][d'b]| \
+[e'c']2 [d'b][c'a] [c'a]2 [bg][af]| \
+[ge]2 [ec][fd] [ge]2 [fd][ec]|
+[ec]2 [dB][ec] [fd]2 [fd][ec]| \
+[dB][ec] [fd][ge] [af][bg] [c'a][d'b]| \
+[e'c']2 [d'b][c'a] [c'a]2 [bg][af]| \
+[ge]2 [ec][fd] [ge]2 [fd][ec]|
+[fA]2 [eG][dF] [dF]2 [cE][BD]| \
+[cE]2 ED C2 
+V:2
+%%MIDI program 0
+%%MIDI program 0
+G,2 A,B, C2 E,F,| \
+G,8| \
+G,2 A,B, CE, B,A,| \
+G,8|
+C,2 z2 A,2 z2| \
+F,2 z2 G,2 z2| \
+C,4 F,2 A,2| \
+C4 C,4|
+A,4 D,4| \
+G,8| \
+C,4 F,2 A,2| \
+C4 C,4|
+F,4 G,4| \
+C,2 G,F, [E,C,]2 z2| \
+[B,G,]2 [CA,][DB,] [DB,]2 [EC][FD]| \
+[FD]4 z4|
+[B,G,]2 [CA,][DB,] [DB,]2 [EC][FD]| \
+[FD]2 [EC][DB,] [DB,]2 [CA,][B,G,]| \
+[B,G,]2 z4 ^G2| \
+G2 z4 ^G,2|
+G,2 z6| \
+z8| \
+C,4 F,2 A,2| \
+C4 C,4|
+A,4 D,4| \
+G,8| \
+C,4 F,2 A,2| \
+C4 C,4|
+F,4 G,4| \
+C,2 G,F, [E,C,]2 

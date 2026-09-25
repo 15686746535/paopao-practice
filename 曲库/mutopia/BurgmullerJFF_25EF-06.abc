@@ -1,0 +1,49 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-06/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Progrès
+C: J. F. F. Burgmüller
+M: 4/4
+L: 1/8
+Q:1/4=132
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+EF/2G/2 A/2B/2c/2d/2 eB cA| \
+GA/2B/2 c/2d/2e/2f/2 g^f ge| \
+fd' db Bg fd| \
+[ec]8|
+EF/2G/2 A/2B/2c/2d/2 eB cA| \
+GA/2B/2 c/2d/2e/2f/2 g^f ge| \
+fd' db Bg fd| \
+cd/2e/2 f/2g/2a/2b/2 c'2 z2|
+zc' e'a c'e ac| \
+[fd]8| \
+zb d'g bd gB| \
+[ec]8|
+zE FE ^FE ^GE| \
+AE BE cE AE| \
+^Ge Be ce Ae| \
+ze2e2e2e|
+V:2
+%%MIDI program 0
+%%MIDI program 0
+C,D,/2E,/2 F,/2G,/2A,/2B,/2 C^G, A,F,| \
+E,F,/2G,/2 A,/2B,/2C/2D/2 E^D EC| \
+[DG,]8| \
+CE A,C G,C E,C|
+C,D,/2E,/2 F,/2G,/2A,/2B,/2 C^G, A,F,| \
+E,F,/2G,/2 A,/2B,/2C/2D/2 E^D EC| \
+[DG,]6 [B,G,]2| \
+CB,/2A,/2 G,/2F,/2E,/2D,/2 C,2 z2|
+[CA,]8| \
+zD FA, DF, A,D,| \
+[B,G,]8| \
+zC EG, CE, G,C,|
+E,4 z2 D2| \
+C2 ^G,2 A,2 C2| \
+B,2 ^G,2 A,2 C2| \
+E2 E2 E2 E2|

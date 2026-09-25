@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>泡泡练琴 · 曲谱练习</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="lib/abcjs-audio.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="logo">🎹 泡泡练琴</div>
+  <nav class="tabs">
+    <button class="tab active" data-tab="practice">练琴</button>
+    <button class="tab" data-tab="ai">AI 写谱</button>
+    <button class="tab" data-tab="help">帮助</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ============ 练琴 ============ -->
+  <section id="tab-practice" class="tab-panel active">
+    <aside class="sidebar">
+      <div class="panel">
+        <h3>导入曲谱</h3>
+        <button id="btnImportFile" class="btn wide">📁 导入文件（可多选）</button>
+        <p class="sub">支持 MusicXML / ABC / MIDI / MXL，批量导入</p>
+        <input type="file" id="fileInput" accept=".musicxml,.xml,.mxl,.abc,.txt,.mid,.midi" multiple hidden>
+      </div>
+      <div class="panel">
+        <h3>曲谱库</h3>
+        <ul id="libraryList" class="library"></ul>
+      </div>
+      <div class="panel">
+        <h3>☁ 云曲库（免费曲源）</h3>
+        <select id="cloudCat" class="cloud-cat">
+          <option value="kids">儿歌童谣</option>
+          <option value="classical">古典名曲</option>
+          <option value="folk">民谣传统</option>
+          <option value="etude">基础练习</option>
+        </select>
+        <ul id="cloudList" class="library cloud"></ul>
+      </div>
+      <div class="panel">
+        <h3>练习记录</h3>
+        <ul id="recordList" class="records"></ul>
+      </div>
+    </aside>
+
+    <div class="mainarea">
+      <div id="scoreTitle" class="score-title">未打开曲谱</div>
+
+      <div id="xmlWrap" class="paper-wrap hidden">
+        <div id="xmlPaper"></div>
+      </div>
+      <div id="abcWrap" class="paper-wrap hidden">
+        <div id="abcPaper"></div>
+        <div id="abcAudio" class="abc-audio"></div>
+      </div>
+      <div id="emptyHint" class="empty-hint">
+        <p>从左侧曲谱库打开一首，或导入 MusicXML / ABC 文件</p>
+        <p class="sub">去「AI 写谱」还能自动生成练习曲</p>
+      </div>
+
+      <div id="transportBar" class="transport hidden">
+        <button id="btnPlay" class="btn primary">▶ 播放</button>
+        <button id="btnPause" class="btn">⏸ 暂停</button>
+        <button id="btnStop" class="btn">⏹ 停止</button>
+
+        <label class="ctl">速度
+          <input type="range" id="speedRange" min="50" max="150" value="100" step="5">
+          <span id="speedVal">100%</span>
+        </label>
+
+        <label class="ctl chk"><input type="checkbox" id="chkLoop" checked> 循环</label>
+        <label class="ctl chk"><input type="checkbox" id="chkMetro"> 节拍器</label>
+
+        <span class="divider"></span>
+
+        <button id="btnBle" class="btn">🔗 连接钢琴</button>
+        <span id="bleStatus" class="ble-status off">未连接</span>
+        <button id="btnBleTest" class="btn" hidden>🔔 试音</button>
+        <button id="btnBleLight" class="btn" hidden>💡 试灯</button>
+        <label class="ctl chk" title="播放时同时把音符发给钢琴发声">
+          <input type="checkbox" id="chkSendPiano"> 琴发声</label>
+        <label class="ctl chk" title="播放时点亮钢琴上对应的琴键（跟灯）">
+          <input type="checkbox" id="chkLights"> 跟灯</label>
+      </div>
+
+      <div id="practiceBar" class="transport practice hidden">
+        <button id="btnPractice" class="btn primary">🎯 开始跟弹练习</button>
+        <label class="ctl">模式
+          <select id="practiceMode">
+            <option value="wait">等待模式（亮灯跟弹）</option>
+            <option value="follow">跟弹评分（同步播放）</option>
+          </select>
+        </label>
+        <label class="ctl">声部
+          <select id="practiceHands">
+            <option value="both">双手</option>
+            <option value="1">右手</option>
+            <option value="2">左手</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="practiceStatus" class="practice-status hidden">
+        <span id="prState" class="pr-state"></span>
+        <span id="prNext" class="pr-next"></span>
+        <span id="prCount" class="pr-count"></span>
+        <button id="btnPrSkip" class="btn">⏭ 跳过</button>
+        <button id="btnPrEnd" class="btn danger">⏹ 结束练习</button>
+      </div>
+
+      <div id="bleLog" class="ble-log" hidden></div>
+    </div>
+  </section>
+
+  <!-- ============ AI 写谱 ============ -->
+  <section id="tab-ai" class="tab-panel">
+    <div class="ai-layout">
+      <div class="panel ai-form">
+        <h3>① 离线算法生成（无需联网）</h3>
+        <label>风格
+          <select id="genStyle">
+            <option value="nursery">儿歌旋律</option>
+            <option value="pop">流行抒情</option>
+            <option value="etude">练习曲（琶音）</option>
+          </select>
+        </label>
+        <label>调性
+          <select id="genKey">
+            <option value="C">C 大调</option>
+            <option value="G">G 大调</option>
+            <option value="D">D 大调</option>
+            <option value="F">F 大调</option>
+            <option value="Am">A 小调</option>
+            <option value="Em">E 小调</option>
+          </select>
+        </label>
+        <label>拍号
+          <select id="genTime">
+            <option value="4/4">4/4</option>
+            <option value="3/4">3/4</option>
+          </select>
+        </label>
+        <label>长度
+          <select id="genBars">
+            <option value="8">8 小节</option>
+            <option value="16" selected>16 小节</option>
+            <option value="32">32 小节</option>
+          </select>
+        </label>
+        <label>难度
+          <select id="genDiff">
+            <option value="1">入门（全四分）</option>
+            <option value="2" selected>进阶（加八分）</option>
+            <option value="3">挑战（加密节奏）</option>
+          </select>
+        </label>
+        <button id="btnGenLocal" class="btn primary wide">🎲 生成练习曲</button>
+
+        <hr>
+        <h3>② 大模型写谱（可选）</h3>
+        <p class="sub">填入你自己的 API Key（OpenAI 兼容接口，如智谱 GLM）</p>
+        <label>接口地址
+          <input type="text" id="aiBase" value="https://open.bigmodel.cn/api/paas/v4/chat/completions">
+        </label>
+        <label>模型
+          <input type="text" id="aiModel" value="glm-4-flash">
+        </label>
+        <label>API Key
+          <input type="password" id="aiKey" placeholder="sk-...">
+        </label>
+        <label>要求描述
+          <textarea id="aiPrompt" rows="3" placeholder="例如：写一段温柔安静的儿歌，适合初学者，速度慢一点"></textarea>
+        </label>
+        <button id="btnGenAI" class="btn wide">🤖 AI 生成</button>
+      </div>
+
+      <div class="ai-preview">
+        <div class="panel-head">
+          <h3>预览</h3>
+          <div>
+            <button id="btnAiUse" class="btn" disabled>✓ 用作练习曲谱</button>
+            <button id="btnAiSave" class="btn" disabled>💾 存入曲谱库</button>
+          </div>
+        </div>
+        <div id="aiStatus" class="ai-status" hidden></div>
+        <div id="aiPaper" class="paper-wrap-scroll"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 帮助 ============ -->
+  <section id="tab-help" class="tab-panel">
+    <div class="help">
+      <h2>使用说明</h2>
+      <h3>导入曲谱</h3>
+      <ul>
+        <li><b>MusicXML</b>（.musicxml / .xml）：MuseScore、西贝柳斯、Overture 等软件都能导出，这是五线谱的通用交换格式。</li>
+        <li><b>ABC 记谱</b>（.abc / .txt）：纯文本记谱法，AI 生成也用它。</li>
+      </ul>
+      <h3>连接钢琴</h3>
+      <ul>
+        <li>需要 <b>Chrome / Edge</b> 浏览器，通过 <code>http://127.0.0.1:8321</code> 访问（Web Bluetooth 安全要求）。</li>
+        <li>点击「连接钢琴」，在弹窗中选择你的琴（名称以 MP / POP Keyboard / PianoProdigy / GPP / Xkey 开头）。</li>
+        <li>协议已按泡泡钢琴 App 逆向：服务 <code>03B80E5A-…</code>，特征 <code>7772E5DB-…</code>，连接后自动发送控制权握手。</li>
+        <li>测试时请先断开手机 App 与琴的连接，琴的 BLE 同一时间一般只接受一个连接。</li>
+      </ul>
+      <h3>练琴</h3>
+      <ul>
+        <li>播放时曲谱上的音符会实时高亮；速度 50%~150% 可调，可循环。</li>
+        <li>连接钢琴后勾选「琴发声」，播放的音符由钢琴音源演奏；勾选「跟灯」会在琴键上点亮当前音。</li>
+        <li>节拍器仅对 MusicXML 曲谱生效（ABC 使用自带合成器）。</li>
+      </ul>
+      <h3>跟弹练习（三大模式核心）</h3>
+      <ul>
+        <li><b>等待模式</b>：不播放、不限时。琴键上<b>蓝灯亮哪里就弹哪里</b>，弹对熄灭跳下一组；弹错那颗键闪<b>红灯</b>提示。适合初学抠谱。</li>
+        <li><b>跟弹评分</b>：手机播放曲谱（可开跟灯引导），你跟着一起弹；每个音判定命中/漏弹/错音，练完给出<b>正确率与平均反应延迟</b>。适合提速与完整度训练。</li>
+        <li><b>声部筛选</b>：选「右手」只考核右手旋律，左手自由伴奏不计错；「左手」反之。适合分手练。</li>
+        <li>错音即时红灯反馈；和弦要按齐所有音才算过。<b>练习记录</b>自动保存在本机，可追踪正确率变化。</li>
+        <li>速度滑杆对两种模式都生效：等待模式控制的是「跟弹评分」的播放速度，等待模式本身不限速。</li>
+      </ul>
+      <h3>曲库批量导入</h3>
+      <ul>
+        <li>「导入文件」支持一次多选：<b>.abc / .txt</b>（ABC 记谱）、<b>.musicxml / .xml</b>、<b>.mxl</b>（MuseScore 压缩格式）、<b>.mid / .midi</b>（自动转成可练的谱面）。</li>
+        <li>MIDI 转 ABC 按 1/16 音符量化，节奏自由的 MIDI 转换后可能需要微调速度。</li>
+        <li><b>免费正版曲谱来源</b>（公有领域/开放授权，可批量下载后再导入）：
+          <ul>
+            <li><a href="https://www.mutopiaproject.org" target="_blank" rel="noopener">Mutopia Project</a> — 公有领域古典曲，GitHub 仓库可整包 clone；</li>
+            <li><a href="https://thesession.org" target="_blank" rel="noopener">The Session</a> — 上万首传统曲调 ABC，带 JSON API 可批量拉取；</li>
+            <li><a href="https://imslp.org" target="_blank" rel="noopener">IMSLP</a> — 公有领域乐谱图书馆（多为 PDF 扫描，少数 MusicXML）；</li>
+            <li><a href="https://musescore.com" target="_blank" rel="noopener">MuseScore.com</a> — 社区谱面，筛选「公有领域」后下载 .mxl 直接导入；</li>
+            <li><a href="https://bitmidi.com" target="_blank" rel="noopener">BitMidi</a> 等免费 MIDI 站 — 配合本应用的 MIDI 导入转谱。</li>
+          </ul>
+        </li>
+        <li>注意版权：受版权保护的流行歌曲请勿批量分发，自用练习请遵守来源站点的授权条款。</li>
+      </ul>
+      <h3>AI 写谱</h3>
+      <ul>
+        <li>「离线算法生成」完全本地运行，按风格/调性/难度随机作曲，适合每天练新的。</li>
+        <li>「大模型写谱」调用你自己的 OpenAI 兼容接口；浏览器直连失败时会自动走本地代理（serve.py）。</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<div id="prResult" class="modal hidden">
+  <div class="modal-card">
+    <h3>练习结果<span id="prScoreName" class="pr-score-name"></span></h3>
+    <div id="prScore" class="pr-score">0</div>
+    <div id="prSummary" class="pr-summary"></div>
+    <div id="prWrongNotes" class="pr-wrong"></div>
+    <div class="modal-actions">
+      <button id="btnPrAgain" class="btn primary">🔄 再练一次</button>
+      <button id="btnPrClose" class="btn">关闭</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="lib/osmd.min.js"></script>
+<script>
+  // OSMD 1.9.x 的浏览器全局是小写 opensheetmusicdisplay，统一成类名
+  if (!window.OpenSheetMusicDisplay && window.opensheetmusicdisplay) {
+    window.OpenSheetMusicDisplay = window.opensheetmusicdisplay.OpenSheetMusicDisplay || window.opensheetmusicdisplay;
+  }
+</script>
+<script src="lib/abcjs-basic-min.js"></script>
+<script src="js/core/sequence.js"></script>
+<script src="js/core/practice.js"></script>
+<script src="js/core/player.js"></script>
+<script src="js/core/mxl.js"></script>
+<script src="js/core/records.js"></script>
+<script src="js/ble.js"></script>
+<script src="js/synth.js"></script>
+<script src="js/library.js"></script>
+<script src="js/generator.js"></script>
+<script src="js/ai.js"></script>
+<script src="js/abcplayer.js"></script>
+<script src="js/xmlplayer.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

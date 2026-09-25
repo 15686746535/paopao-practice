@@ -1,0 +1,76 @@
+X: 0
+T: A Man's a Man for A' That
+T: 8x32S3
+B: RSCDS 30-5
+O: RSCDS 30-5
+K:
+
+
+X: 1
+P: a Man's a Man for A' That
+B: RSCDS 30-5
+R: strathspey
+M: C
+L: 1/4
+K: D
+"A7"A/B/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"fe dA | "G"B2 B"A7"f/e/ \
+| "D"d>e dA | "G"B>d "A7"eg | "D"f>e "G"dB | "A7"A2 A |]
+g \
+| "D"f>g af | "A7"g>f e>g | "D7"f>g ad | "G"B2 B"(A7)"g \
+| "D"f>g af/a/ | "Em"be "A"e>f | "Bm"d>e "G"e/d/c/B/ | "D"A2 "(A7)"A |]
+
+
+X: 2
+P: Will Ye No' Come Back Again
+O: Trad
+R: air
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/4
+K: G
+[|"G"G>A BG | "C"E<G "G"D2 | "G"d>e "Bm"dB | "A7"B/A/G "D"A2 \
+| "G"G>A BG | "C"E<G "G"D2 | "G"d>e "Bm"dB | "D7"A>G "G"G2 |]
+[| "G"Bd dd |    Bd "G7"d2 | "C"g>f "Bm"ed | "Am"e/d/c/B/ "D7"A2 \
+| "G"B<B AG | "C"E<G "G"D2 | "C"e>d "G"dB  | "D7"A>G "G"G2 |]
+
+
+X: 3
+P: Sarona
+C:J.S.Skinner
+R:Air/Strathspey
+S:Anselm Lingnau <lingnau:tm.informatik.uni-frankfurt.DE>
+D: Album                Musician        Track Tune
+D: Dancing Forth        Gordon Shand      14   3
+D: Highlander, Vol 2    Neil Barron        6   2
+D: Highlander, Vol 3    David Cunningham   6   8
+D: Highlander, Vol 5    Iain MacPhail      6   6
+D: Scottish Dance Music Music Makars       4   1 (Lead Tune!)
+D: Special requests 2   Colin Dewar       12   2
+M:4/4
+L:1/8
+K:D
+|:\
+"D"F3 E D2 F2 | "F#m"A3 G F2 A2 |\
+[1 "G"d3 c B2 A2 | "D"dA GF "A7"F2 E2 :|\
+[2 "G"d3 c "D"dA GF | "A7"F2 E2 "D"D4 ||
+"D"A2 d2 "A7"c2 de | "Bm"d3 A G2 F2 |\
+"Em"EFGA "(Bm)"BcdA | "G"Bc/d/ GF "A7"F2 E2 |
+"D"F3 E D2 F2 | "F#m"A3 G F2 A2 |\
+"G(Bm)"d3 c "D(Em)"dA GF | "A7"F2 E2 "D"D4 |]
+
+
+X: 4
+P: As Tears Go By
+C: Sir Mick Jagger, Keith Richards
+M: 4/4
+L: 1/8
+K: G
+%%staffsep 40
+|: "G"z2G2 A2B2 | "A"A2A2 E2G2 | "C"G4- GEG2 | "D"F8 \
+|  "G"z2G2 A2B2 | "A"A3A  E2G2 | "C"G4- GEG2 | "D"F8 |
+|1 "C"z2cc c2B2 | "D"A3A GA3 | "G"z2B2 B2A2 | "Em"G E7 \
+|  "C"z2e2 e2e2 | e3E F2G2 | "D"A4- AGAG | F4 z4 :|
+|2 "C"z2cc c2B2 | "D"A3A GA3 | "G"z2B2 B2AG | "Em"B3B AG3 \
+|  "C"z2e2 e2e2 | e3E F2G2 | "D"A4- AGAG | F4 z4 |]
+

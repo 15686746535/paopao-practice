@@ -1,0 +1,43 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV347/bwv347/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Ich dank dir, lieber Herre
+C: Johann Sebastian Bach
+M: 4/4
+L: 1/8
+Q:1/4=72
+K:A % 3 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+[AE]2 [AF]2 [AE]2 [AF]2| \
+[BF]2 [=GE]2 [F^D]2 [EB,]2| \
+[BG]2 [cA]2 [B-G][BF] [AE-]2| \
+[GE-][FE-] [GE]2 [F^D]2 [EB,]2|
+[e-c][eB] [dA]2 [cA]2 [BG]2| \
+A-[A=G] [AF][B^G] [cA]2 [BG]2| \
+[c^A]2 [d-B][d=A] [c=G]2 [B-F][BE]| \
+[^AF]2 [BF]6|
+E-[ED] [AC]2 [BD]2 [cE]2| \
+[d-F][dG] [eA-]2 [dA-][cA] [BE]2| \
+[dB]2 [c-A][cG] [BF]2 [e-E]2| \
+[eF][dG] [cA-][BA] A-[BA] [cA]2|
+[BG]2 [AE]6|
+V:2
+%%MIDI program 0
+%%MIDI program 0
+[C-A,][CG,] [CF,]2 [CC,-][B,C,] [A,D,-][G,D,]| \
+[F,^D,]2 [B,-E,]2 [B,B,,-][A,B,,] [G,E,,]2| \
+[EE,]2 [EA,]2 [^DB,]2 C2-| \
+[C-B,][CA,] B,2- [B,B,,-][A,B,,] [G,E,]2|
+[G,C,]2 [A,F,][B,G,] [CA,-][DA,] [EE,]2| \
+[E-C,][EA,,] [DD,]2 [E-C,][ED,] [EE,]2| \
+[EC,]2 [FB,,-][B,-B,,] [B,C,-][^A,C,] [B,-D,][B,=G,]| \
+[CF,]2 [DB,,]6|
+[G,C,]2 [A,F,]2 [G,E,][F,D,] [E,C,-][EC,]| \
+[DB,,]2 [CA,,][DB,,] [EC,][FD,] [GE,]2| \
+[FB,,]2 [FF,][EG,] [DA,-][CA,] [B,-G,][B,E,]| \
+[CA,-][DA,-] [E-A,][E-G,] [EF,-][DF,] [CE,][FD,]|
+[B,E,-][EE,-]/2[DE,]/2 [CA,,]6|

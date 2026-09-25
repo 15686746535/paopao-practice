@@ -1,0 +1,79 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-18/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Inquiétude
+C: J. F. F. Burgmüller
+M: 2/4
+L: 1/16
+Q:1/4=138
+K:G % 1 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+zg fe ze dc| \
+zB ^AB zB cB| \
+zg fe ze dc| \
+zB ^AB zB cB|
+zB gf zB gf| \
+zB fe zB fe| \
+zd ed z^c dc| \
+zB ^AB b2 z2|
+zb ag zg fe| \
+zd ^cd zd ed| \
+zb ag zg fe| \
+zd ^cd zd ed|
+zc ba zc ba| \
+zB ag zB ag| \
+zB gf zB gf| \
+zB fe zB fe|
+zg fe ze dc| \
+zB ^AB zB cB| \
+zg fe ze dc| \
+zB ^AB zB cB|
+zB gf zB gf| \
+zB fe zB fe| \
+zB cB zF GF| \
+zE ^DE e2 z2|
+zE FE zC DC| \
+zA, B,A, zB, CB,| \
+zE FE zC DC| \
+zA, B,A, zB, CB,|
+E4 zB cB| \
+e2 z3b c'b| \
+e'2 
+V:2
+%%MIDI program 0
+%%MIDI program 0
+[B,G,E,]2 z2 [CA,E,]2 z2| \
+[B,G,E,]2 z2 [B,G,E,]2 z2| \
+[B,G,E,]2 z2 [CA,E,]2 z2| \
+[B,G,E,]2 z2 [B,G,E,]2 z2|
+[B,A,^D,]2 z2 [B,A,D,]2 z2| \
+[B,G,E,]2 z2 [B,G,E,]2 z2| \
+[B,F,]2 z2 [E^A,F,]4| \
+[DB,]2 z2 B,,2 z2|
+[DB,G,]2 z2 [^C^A,G,]2 z2| \
+[DB,G,]2 z2 [DB,G,]2 z2| \
+[DB,G,]2 z2 [^C^A,G,]2 z2| \
+[DB,G,]2 z2 [DB,G,]2 z2|
+[DCF,]2 z2 [DCF,]2 z2| \
+[DB,G,]2 z2 [DB,G,]2 z2| \
+[A^DB,]2 z2 [ADB,]2 z2| \
+[GE]2 z2 [GE]2 z2|
+[B,G,E,]2 z2 [CA,E,]2 z2| \
+[B,G,E,]2 z2 [B,G,E,]2 z2| \
+[B,G,E,]2 z2 [CA,E,]2 z2| \
+[B,G,E,]2 z2 [B,G,E,]2 z2|
+[B,A,^D,]2 z2 [B,A,D,]2 z2| \
+[B,G,E,]2 z2 [B,G,E,]2 z2| \
+[A,^D,B,,]2 z2 [A,D,B,,]2 z2| \
+[G,E,]2 z2 E,,2 z2|
+[G,E,]2 z2 C,4| \
+A,,4 B,,4| \
+E,4 C,4| \
+A,,4 B,,4|
+E,4 z4| \
+[B,G,E,]2 z6| \
+E,,2 

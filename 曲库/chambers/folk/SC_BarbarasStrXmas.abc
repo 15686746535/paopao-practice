@@ -1,0 +1,77 @@
+X: 0
+T: Barbara's Strathspey
+T: 8x32S3
+O: RSCDS 46-4
+B: RSCDS 46-4
+R: strathspey
+N: The Barbara in question is Barbara Cook of the Chicago branch.   She  is  a
+N: member  of  their  demo  team, but started out as an English dancer, so the
+N: dance contains quite a few figures which are reminiscent of English dance.
+K:
+
+X: 1
+P: Barbara's Strathspey
+C: Mady Newfield
+R: strathspey
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+B: RSCDS 46-4
+M: C
+L: 1/16
+K: F
+D3E \
+| "Dm"F3E F3d "F"c3A F3A | "C"G3E C3E G4 "A7"A3G \
+| "Dm(Bb)"F3G F3D "Gm"GF3 ED3 | "A"A4 A,4 "c#/A"[A4E4] "Dm"[F3D4]G |
+| "F"A3F A,3A "C"G4 "A(m)"A3E | "Dm"F3G A3F "Gm"B4 A3G \
+| "F"A3F c3A "C"G4 E3C | "Bb"DF3 "C7"F3G "F"F4 F3G |]
+[| "F"A3F C3A "C"[G4E4] "c#/A"A3E | "Dm"F3D A,3F "A"[E4A,4] "Dm"[F3A,4]E \
+| "Bb"DF3 F3D "F"C3F Ac3 | "Gm"c3B A3B "C7"G4 F3G |
+| "F"A3F c3A "C"G4 F3E | "Dm"F3E D3G "Bb"F4 E3D \
+| "F"C3A c3A "C"G4 "(Am)"E3C | "Bb"DF3 "C7"F3G "F"[F4A,4] |]
+
+X: 2
+P: Calum's Road
+C:Donald Shaw
+Z:2009 John Chambers <jc:trillian.mit.edu>
+N:Written in tribute to Malcolm "Calum" MacLeod, who single-handedly built
+N:a two-mile road from his croft on the Isle of Raasay to the nearby town
+N:of Fladda when the local council wouldn't pay to have it built.
+S:http://www.youtube.com/watch?v=JLRTBs2iC1w 2009-3-26 (Capercaillie)
+%:http/www.ibiblio.org/fiddlers/CAIT_CAMER.htm 2009-3-26
+M:4/4
+L:1/8
+K:D
+|: "D"D2 A>F A4 | "G"B<d d>c "D"B>A F<A | "G"B2 d>D "Bm"F2 E<D |1 "Em"B,<D D>F "A7"E4 :|2 "Em"B,<D "A7"D>E "D"D2 F<A |]
+[|"G"B2 d>c "Em"B4 | "A7"A>B A<E "D"F2- F>A \
+| "G"B2 d>c "Em"B2- BA/B/ | "Bm"d2 de "D"(3fed (3dcA |
+| "G"B2 d>c "Em"B4 | "A7"A>B A<E "D"F2- F>A \
+| "G"B2 d>D "Bm"F2 E<D | "Em"B,<D "A7"D>E "D"D4 |]
+
+X: 3
+P: The Snow Lay on the Ground (strathspey)
+R: strathspey
+M: C
+L: 1/16
+K: G
+D2 \
+| "G"B3A G3F G4 D4 | "C"c4 "G"B4 "D7"A4- A3A \
+| "D7"G3F E3F D4 c4 | "G"B4 "D7"A4 "G"G4- G2 :|
+|: B2 \
+| "G"d3c B3A B4 d4 | "Am"c4 "E7"B4 "Am"c4- c3c \
+| "Am"c3B A3G "D7"A4 c4 | "G"B4 "D7"A4 "G"G4- G2 :|
+
+X: 4
+P: Masters in This Hall (strathspey) (The Female Saylor)
+O: Playford 1706
+R: strathspey
+Z: 2010 by John Chambers <jc:trillian.mit.edu>
+N: Playford Ball (in jig time)
+N: Barnes
+N: Recu\"eil de Contredances (Feuillet)
+M: C
+L: 1/16
+K: Dm
+|: "Dm"DA3 A3G  F4 "Gm"G4 |  "A7"A3G F3E F3E D3^C \
+|  "Dm"DA3 A3G  F4 "Gm"G4 |  "A7"A3G FE3  "Dm"D8 :|
+|: "A7"f3e d^c3 "Dm"d4     A4 |  "A7"f3e d^c3 "D7"d4     A3=c \
+|  "Gm"B3G "A7"A3E "Dm"FD3   F3G |1 "A7"AA3 ^c3c "Dm"d4 d3e :|2 "A7"AA3 F3E "Dm"D8 |]
+

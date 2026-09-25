@@ -1,0 +1,45 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV117a/BWV-117a/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Polonaise in F major
+C: Johann Sebastian Bach
+M: 3/4
+L: 1/8
+Q:1/4=60
+K:F % 1 flats
+V:1
+ff/2g/2 ag/2a/2 b/2a/2g/2f/2| \
+gg/2a/2 fe/2d/2 ec| \
+[AF]2 [dF]2 [cF]2| \
+Bc/2d/2 BA/2G/2 AF|
+AB/2c/2 dd/2>e/2 c2| \
+Bc/2d/2 BA/2G/2 AF| \
+ff/2e/2 dc BA| \
+G/2B/2A/2>G/2 F4|
+aa/2g/2 ag/2a/2 b/2a/2g/2f/2| \
+gg/2f/2 gf/2g/2 a/2g/2f/2e/2| \
+aa/2g/2 fe dc| \
+=B/2c/2d/2B/2 c2 _B2|
+Ac cB/2>c/2 d2| \
+GB BA/2>B/2 c2| \
+ff/2e/2 dc BA| \
+G/2B/2A/2>G/2 F4|
+V:2
+[A,F,-][B,F,] [CF,]2 [CF,]2| \
+[CE,]2 [=B,D,]2 [CC,]2| \
+D,/2_E,/2D,/2C,/2 B,,B, A,A,,| \
+G,,F, E,C, F,/2C,/2B,,/2C,/2|
+[F,F,,]2 [F,B,,]2 [F,A,,]2| \
+[F,D,]2 [G,E,]2 F,/2E,/2F,/2G,/2| \
+A,F, B,C DB,| \
+CC, F,C,/2A,,/2 F,,2|
+[CF,]2 [CF,]2 [CF,]2| \
+[CE,]2 [CG,E,C,]2 [CE,]2| \
+[CF,]2 [CA,]2 [A,F,]2| \
+G,G,, C,C,, D,,E,,|
+F,,F,/2G,/2 A,F, B,B,,| \
+C,D, C,B,, A,,G,,| \
+A,,F,, B,,C, D,B,,| \
+C,C,, F,,A,,/2C,/2 F,2|

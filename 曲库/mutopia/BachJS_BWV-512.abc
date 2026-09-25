@@ -1,0 +1,33 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV512/BWV-512/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Chorale setting "Gib dich zufrieden und sei stille" in E minor
+C: Johann Sebastian Bach
+M: 4/4
+L: 1/8
+Q:1/4=60
+K:G % 1 sharps
+V:1
+BG2A B/2c/2B3| \
+AG FF G/2A/2G FE-| \
+Ec BB2e dd-| \
+dF cB AA2G|
+zB A2 BA/2G/2 A2| \
+Bc dc cB cB| \
+Ac F2 e^d e/2f/2g| \
+cB Ag fe ^d^c|
+Be dc BA B^D| \
+EA G2 FE E2-|E
+V:2
+E,,E, ^D,E, F,G, F,G,| \
+A,B, A,B, B,,E, B,,G,,| \
+B,,E,, E,2 D,C, C2| \
+B,A,2G,2D,2G,,|
+zG, F,D, G,G,, D,E,| \
+D,C, B,,2 E,2 A,,2-| \
+A,,A, B,A, G,F, G,F,| \
+E,D, C,B,, A,,2 B,,2-|
+B,,G, A,2 F,2 G,B,| \
+CA, B,A, B,B,, E,2-|E,

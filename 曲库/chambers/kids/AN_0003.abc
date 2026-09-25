@@ -1,0 +1,14 @@
+
+X:4
+T:11 Nursery rhymes
+F:http://www.vwml.org/record/SBG/3/
+Z:Original Sibelius transcriptions by M. & S. Graebe
+M:2/4
+I:linebreak $
+K:D
+V:1 treble nm="P1"
+V:1
+ F F F F | F E F G | A2 B2 | A3 F | F F F F | F E F G | BA GF |$ E3 F | F F F E | F E F G | %10
+ A F G A | B3 A/ A/ | B d c B | A F D F | F2 E2 |$ D3 z | A2 A2 | A3 z | B2 B2 | B3 B/ A/ | %20
+ B d c B | A F D F | E2 D2 | D3 z | %24
+

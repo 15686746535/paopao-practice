@@ -1,0 +1,59 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BachJS/BWV510/BWV-510/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Chorale setting "Gib dich zufrieden und sei stille" in F major
+C: Johann Sebastian Bach
+M: 2/2
+L: 1/8
+Q:1/4=240
+K:F % 1 flats
+V:1
+F4 A4| \
+B4 c4| \
+A4 d4| \
+c4 B4-|
+B4 [A-F-C-]4| \
+[AFC]4 f4| \
+e4 d4| \
+c4 =B4|
+c2 d2 d4-| \
+d4 [c-G-E-]4| \
+[cGE]4 d4| \
+d4 d4|
+B2 c2 d4| \
+c2 d2 B4| \
+A8| \
+[GD=B,]8|
+g4 g2 g2| \
+e2 f2 g4| \
+f4 e4| \
+d8|
+[cGE]8| \
+c4 d2 G2| \
+G4 [FC]4|
+V:2
+z4 F,4| \
+D,4 A,,4| \
+F,,4 B,,4| \
+A,,4 G,,4|
+C,4 [F,-F,,-]4| \
+[F,F,,]4 A,4| \
+G,4 F,4-| \
+F,8|
+E,2 F,2 G,4| \
+G,,4 [C,-C,,-]4| \
+[C,C,,]4 B,4| \
+B,,4 B,4|
+G,,2 A,,2 B,,4| \
+E,2 _G,2 =G,2 C,2| \
+D,4 D,,4| \
+[G,G,,]8|
+G,,4 =B,,2 G,,2| \
+C,2 D,2 E,2 C,2| \
+D,2 =B,,2 C,2 F,,2| \
+G,4 G,,4|
+[C,C,,]8| \
+A,,4 B,,4| \
+C,2 C,,2 [F,F,,]4|

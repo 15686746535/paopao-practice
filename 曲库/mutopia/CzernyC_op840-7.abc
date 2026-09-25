@@ -1,0 +1,131 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/CzernyC/O840/op840-7/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: 50 Melodische Übungsstücke, No. 7
+C: Carl Czerny
+M: 2/4
+L: 1/16
+Q:1/4=140
+K:Bb % 2 flats
+V:1
+K:G % 1 sharps
+e2 g2 d2 b2| \
+g2 f2 a2 d2| \
+f2 g3/2a/2 gf g2| \
+b2 d'2 d'2 d'2|
+d'2 c'2 d'e' d'2| \
+c'2 b2 g'2 d'2| \
+b2 a2 e'2 d'c'| \
+ba gf ag f2|
+d2 g2 d2 b2| \
+g2 f2 a2 d2| \
+f2 g3/2a/2 gf g2| \
+b2 d'2 d'2 d'2|
+d'2 d'f' a'g' f'e'| \
+d'c' b2 g'2 a2| \
+e'2 g2 g3/2b/2 af| \
+ab g2 b2 g2|
+d'^c' e'2 d'2 c'2| \
+b2 a4 d'^c'| \
+ba g2 ab a2| \
+g2 =f2 ^f2 f2-|
+f2 z2 d'^c' ba| \
+gf ^d2 e2 g2| \
+b2 d2 e/2d/2^c/2d/2 f2| \
+e2 d2 d'2 c'2|
+a2 g2 d2 b2| \
+g2 f2 a2 d2| \
+f2 g3/2a/2 gf g2| \
+b2 d'2 d'2 d'2|
+d'2 c'2 a'g' f'e'| \
+d'c' ba gf ed| \
+cB A2 e2 d2| \
+F2 G4 z2|
+K:Bb % 2 flats
+D2- [BD]2 [BD]2 z2| \
+[AEC]2 z2 [GDB,]2 z2| \
+[_GDA,]2 z2 [d=G]2 z2| \
+[cAD]2 z2 [cAD]2 z2|
+[A_GD]2 =G2 g2 f2| \
+e2 e2 d2 c2| \
+B2 B2 A2 B2| \
+G2 B4 A2|
+d2 d3e/2f/2 e2| \
+d4<c4| \
+d2 e3f/2g/2 f2| \
+e4<d4|
+d'2 e'2 d'2 d'2| \
+d'2 d'4 c'b| \
+ag _g2 =g2 _g2| \
+g2 a4 z2|
+D2- [BD]2 [BD]2 z2| \
+[AEC]2 z2 [GDB,]2 z2| \
+[_GDA,]2 z2 [d=G]2 z2| \
+[cAD]2 z2 [BGD]2 z2|
+[A_G]2 =G2 g2 f2| \
+e2 e2 d2 c2| \
+B2 B2 A2 c2| \
+_G2 A4 =G2|
+V:2
+%%clef bass
+K:G % 1 sharps
+z2 [GB,]4 z2| \
+[GB,]2 [AD]4 z2| \
+[AD]2 [BG]4 z2| \
+[BG]2 [A-D-]6|
+[AD]2 [DA,F,]4 z2| \
+[DA,F,]2 [DB,G,]4 z2| \
+z2 [E,-C,-]4 [A,-E,-C,-]2| \
+[A,E,C,]2 [B,D,-]4 [A,D,]2|
+z2 [GB,]4 z2| \
+[GB,]2 [AD]4 z2| \
+[AD]2 [BG]4 z2| \
+[BG]2 [A-D-]6|
+[AD]2 [DA,F,]6| \
+[DA,F,]2 [DB,G,]2 z2 [AEC]2| \
+z2 [BGD]4 [c-F-D-]2| \
+[cFD]2 [BG-]2 [dG-]2 [BG]2|
+z2 G,2- [DB,G,-]2 [DB,G,-]2| \
+[DB,G,]2 F,2- [DA,F,-]2 [DA,F,-]2| \
+[DA,F,]2 E,2- [^CA,E,-]2 [CA,E,-]2| \
+[^CA,E,]2 D,2 [DA,]2 [DA,]2|
+[DA,]2 F,2- [DA,F,-]2 [DA,F,-]2| \
+[DA,F,]2 G,2- [EB,G,-]2 [EB,G,-]2| \
+[EB,G,]2 A,2- [FDA,]2 A,2-| \
+[G^CA,]2 [FD]4 z2|
+z2 [GB,]4 z2| \
+[GB,]2 [AD]4 z2| \
+[AD]2 [BG]4 z2| \
+[BG]2 [A-D-]6|
+[AD]2 [D-A,-F,-]6| \
+[DA,F,]2 [DB,G,]4 z2| \
+z2 [A,E,C,]4 [C-A,-D,-]2| \
+[CA,D,]2 [B,G,]2 D,2 G,,2|
+z2 
+K:Bb % 2 flats
+G,,4 C,2-| \
+C,2 D,4 C,2-| \
+C,2 B,,4 _G,2-| \
+_G,2 =G,4 D,2-|
+D,2 [G,B,,]4 [G,-C,-]2| \
+[G,C,]2 [G,B,,]4 [G,-E,-]2| \
+[G,E,]2 [E,C,]4 [=E,-_D,-]2| \
+[=E,_D,]2 [G,=D,-]4 [_G,D,]2|
+z2 B,2- [FB,-]2 [FB,-]2| \
+[FB,]2 A,2- [FA,-]2 [FA,-]2| \
+[FA,]2 A,2- [FA,-]2 [FA,-]2| \
+[FA,]2 B,2- [FB,-]2 [FB,-]2|
+[FB,]2 A,2- [_GCA,-]2 [GCA,-]2| \
+[_GCA,]2 =G,2- [DB,G,-]2 [DB,G,-]2| \
+[DB,G,]2 E,2- [_DG,E,-]2 [DG,E,-]2| \
+[_DG,E,]2 [_G,=D,]2 D2 C2|
+A,2 G,,4 C,2-| \
+C,2 D,4 C,2-| \
+C,2 B,,4 _G,,2-| \
+_G,,2 =G,,4 D,2-|
+[CD,]2 E,2 z2 [G,-C,-]2| \
+[G,C,]2 [A,_G,]4 [D-=G,-]2| \
+[DG,]2 [E,C,]4 [C-A,-D,-]2| \
+[CA,D,]2 [CG,-]4 [B,G,]2|

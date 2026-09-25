@@ -1,0 +1,45 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/MozartWA/KV453a/k453a/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Marche funebre KV 453a
+C: Wolfgang Amadeus Mozart
+M: 2/2
+L: 1/8
+Q:1/4=60
+K:Eb % 3 flats
+V:1
+[cGEC]2 [GEC]3/2[GEC]/2 [GEC]2 [GFD]2| \
+[GEC]2 [eG][d_G] [fA][e=G] [dF][cE]| \
+[gd=B]2 [GD]3/2[GD]/2 [GE]2 [_GC]2| \
+[G=B,]2 [dB][ec] [ge][fd] [ec][dB]|
+[ec][eG]2[eG]2[eA]2[e=A]| \
+[dB][ad]2[ae]2[a=e]2[af]| \
+[aB-][gB] z[fA] [fA][eG] z[dF]| \
+[dAF]4 [eBG]2 z2|
+[gd=B]2 [GDB,]3/2[GDB,]/2 [AEC]4| \
+[gd=B]2 [BFD]3/2[BFD]/2 [cGE]4| \
+G2 [g-e-G]3/2[ge-G]/2 [_ge=G]2 [f-d-G]3/2[fdG]/2| \
+[=e_dG]2 [_e-c-_G]3/2[ecG]/2 [=d=B=G]2 z2|
+[c'gc]2 [cGE]3/2[cGE]/2 [cGE]2 [cGE]2| \
+[_dAD]2 [d'f]2 [f'a]2 [=b=d]2| \
+d'c' z[af] [af][ge] z[=BD]| \
+[d=BG-F]4 [cGE]2 
+V:2
+[C,C,,]2 [C,C,,]2 [E,E,,]2 [B,,B,,,]2| \
+[C,C,,]2 z6| \
+[G,,G,,,]2 [=B,,B,,,]2 [C,C,,]2 [A,,A,,,]2| \
+[G,,G,,,]2 z6|
+[C,C,,]2 [C,C,,]2 [=B,,B,,,]2 [B,,B,,,]2| \
+[B,,B,,,]2 [C,C,,]2 [_D,D,,]2 [=D,D,,]2| \
+[E,E,,]2 A,2 B,2 B,,2| \
+E,2 B,,2 E,,2 z2|
+[G,,G,,,]2 z2 [G,G,,]2 [G,G,,]3/2[G,G,,]/2| \
+[G,G,,]2 z2 [G,G,,]2 [G,G,,]3/2[G,G,,]/2| \
+[G,G,,]2 z6| \
+z6 [F,F,,]3/2[F,F,,]/2|
+[E,E,,]2 [E,E,,]3/2[E,E,,]/2 [E,E,,]2 [E,E,,]2| \
+[F,F,,]2 z4 [AF]2| \
+[GE]2 F2 G2 G,2| \
+C2 G,2 C,2 

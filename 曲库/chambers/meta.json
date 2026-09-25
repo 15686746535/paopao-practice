@@ -1,0 +1,667 @@
+[
+  {
+    "file": "kids/AN_0001.abc",
+    "title": "Boys and Girls, come out to play",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/boys-and-girls-come-out-to-play.abc?a=tunearch.org/wiki/We%27ve_Cheated_the_Parson_(1).no-ext/0001",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/AN_0003.abc",
+    "title": "11 Nursery rhymes",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/11-nursery-rhymes.abc?a=raw.githubusercontent.com/Gubbledenut/ABC_TuneBooks/main/SBG%20Vol3/0003",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/AN_0011.abc",
+    "title": "Here We Go Round the Mulberry Bush",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/here-we-go-round-the-mulberry-bush.abc?a=pghardy.net/tunebooks/pgh_songs_tunebook/0011",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/AN_0049.abc",
+    "title": "Oranges and Lemons",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/oranges-and-lemons.abc?a=round.soc.srcf.net/files/rbbop/0049",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/AN_0083.abc",
+    "title": "Polly Wolly Doodle",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/polly-wolly-doodle.abc?a=trillian.mit.edu/~jc/music/abc/mirror/ChrisMyers/CFD_Vol1/0083",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/AN_0196.abc",
+    "title": "The Little Dustman",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/the-little-dustman.abc?a=trillian.mit.edu/~jc/music/book/EverydaySongBook/EverydaySongBook1/0196",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/Ade_zur_guten_Nacht_C_w.abc",
+    "title": "Ad\\'e zur guten Nacht",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/song/Ade_zur_guten_Nacht_C_w.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Auld_Lang_Syne_1.abc",
+    "title": "Auld Lang Syne",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/song/Auld_Lang_Syne_1.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Billy_Boy_Cw_W.abc",
+    "title": "Billy Boy",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/song/Billy_Boy_Cw_W.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Bonnie_Banks_of_Loch_Lomond.abc",
+    "title": "the Bonnie Banks of Loch Lomond",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/air/Bonnie_Banks_of_Loch_Lomond.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Children_Go_Where_I_Send_Thee-C-12-2.abc",
+    "title": "(Children,) Go Where I Send Thee",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Xmas/Children_Go_Where_I_Send_Thee-C-12-2.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Chipmunk_Song.abc",
+    "title": "the Chipmunk Song",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Xmas/Chipmunk_Song.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Christ_Childs_Lullaby_SS-A-16-2.abc",
+    "title": "Christ Child's Lullaby",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/waltz/Christ_Childs_Lullaby_SS-A-16-2.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Cockles_and_Mussels_CWw.abc",
+    "title": "Cockles and Mussels",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/song/Cockles_and_Mussels_CWw.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Frosty_the_Snowman.abc",
+    "title": "Frosty the Snowman",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Xmas/Frosty_the_Snowman.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Grandfathers_Clock_G_w.abc",
+    "title": "Grandfather's Clock",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/song/Grandfathers_Clock_G_w.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Humpty_Dumpty_1.abc",
+    "title": "Humpty Dumpty",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/song/Humpty_Dumpty_1.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Jingle_Bells_G.abc",
+    "title": "Jingle Bells",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Xmas/Jingle_Bells_G.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/KM_alphabet.abc",
+    "title": "the Alphabet",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/the-alphabet.abc?a=trillian.mit.edu/~jc/music/book/EverydaySongBook/030_the_Alphabet/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_comin_round.abc",
+    "title": "Coming 'Round the Mountain",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/coming-round-the-mountain.abc?a=sniff.numachi.com/~rickheit/dtrad/abc_dtrad.tar.gz/abc_dtrad/COMRND2/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_frere.abc",
+    "title": "Frere Jacques",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/frere-jacques.abc?a=sniff.numachi.com/~rickheit/dtrad/abc_dtrad.tar.gz/abc_dtrad/FRERJACQ/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_hickory.abc",
+    "title": "Hickory dickory dock",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/hickory-dickory-dock.abc?a=trillian.mit.edu/~jc/music/abc/mirror/musicaviva.com/tunes/usa/hickory-dickory-dock/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_lullaby_brahms.abc",
+    "title": "\"A Lullaby\"            (air)          0233",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/a-lullaby-air-0233.abc?a=www.oldmusicproject.com/AA2ABC/Abc-0201-0300/0233-Lullaby/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_macdonald.abc",
+    "title": "Old MacDonald Had A Farm",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/old-macdonald-had-a-farm.abc?a=pghardy.net/tunebooks/pgh_songs_tunebook/0025",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_mary_lamb.abc",
+    "title": "Mary Had a Little Lamb",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/lesson-3-mary-had-a-little-lamb.abc?a=gitlab.com/chrisspen/abc-music/abc-music-master.zip/abc-music-master/cecilio-violin-first-lesson/03-2-mary-had-a-little-lamb/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_susanna.abc",
+    "title": "Oh, Susanna",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/bezeichnung-standardisiert-oh-susanna.abc?a=simonwascher.info/TradArchiv/Dreysser_1720/Oh,_Susanna_-_nach_Dreysser_1720/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/KM_twinkle.abc",
+    "title": "Ah! vous dirai-je, maman",
+    "category": "kids",
+    "source": "https://abcnotation.com/getResource/downloads/text_/ahvousdiraijemaman.abc?a=trillian.mit.edu/~jc/music/abc/demo/Tunes/AhVousDiraiJeMaman/0000",
+    "license": "Traditional / via abcnotation.com mirror of public ABC archives"
+  },
+  {
+    "file": "kids/Lullaby_for_Kim-G-32-4.abc",
+    "title": "Lullaby for Kim",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/air/Lullaby_for_Kim-G-32-4.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Rockabye_Baby_Jig_D.abc",
+    "title": "Rock-a-bye Baby Jig",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/jig/Rockabye_Baby_Jig_D.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Rudolph_the_Red_Nose_Reindeer.abc",
+    "title": "Rudolph the Red Nose Reindeer",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Xmas/Rudolph_the_Red_Nose_Reindeer.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Simple_Gifts_Song_C.abc",
+    "title": "Simple Gifts",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/song/Simple_Gifts_Song_C.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "kids/Yankee_Doodle_Boy.abc",
+    "title": "Yankee Doodle Boy",
+    "category": "kids",
+    "source": "http://trillian.mit.edu/~jc/music/abc/misc/Yankee_Doodle_Boy.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AGJ01.abc",
+    "title": "English Jig Set 1 (G a A D)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AGJ01.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AGJ04.abc",
+    "title": "English Jig Set 4 (D G e a)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AGJ04.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AGR03.abc",
+    "title": "English Reel Set 3 (F G A)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AGR03.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AGW02.abc",
+    "title": "English Waltzes 2 (Am D G)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AGW02.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AccomplishedMaid.abc",
+    "title": "the Accomplished Maid",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AccomplishedMaid.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AlexandersBirthDay.abc",
+    "title": "Alexanders Birth Day",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AlexandersBirthDay.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AllInAGardenGreen.abc",
+    "title": "All in a Garden Green",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AllInAGardenGreen.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_AshfordAnniversary.abc",
+    "title": "the Ashford Anniversary",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/AshfordAnniversary.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BarbarasMaggot.abc",
+    "title": "Barbara's Maggot",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BarbarasMaggot.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BasquetteGarlandDance.abc",
+    "title": "Basquette Garland Dance",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BasquetteGarlandDance.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BeveridgesMaggott.abc",
+    "title": "Mr. Beveridge's Maggott  (Dm)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BeveridgesMaggott.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BlackJoke.abc",
+    "title": "The Black Joke(r)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BlackJoke.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BonnetsSoBlue.abc",
+    "title": "Bonnets So Blue",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BonnetsSoBlue.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BonnyGreenGarters.abc",
+    "title": "Bonny Green Garters",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BonnyGreenGarters.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BritishSorrow.abc",
+    "title": "British Sorrow",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BritishSorrow.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_BuryFair.abc",
+    "title": "Bury Fair",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/BuryFair.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_CatInTheWindow.abc",
+    "title": "Cat in the Window",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/CatInTheWindow.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_CharleyStuart.abc",
+    "title": "Charley Stuart",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/CharleyStuart.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_Childgrove.abc",
+    "title": "Childgrove    [Dm]",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/Childgrove.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_ChristchurchBells.abc",
+    "title": "Christchurch Bells",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/ChristchurchBells.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_ColdAndRaw.abc",
+    "title": "Cold and Raw   [Am]",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/ColdAndRaw.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_ComeLetsBeMerry.abc",
+    "title": "Come Let's Be Merry",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/ComeLetsBeMerry.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_Constancy.abc",
+    "title": "Constancy, aka The Ton",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/Constancy.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/EN_CumberlandSquareEight.abc",
+    "title": "Cumberland Reel Eight",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/England/CumberlandSquareEight.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Aah_Hva_Ae_de_Mae_Dae_C.abc",
+    "title": "Aah hva' \\ae de m\\ae d\\ae",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Aah_Hva_Ae_de_Mae_Dae_C.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Al_Tira_B.abc",
+    "title": "Al Tira",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Al_Tira_B.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Bo_Dodi_B.abc",
+    "title": "Bo' Dodi",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Bo_Dodi_B.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Bo_Dodi_C.abc",
+    "title": "Bo' Dodi [Dm]",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Bo_Dodi_C.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Cherkessiya_Bb.abc",
+    "title": "Cherkessiya",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Cherkessiya_Bb.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Dodi_Li_B.abc",
+    "title": "Dodi Li",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Dodi_Li_B.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Dodi_Li_C.abc",
+    "title": "Dodi Li  [Dm]",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Dodi_Li_C.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_El_Ha_Rahat_Am.abc",
+    "title": "El Ha-Rahat (Am)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/El_Ha_Rahat_Am.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_El_Ha_Rahat_Cm.abc",
+    "title": "El Ha-Rahat (Cm)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/El_Ha_Rahat_Cm.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_El_Ha_Rahat_Em.abc",
+    "title": "El Ha-Rahat (Em)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/El_Ha_Rahat_Em.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_El_Harahat_B.abc",
+    "title": "El Harahat [F#m]",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/El_Harahat_B.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Erev_Ba_B.abc",
+    "title": "Erev Ba",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Erev_Ba_B.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Erev_Shel_Shoshanim_Bb.abc",
+    "title": "Erev shel shoshanim",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Erev_Shel_Shoshanim_Bb.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/FK_Ha_Shual_B.abc",
+    "title": "ha-Shu'al",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/folk/Ha_Shual_B.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_12CoatesCrescent.abc",
+    "title": "12 Coates Crescent",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/12CoatesCrescent.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AGA01.abc",
+    "title": "Scottish Airs 01",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AGA01.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AGJ12.abc",
+    "title": "Scottish Jigs 12 ()",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AGJ12.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AGMr01.abc",
+    "title": "Scottish Marches 1 (A D G e a)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AGMr01.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AGR06.abc",
+    "title": "Hull's Reel",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AGR06.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AGSt01.abc",
+    "title": "Scottish Strathspeys 1 (G Am A D)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AGSt01.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AGW01.abc",
+    "title": "Scottish Waltzes 1 (A D G)",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AGW01.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AMansAManForAThat.abc",
+    "title": "A Man's a Man for A' That",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AMansAManForAThat.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_Afton_Water.abc",
+    "title": "Afton Water",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/Afton_Water.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AlanJSmith1.abc",
+    "title": "Alan J Smith",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AlanJSmith1.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AllForMary.abc",
+    "title": "All For Mary",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AllForMary.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AndrewAndGordonsJig.abc",
+    "title": "Andrew and Gordon's Jig",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AndrewAndGordonsJig.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AnnaHoldensStr2.abc",
+    "title": "Anna Holden's Strathspey",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AnnaHoldensStr2.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AreYeSleepingMaggie.abc",
+    "title": "Are Ye Sleeping, Maggie",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AreYeSleepingMaggie.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AuchinellanJig.abc",
+    "title": "Auchinellan Jig",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AuchinellanJig.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_AustralianLadies2.abc",
+    "title": "The Australian Ladies",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/AustralianLadies2.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BackToBack.abc",
+    "title": "Back to Back",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BackToBack.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BalquidderStr.abc",
+    "title": "Balquidder Strathspey",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BalquidderStr.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BarbarasStrXmas.abc",
+    "title": "Barbara's Strathspey",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BarbarasStrXmas.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BauldyBainsFiddle.abc",
+    "title": "Bauldy Bain's Fiddle",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BauldyBainsFiddle.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BelleOfBonAccord0.abc",
+    "title": "Belle of Bon Accord",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BelleOfBonAccord0.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BestSetInTheHall.abc",
+    "title": "Best Set in the Hall",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BestSetInTheHall.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BettysWedding.abc",
+    "title": "Betty's Wedding",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BettysWedding.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_Birkenside.abc",
+    "title": "Birkenside",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/Birkenside.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  },
+  {
+    "file": "folk/SC_BlackDance.abc",
+    "title": "The Black Dance",
+    "category": "folk",
+    "source": "http://trillian.mit.edu/~jc/music/abc/Scotland/BlackDance.abc",
+    "license": "Traditional / John Chambers ABC collection"
+  }
+]

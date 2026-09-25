@@ -1,0 +1,7 @@
+{
+  "appId": "cn.jinglingtuoke.pop",
+  "appName": "泡泡练琴",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "server": { "androidScheme": "https" }
+}

@@ -1,0 +1,58 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/MozartWA/KV349/zufriedenheit-piano/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: Die Zufriedenheit
+C: Wolfgang Amadeus Mozart
+M: 6/8
+L: 1/8
+Q:1/4=100
+K:G % 1 sharps
+V:1
+%%MIDI program 42
+%%MIDI program 42
+z4zD| \
+dBG EcA| \
+Fdc B2B| \
+AdA GFE|
+D2z3d| \
+A2A BAB| \
+c2d e2c/2A/2| \
+F2F GAB|
+A2z3A| \
+B2B cBc| \
+d2^d e2e| \
+dFF GcA|
+G4BA| \
+G2
+V:2
+[gB][gB][bd] [gB]2z| \
+B,DG CEA| \
+A,CF B,DG| \
+AD[AF] [GE][FD][E^C]|
+D/2F/2G/2A/2B/2^c/2 dz2| \
+A,DF B,D^G| \
+CEA CEA| \
+A,DF B,DG|
+F/2D/2F/2A/2^c/2d/2 D2z| \
+B,DG CEG| \
+D=FG CEG| \
+A,DF GEC|
+B,DG CDF| \
+[GB,]2
+V:3
+[G,G,,][G,G,,][G,G,,] [G,G,,]2z| \
+[G,G,,]2z [G,G,,]2z| \
+[G,G,,]2z [G,G,,]2z| \
+F,2D, G,A,A,,|
+D,2z4| \
+D,2C, B,,2E,| \
+A,,2z4| \
+D,2C, B,,2G,,|
+D,2z4| \
+G,2=F,2<E,2| \
+B,,3 C,2z| \
+C,3 B,,C,2|
+D,3 D,,3| \
+G,,2

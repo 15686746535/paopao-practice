@@ -1,0 +1,102 @@
+X: 0
+T: Balquidder Strathspey
+T: 8x32S3
+O: RSCDS 24-2
+R: strathspey
+K:
+
+
+
+X: 1
+P: Mr. Oswald of Auchincruive  (the Balquidder Strathspey)
+C: Robert Mackintosh (1745-1807)
+R: strathspey
+B: RSCDS 24-2
+B: RSCDS 14-__
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+N: There is also a "Miss Oswald of Auchincruive" by Nathaniel Gow, a completely different tune.
+M: C
+L: 1/8
+K: G
+D \
+| "G"G>A B<d B>A B<g | d<B A>G "D7"F<A A>B \
+| "G"G/A/B B<B "(Em)"B>A B<g | "D7"d<B A>G "G"D<G G :|
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g>a b<g "D7"f<d a<f | "C"g<e "D7"d>c "G"B<G G |]
+f \
+| "G"g>a b<g "D7"f<d a<f | "G"g/f/g/a/ b>g "D7"f<a a>f \
+| "G"g<b "D"a<b "Em"g<a "Bm"f<g | "Am"e<a "D7"f<d "G"g>a g |]
+
+
+X: 2
+P: Captain Campbell's Strathspey
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+B: Athole Collection
+B: Kerr's Merrie Melodies V.1 p.9
+B: Mel Bay 108
+B: Little p.34
+B: Hunter 70
+B: Lerwick p.29
+B: BSFC IX-15
+D: Alasdair Fraser on The Driven Bow, cut 2B
+M: C
+L: 1/8
+K: Am
+G \
+| "Am"E<A A>B c>A B<G | "G"D<G G>A B>d c/B/A/G/ \
+| "Am"E<A A>B c>B c<e | "G"d<B g>B "Am"A2- A :|
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"A<a a>g e>d c<e | "G"d<B g>B "Am"A2- A |]
+B \
+| "Am"A<a a>g e>d c<e | "G"d>e g>e d/c/B/A/ G<B \
+| "Am"c<A "G"d>B "C"e>d c<e | "G"d<B g>B "Am"A2- A |]
+
+
+X: 3
+P: Highland Whisky
+C:Neil Gow
+R:strathspey
+B:BSFC III-21 and III-45 and IV-10
+B:OTDT p.76
+B:RSCDS 2-5(b)
+B:Scots Guards 297
+B:Skye p.26
+N:2nd measure of B part has F#, G or G# in various versions.
+Z:1997 by John Chambers <jc:trillian.mit.edu>
+M:C
+L:1/8
+K:A
+E \
+| "A"A<A A2 A>B c<e | "Bm"B<B B>c "E7"d>e f<a \
+| "A"A<A A2 A>B c>d | ef/g/ a>c "E7"B2 "A"A :|
+e \
+| "A"(3cBA e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"(3cBA e>A "D"f>A "A"e>A | ef/g/ a>c "E7"B2 "A"A ||
+e \
+| "A"d/c/B/A/ e>A "D"f>A "A"e>A | "G"=G<B B>A "E7"^G<B B>e \
+| "A"A<c "E7"B>d "A"c<e "D"d>f | "A"ef/g/ ae/c/ "E7"B2 "A"A |]
+
+
+X: 4
+P: Belladrum House
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+B: Fraser p.64
+D: Ron Gonella on Fiddle Gems tape (Lismore Recordings LILP5044, 1976)
+N: Belladrum House is near Kiltarlity, Inverness.
+M: 4/4
+R: strathspey
+L: 1/16
+K: D
+A, \
+| "D"D2EF "G"G3B "D"A2-<F2 F3B | A2-<F2 F2ED "A7"E4- E3F \
+| "D"D2EF "G"G3B "D"A2-<F2 F3B | "A7"A2-<F2 F3E "D"D7 :|
+f \
+| "A"e3A f3A g3A f3A | e3A g3f e4- e3f \
+| e3A f3A g3A f3A | (3f2g2a2 (3g2f2e2 "D"d3A F3A |
+|  "D"d3f A2-<f2 d3f A2-<f2 | d3f A2-<f2 "A7"e4- e3g \
+| "D"(3f2g2a2 (3g2f2e2 "Bm"(3d2c2B2 (3A2G2F2 | "G"G3B "A7"A2-<F2 "D"D7 |]
+

@@ -1,0 +1,54 @@
+
+X: 1
+T: Bo' Dodi [Dm]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Dm
+|: "Dm"d2dc d2dc | d2e2 f2"C7"g2 |  "F"a2ag "Dm"a2ag | "Gm"b2ba "C7"g4 |
+| "F"abag "Dm"a2fg | "Gm"abg2 "A7"g2a2 | "Dm"d2dc d2dc | "A7"f2fe "Dm"d4 :|
+
+
+%%sep 3 1 500
+
+X: 2
+T: Bo' Dodi [Em]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Em
+|: "Em"e2ed e2ed | e2f2 g2"D7"a2 |  "G"b2ba "Em"b2ba | "Am"c'2c'b "D7"a4 |
+| "G"bc'ba "Em"b2ga | "Am"bc'a2 "B7"a2b2 | "Em"e2ed e2ed | "B7"g2gf "Em"e4 :|
+
+%%sep 1 1 500
+%%sep 1 1 500
+%%sep 1 1 500
+
+X: 3
+T: Bo' Dodi [Am]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Am
+|: "Am"A2AG A2AG | A2B2 c2"G7"d2 |  "C"e2ed "Am"e2ed | "Dm"f2fe "G7"d4 |
+| "C"efed "Am"e2cd | "Dm"efd2 "E7"d2e2 | "Am"A2AG A2AG | "E7"c2cB "Am"A4 :|
+
+
+%%sep 3 1 500
+
+X: 4
+T: Bo' Dodi [Bm]
+O: Israel
+R:
+Z: John Chambers <jc:trillian.mit.edu>
+M: 2/4
+L: 1/16
+K: Bm
+|: "Bm"B2BA B2BA | B2c2 d2"A7"e2 |  "D"f2fe "Bm"f2fe | "Em"g2gf "A7"e4 |
+| "D"fgfe "Bm"f2de | "Em"fge2 "F7"e2f2 | "Bm"B2BA B2BA | "F#7"d2dc "Bm"B4 :|

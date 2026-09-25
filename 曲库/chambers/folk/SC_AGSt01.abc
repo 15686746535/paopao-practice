@@ -1,0 +1,89 @@
+X: 0
+T: Scottish Strathspeys 1 (G Am A D)
+K:
+
+
+X: 1
+P: Sir George Clerk of Pennycuik
+C: Nathaniel Gow
+N: Hunter 85, BSFC III-22 and I-1 and IV-4 and I-54
+Z: John Chambers <jc:trillian.mit.edu>
+R: strathspey
+M: 4/4
+L: 1/8
+K: G
+g/a/ \
+| "G"b-<g g2 d-<B B2 | "C"c-<e c-<e "D7"A3 B/c/ \
+| "G"d-<B B2 "Em"G-<E E2 | "Am"c>A B>G "D7"G/F/E/D/ D ||
+g/a/ \
+| "G"b-<g g2 d-<B B2 | "Am"c-<e c-<e "D7"A3 B/c/ \
+| "G"d-<B B2 "Em"e-<E E>G | "D7"G/F/E/D/ DE/F/ "G"G3 |]
+d/c/ \
+| "G"B-<d d2 d-<b b>a | "C"g-<e e>d "D7"d3 c \
+| "G"B-<d d2 "C"e>Bc2 | "G"d>A B>G "D7"G/F/E/D/ D ||
+E/F/ \
+| "G"G-<B B2 B-<d d2 | g>d "C"e>d "D7"d4 \
+| "G"d'-<b b-<g "C"g-<e e>c | "G"B>G "D7"A>F "G"G3 |]
+
+
+X: 2
+P: the Banks of Spey
+C: William Marshall
+%date: c.1786
+N: Caledonian Companion p.88.
+N: Wm. Marshall p.48; Hardie p.88; SFT p.3; BSFC II-21
+N: played by Ed Pearlman on BH 4A; Dancing Strings tape Siegal/Payne
+Z: John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: ADor
+E | "Am"{E}[A2A2] A>B A>B c>e | "G"d<c B->A ~G3 E \
+  | "Am"[A2A2] A>B A>B c>d | "C"e<c d->e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+c | "Am"A-<E A>c A-<E A>c | "G"B>c d>{c}B {A}~G3 B \
+  | "Am"A-<E A>c A-<E c>d | "C"e>c d-<e "G"~g4 |
+y | "Am"a>g e-<c d<e g-<a | "Em"e-<g g>B "G"~G3 B \
+  | "Am"A-<E A>B "(F)"c>d e-<g | "Dm"e-<d "E7"c>B "Am"A3 |]
+
+
+X: 3
+P: the Iron Man
+C: J.S.Skinner
+Z: John Chambers <jc:trillian.mit.edu>
+N: Hunter 128; Gathering of Clans p.40; BSFC III-10 and IV-9; Phillips p.31
+D: Winston Scotty Fitzgerald on Celtic 17
+D: Tommy Peoples on Iron Man tape
+L: 1/8
+M: 4/4
+K: A
+E \
+| "A"A2 c>A "E7"B>G "A"A>B | c2 e>c "E7"d>B "A"c<e \
+| "D"f2 d>f "A"e2 c>e | "Bm"(3dcB (3cBA "E7"G<B B>c |
+| "A"A2 c>A "E7"B>G "A"A>B | c2 e>c "E7"d>B "A"c<e \
+| "D"f2 d>f "A"e<a c>A | "Bm"(3Bcd "E7"(3dcB "A"c<A A |]
+g \
+| "A"a>A g>A "(D)"f>A "A"e>A | (3cBA e>g a>e c>A \
+| "E7"d>E c>E B>E c>E | (3dcB (3cBA (3Bcd (3efg |
+| "A"a>A g>A "(D)"f>A "A"e>A | (3cBA e>g a>e c>A \
+| "D"d2f>d "A"(3eag (3fed | "E7"(3cBA (3GAB "A"c<A A |]
+
+
+X: 4
+P: the Kirrie Kebbuck
+C: J.S.Skinner
+R: strathspey
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: C
+L: 1/8
+K: D
+B \
+| "D"A<F F>A "G"B<G G>B | "A7"c>A e>c "D"(3dfe (3dcB \
+| "D"A<F F>A "G"B<G G>B |1 "A7"c>A g>c "D"d3 :|2 "A7"(3Agf (3edc "D"d3 |]
+g \
+| "D"f>g a>f d<a f>d | "G"g>a b>g  "A7"e<b g>e \
+| "D"f>g a>f "Bm"d<a f>d | "Em"(3Bgf "A7"(3edc "D"d3 |]
+g \
+| "D"f>g a>f "Bm"(3dag (3fed | "Em"g>a b>g  "A7"(3eba (3gfe \
+| "D"(3fed "A7"(3edc "Bm"(3dcB "A7"A>G | "D"F<D "A7"E>C "D"D3 |]
+

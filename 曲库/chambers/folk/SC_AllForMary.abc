@@ -1,0 +1,82 @@
+X: 0
+T: All For Mary
+T: 8x32R_
+O: Goldring
+K:
+
+
+X: 1
+P: Stack of Cards
+C: Muriel A Johnstone
+R: Reel
+K: D
+M: 4/4
+L: 1/8
+A2 |\
+"D"d2dA "G"d2dB | "Bm"d2dB "A7"A2Bc | "D"d2d2 "Bm"fede | "Em"f2e2 "A7"egfe |\
+"D"d2dA "G"d2dB | "Bm"d2dB "A7"A2Bc | "D"d2f2 "A7"efga | "D"f2 d2d2 :|
+fg |\
+"D"a3a "Bm"f2a2 | "Em"gfed "A7"f2ef | "D"d2dB "Bm"ABde | "Em"f2e2 "A7"e2fg |\
+"D"a3a "Bm"f2a2 | "Em"gfed "A7"f2ef | "D"d2dB "A7"ABde | "D"f2d2 d2 ||
+fg |\
+"D"a3a "Bm"f2a2 | "Em"gfed "A7"f2ef | "G"d2dB "D/F#"ABde | "E7"f2e2 "A7"egfe |\
+"D"d2dA "G"d2dB | "Bm"d2dB "A7"A2Bc | "D"d2f2 "A7"efga | "D"f2d2 d2 |]
+
+
+X: 2
+P: Kate Dalrymple  #2   [G]  (Jinglin' Johnnie)
+S: Atholl
+C: Trad
+Z: 2013 John Chambers <jc:trillian.mit.edu>
+%
+L: 1/8
+M: C|
+R: Reel
+K: G
+%
+|: "G"G2GB "D7"A2AB |  "G"G2GB "D7"A2AB | "G"G2gf "C"edcB | "D7"A2d2 "G"B2G2 :|
+[| "G"d2de     dcBc |  "G"d2g2     d2Bc | "G"d2de    dcBc |  "G"d2gf    edcB |
+|  "C"c2ec  "G"B2dB | "Am"A2AB "D7"c2BA | "G"G2gf "C"edcB | "D7"A2d2 "G"B2G2 |]
+
+
+X: 3
+P: Largo's Fairy Dance    [D]  (the Fairy Reel)  (Old Molly Hare)
+C: Nathaniel Gow
+O: 1809
+Z: John Chambers <jc:trillian.mit.edu>
+L: 1/8
+M: C|
+N: Many versions from all over the British Isles and North America.
+N: Nath. Gow (variations by Skinner)
+N: H&C 88
+N: OTDT p.71
+N: BSFC I-24 and III-16 and IV-5 and V-5
+N: Hunter 219
+N: Fairy Dance in Skye 57
+N: Bain 7 (he thinks it's trad Shetland)
+N: Varella 78
+N: Gow 268 but C
+D: Fiddlers 3+2 tape A6
+K: D
+de \
+|: "D"f2fd f2fd | f2fd "A7"cAeA | "D"f2fd "G"gfed | "A7"cABc "D"defg :|
+|: "D"a2af "G"b2ba | "Em"g2ge "A7"a2ag | "D"f2fd "G"gfed | "A7"cABc [1 "D"defg :|2 "D"d2 |]
+
+
+X: 4
+P: the Piper and the Penguin
+C: Muriel Johnstone
+R: reel
+Z: 2005 John Chambers <jc:trillian.mit.edu>
+N: Named for a famous photo from an Antarctic expedition, showing
+N: a piper in full dress, with a penguin listening a few feet away.
+M: C|
+L: 1/8
+K: A
+(3EFG \
+| "A"A2EA "D"F2A2 | "A"E2AE "D"F2A2 | "A"E2FG "(F#m)"ABcd | "Bm"e2dc "E7"BdcB |
+| "A"A2EA "D"F2A2 | "A"E2AE "D"F2A2 | "A"EFGA "Bm"Bcdf | "E7"ecBc "A"A2 :|
+|: (3efg \
+| "F#m"a2fa "E"gfeg | "D"fAdf "A"e2dc | "D"f2df "A"eAce | "Bm"dcBA "E7"BEFG |
+| "A"A2EA "D"F2A2 | "A"E2AE "D"FGAB | "Bm"cdef "E7"ecBc | "A"A2a2 A2 :|
+

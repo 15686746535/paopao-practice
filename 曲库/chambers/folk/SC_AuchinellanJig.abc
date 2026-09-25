@@ -1,0 +1,86 @@
+X: 0
+T: Auchinellan Jig
+T: 8x32J3
+C: Alice McLean
+B: The Auchinellan Collection #1
+R: jig
+K:
+
+
+X: 1
+P: Auchinellan Jig
+C:\251 George Meikle
+B: George Meikle "Originally Mine" p.14
+R: jig
+Z: 2010 John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: F
+c |\
+"F"FG^G A3 | "F"AB=B "C7"c3 |\
+"F"f2f "Dm"dcA | "Gm"BGG G3 |\
+"C"CD^D E3 | "C"EF^F G2G | "C7"c2c cBG |
+|[1 "F"BAA "C7"A2 :|[2 "F"F3 "C7"F2 |: c |\
+"F"fFf d2c | "Ddim"FG^G A2F |\
+"F"fFf "Dm"dcA | "Gm"BGG "(C)"G2c |
+"C"eGe d2c | "C7"G^GA B2G |\
+[1 "C"eGe d2c | "F"BAA "C7"A2 :|\
+[2 "C"cEc BAG | "F"AFF F2 |]
+% %begintext align
+% % Auchinellan Estate is on the outskirts of Ford, Argyllshire and was used for a series of successful
+% % country dance weekends at which I played.  The popular dance "Auchinellan Jig" was devised by Alice
+% % McLean for the first of these weekends and this tune is the original for that dance.
+% %endtext
+
+
+X: 2
+P: the Sailor's Wife   [Dm]
+R: jig
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: Dm
+   "A7"A \
+| "Dm"DEF E2D | d2e f2g | agf edc | "F"AcA "C"GEC \
+| "Dm"DEF E2D | d2e f2g | agf "A7"ed^c | "Dm"d3- d2 :|
+|: "C7"e \
+| "F"fga fga | fga agf | "C"ecg ecg | efg "A7"gfe \
+| "Dm"fga agf | "C"efg gfe | "Dm"def "A7"ed^c | "Dm"d3- d2 :|
+
+
+X: 3
+P: the Oyster Girl
+B: Pinewoods Scottish Music Collection [Alternates] (1986)
+R: jig
+Z: 2006 John Chambers <jc:trillian.mit.edu>
+S: printed MS of unknown origin
+M: 6/8
+L: 1/8
+K: G
+B/c/ \
+| "G"d>ed B2G | "D7"A2F D>EF | "G"G>FG "Em"BGB | "Am"d2c "D7"A>Bc \
+| "G"d>ed Bdg | "Am"f2e c2e | "G"d2B "D7"c>BA | "G"G3 G2 :|
+|: A \
+| "G"B>cd Bcd | "C"e2c "Am"e2c | "D7"A>Bc ABc | "G"d2B d2B \
+| "G"d>ed Bdg | "Am"f2e c2e | "G"d2B "D7"c>BA | "G"G3 G2 :|
+
+
+X: 4
+P: the Braes of Elchie's
+C: Charles Grant (Aberlour)
+R: jig
+B: RSCDS 17-1(I), 1953
+Z: 1997 by John Chambers <jc:trillian.mit.edu>
+M: 6/8
+L: 1/8
+K: C
+A \
+| "C"G>EG c3 | "G7"e2d "C"c2A | G>EG "F"f3 | "C"ege "G7"d2A \
+| "C"G>EG c3 | "G7"e2d "C"c2B | "F"AFA "C"GcE | "G7"D3 "C"C2 :|
+e/f/ \
+| "C"geg gec | "F"afa "Dm"afd | "C"geg gec | "D7"ece "G"dBG \
+| "C"geg gec | "F"afa "Dm"afd | "C"gec "G7"dBG | "C"c3 c2 ||
+e/f/ \
+| "C"geg gec | "F"afa "Dm"afd | "C"geg gec | "D7"ece "G"dBG \
+| "F"AFA "(Dm)"AFA | "C"GEG "(Em)"GEG | "F"AFA "C"GcE | "G7"D3 "C"C2 |]
+

@@ -1,0 +1,99 @@
+X: 1
+% Source: Mutopia Project, https://www.mutopiaproject.org/ftp/BurgmullerJFF/O100/25EF-12/
+% License: Public Domain
+% Converted from Mutopia MIDI via midi2abc (Mutopia no longer serves .abc)
+
+T: L'Adieu
+C: J. F. F. Burgmüller
+M: 4/4
+L: 1/8
+Q:1/4=184
+K:C % 0 sharps
+V:1
+%%MIDI program 0
+%%MIDI program 0
+ef ee2d2z| \
+de dd2c2z| \
+e^d e2<=d'2 c'b| \
+a^g fe dc B^A|
+Be d (3cAc (3dedc/2d/2| \
+z/2 (3cBc (3dec (3Aded/2c/2d/2| \
+z/2 (3cBc (3dec (3AfdA/2e/2c/2| \
+z/2 (3A^dc (3AeA (3BcBA/2e/2B/2|
+z/2 (3cdc (3BcA (3cded/2c/2d/2| \
+z/2 (3cBc (3ded (3Aded/2c/2d/2| \
+z/2 (3cBc (3dec (3AgeA/2f/2d/2| \
+z/2 (3Aa^f (3cae (3ce^de/2a/2^g/2|
+z/2 (3ac'bc'/2e' zE2c-| \
+cB2A z (3fedd/2c/2| \
+z/2 (3BBA^G/2A z (3fedd/2c/2| \
+z/2 (3BBA (3^GAc (3BAce/2a-|
+az2g2e2c'-| \
+c'a2g2e'2c'-| \
+c'g2g2f2f-| \
+fe2d2g2f-|
+fd2g2e2c'-| \
+c'a2g2g'2e'-| \
+e'c'2b2^g2f-| \
+fd2c2e2e-|
+ed2 (3cAc (3dedc/2d/2| \
+z/2 (3cBc (3dec (3Aded/2c/2d/2| \
+z/2 (3cBc (3dec (3AfdA/2e/2c/2| \
+z/2 (3A^dc (3AeA (3BcBA/2e/2B/2|
+z/2 (3cdc (3BcA (3cded/2c/2d/2| \
+z/2 (3cBc (3dec (3Aded/2c/2d/2| \
+z/2 (3cBc (3dec (3AgeA/2f/2d/2| \
+z/2 (3Aa^f (3cae (3ce^de/2a/2^g/2|
+z/2 (3ac'bc'/2e' zE2c-| \
+cB2A z (3fedd/2c/2| \
+z/2 (3BBA^G/2A z (3fedd/2c/2| \
+z/2 (3BBA (3^GAc (3BAce/2a-|
+az2 (3ac'b (3ac'e'a'-| \
+a'z2 (3AcB (3Acea-| \
+az2 (3ac'b (3ac'e'a'-| \
+a'z2A2z2[a-c-]|
+[ac]z2[AC]4
+V:2
+%%MIDI program 0
+%%MIDI program 0
+z4 [AF][AF] [AF][AF]| \
+z4 [AE][AE] [AE][AE]| \
+z3[D-B,-^G,-E,-]4[D-B,-G,-E,-]| \
+[DB,^G,E,]z6z|
+z3A,2F2E-| \
+ED2C2F2E-| \
+ED2C2D2E-| \
+EF2E2z2[D-^G,-E,-]|
+[D^G,E,]3[CA,] zF2E-| \
+ED2C2F2E-| \
+ED2C2^C2D-| \
+D^D2E4z|
+z3 (3E,A,C (3E,A,CE,/2^G,/2| \
+z/2 (3DE,^G,D/2[CA,] z[F-D-A,-]3| \
+[FDA,][FDA,]2[ECA,] z[F-D-A,-]3| \
+[FDA,][FDA,]2[ECA,]2z2A,,-|
+A,,z2 (3CEG (3CEGC/2F/2| \
+z/2 (3ACF (3ACE (3GCEG/2C/2E/2| \
+z/2 (3GCE (3GB,D (3GB,DG/2C/2E/2| \
+z/2 (3GCE (3GG,B, (3DG,B,D/2G,/2B,/2|
+z/2 (3DG,B, (3DCE (3GCEG/2C/2F/2| \
+z/2 (3ACF (3ACE (3GCEG/2C/2E/2| \
+z/2 (3GCE (3GCF (3^GCFG/2C/2F/2| \
+z/2 (3^GCF (3GCE (3=GCEG/2B,/2E/2|
+z/2 (3^GB,EG/2A,2F2E-| \
+ED2C2F2E-| \
+ED2C2D2E-| \
+EF2E2z2[D-^G,-E,-]|
+[D^G,E,]3[CA,] zF2E-| \
+ED2C2F2E-| \
+ED2C2^C2D-| \
+D^D2E4z|
+z3 (3E,A,C (3E,A,CE,/2^G,/2| \
+z/2 (3DE,^G,D/2[CA,] z[F-D-A,-]3| \
+[FDA,][FDA,]2[ECA,] z[F-D-A,-]3| \
+[FDA,][FDA,]2[ECA,]2z3|
+z[FD]2[E-C-]4[E-C-]| \
+[EC][DB,]2[C-A,-]4[C-A,-]| \
+[CA,][FD]2[E-C-]4[E-C-]| \
+[EC][DB,]2[CA,]2z2[E-A,-]|
+[EA,]z2[E,A,,]4
