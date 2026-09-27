@@ -6,6 +6,7 @@
         <button class="btn" size="mini" @click="toggleBle">{{ bleOn ? "⛔ 断开" : "🔗 连接钢琴" }}</button>
         <text class="badge" :class="bleOn ? 'on' : 'off'">{{ bleOn ? "已连接" : "未连接" }}</text>
         <button v-if="bleOn" class="btn" size="mini" @click="testTone">🔔 试音</button>
+        <text v-if="bleOn" class="badge" :class="rxPackets ? 'on' : 'off'">琴→App {{ rxPackets }} 包</text>
       </view>
       <view v-if="logs.length" class="log">
         <view v-for="(l, i) in logs" :key="i">{{ l }}</view>
@@ -104,6 +105,7 @@ export default {
       stateText: "",
       nextNotes: "",
       progress: "",
+      rxPackets: 0,
       stats: { hits: 0, partial: 0, wrong: 0 },
       result: null,
     };
@@ -126,7 +128,14 @@ export default {
     this.buildSeq();
     PianoBLE.onLog = (t) => {
       this.logs.push(`[${new Date().toLocaleTimeString("zh-CN", { hour12: false })}] ${t}`);
-      if (this.logs.length > 60) this.logs.shift();
+      if (this.logs.length > 200) this.logs.shift();
+      // RX 实时计数 + 首包提示：按键后此数不动 = 琴→App 通知未达
+      this.rxPackets = PianoBLE.rxCount;
+      if (PianoBLE.rxCount > 0 && !this._rxToasted) {
+        this._rxToasted = true;
+        uni.showToast({ title: "✓ 已收到琴端数据", icon: "none" });
+      }
+      this.$nextTick && this.$nextTick(() => this.scrollLog());
     };
     PianoBLE.onDisconnect = () => {
       if (this.practice) this.endPractice(true);
@@ -147,6 +156,13 @@ export default {
     };
   },
   methods: {
+    scrollLog() {
+      // 日志框自动滚到最新一行（H5/APP WebView 环境下生效）
+      try {
+        const el = document.querySelector(".log");
+        if (el) el.scrollTop = el.scrollHeight;
+      } catch (e) { /* 非 H5 环境忽略 */ }
+    },
     buildSeq() {
       if (!this.score) return;
       // 云曲库预编译序列：直接消费，零解析（曲谱原文仅用于 H5 渲染）
@@ -199,7 +215,8 @@ export default {
         speed: this.speedPct / 100,
         ble: PianoBLE,
         // #ifdef H5
-        sound: mode === "follow" ? AppSynth : null,
+        // 琴已连接时钢琴是唯一音源（noteOn 由引擎驱动），手机本地合成音仅在未连琴/模拟模式兜底
+        sound: mode === "follow" && (!PianoBLE.connected || PianoBLE._mock) ? AppSynth : null,
         // #endif
         onState: (t) => { self.stateText = t; },
         onProgress: () => self.refreshUI(),
@@ -294,9 +311,10 @@ export default {
 .badge.off { background: #f0f1f5; color: #7a8199; }
 .badge.on { background: #e2f7ee; color: #19b273; }
 .log {
-  margin-top: 8px; max-height: 90px; overflow: hidden;
+  margin-top: 8px; max-height: 180px; overflow-y: auto;
   background: #1d2130; color: #9fe8c1; border-radius: 8px;
   padding: 6px 10px; font-size: 11px; font-family: monospace;
+  -webkit-overflow-scrolling: touch;
 }
 .status { background: #20244d; border-color: #3a3f7a; }
 .status .state { color: #eef0ff; font-weight: 600; }

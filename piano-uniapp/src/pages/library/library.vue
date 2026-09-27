@@ -4,6 +4,7 @@
     <view class="seg">
       <view class="seg-item" :class="{ on: seg === 0 }" @click="seg = 0">我的曲谱</view>
       <view class="seg-item" :class="{ on: seg === 1 }" @click="seg = 1">云曲库</view>
+      <view class="seg-item" :class="{ on: seg === 2 }" @click="seg = 2">在线搜谱</view>
     </view>
 
     <!-- ============ 我的曲谱 ============ -->
@@ -54,11 +55,37 @@
         传统曲调与公有领域作品，详见「我的-关于」。
       </view>
     </view>
+
+    <!-- ============ 在线搜谱 ============ -->
+    <view v-show="seg === 2">
+      <view class="search card osearch">
+        <input class="search-in" v-model="okw" placeholder="🔍 搜歌名（建议英文，如 summer / canon / jay）" confirm-type="search" @confirm="doSearch" />
+        <button class="btn btn-primary" size="mini" :disabled="oLoading" @click="doSearch">搜索</button>
+      </view>
+      <view class="card list-card">
+        <view v-if="oLoading && !oResults.length" class="muted pad">搜索中…</view>
+        <view v-else-if="oError" class="muted pad">{{ oError }}</view>
+        <view v-else-if="!oResults.length" class="muted pad">输入歌名搜在线 MIDI 曲库（约 2 万首流行/动漫/游戏改编）</view>
+        <view v-for="r in oResults" :key="r.id" class="item">
+          <text class="item-name">{{ r.name }}</text>
+          <text class="add" @click="importOnline(r)">{{ oBusy === r.id ? "导入中…" : "＋导入" }}</text>
+        </view>
+        <view v-if="oResults.length && oPage + 1 < oPageTotal" class="more" @click="doSearch(oPage + 1)">
+          {{ oLoading ? "加载中…" : "加载更多（共 " + oTotal + " 首）" }}
+        </view>
+      </view>
+      <view class="src muted">
+        曲目来自 bitmidi.com（用户上传 MIDI，转成跟弹谱后入库），仅供个人练习；
+        下载与解析在本机完成，商业分发需另行授权。
+      </view>
+    </view>
   </view>
 </template>
 
 <script>
-import { allScores, removeScore, addScore } from "../../utils/store.js";
+import { allScores, removeScore, addScore, saveAll } from "../../utils/store.js";
+import { searchOnlineMidi, downloadMidi } from "../../utils/online.js";
+import { pullScores, pushScores, mergeScores } from "../../utils/cloudsync.js";
 import kids from "../../library/kids.json";
 import etude from "../../library/etude.json";
 import "../../core/sequence.js";
@@ -87,6 +114,14 @@ export default {
       kw: "",
       packIdx: 0,
       packs: [kids, etude],
+      okw: "",
+      oResults: [],
+      oPage: 0,
+      oPageTotal: 1,
+      oTotal: 0,
+      oLoading: false,
+      oError: "",
+      oBusy: 0,
     };
   },
   computed: {
@@ -105,8 +140,25 @@ export default {
   },
   onShow() {
     this.scores = allScores();
+    this.syncPull();
   },
   methods: {
+    // 云同步：拉取（只补缺，不覆盖本地/不复活删除）+ 变更后整表推送
+    syncPull() {
+      pullScores().then((remote) => {
+        if (!remote.length) return;
+        const { additions } = mergeScores(this.scores, remote);
+        if (additions.length) {
+          saveAll(this.scores.concat(additions));
+          this.scores = allScores();
+          uni.showToast({ title: "云同步：新到 " + additions.length + " 首", icon: "none" });
+        }
+      });
+    },
+    queuePush() {
+      if (this._pushTimer) clearTimeout(this._pushTimer);
+      this._pushTimer = setTimeout(() => pushScores(allScores()), 1500);
+    },
     loadRemote(cat) {
       const done = (pack) => {
         const idx = this.packs.findIndex((p) => p.cat === cat);
@@ -141,6 +193,7 @@ export default {
     del(id) {
       removeScore(id);
       this.scores = allScores();
+      this.queuePush();
     },
     guessName(text, fallback) {
       const m = text.match(/^T:\s*(.+)$/m);
@@ -155,6 +208,7 @@ export default {
       const item = addScore(this.guessName(t, "粘贴曲谱"), "abc", t);
       this.pasteAbc = "";
       this.scores = allScores();
+      this.queuePush();
       uni.showToast({ title: "已导入：" + item.name, icon: "none" });
     },
     addCloud(t) {
@@ -162,8 +216,47 @@ export default {
       if (exist) return this.openScore(exist);
       const item = addScore(t.name, "abc", t.content, t.seq ? { seq: t.seq, src: t.src } : { src: t.src });
       this.scores = allScores();
+      this.queuePush();
       uni.showToast({ title: "已加入：" + item.name, icon: "none" });
       this.openScore(item);
+    },
+    async doSearch(page) {
+      if (typeof page !== "number") page = 0;
+      const kw = (this.okw || "").trim();
+      if (!kw) return uni.showToast({ title: "先输入歌名", icon: "none" });
+      if (this.oLoading) return;
+      this.oLoading = true;
+      this.oError = "";
+      try {
+        const r = await searchOnlineMidi(kw, page);
+        this.oResults = page === 0 ? r.list : this.oResults.concat(r.list);
+        this.oPage = page;
+        this.oPageTotal = r.pageTotal;
+        this.oTotal = r.total;
+        if (!r.list.length && page === 0) this.oError = "没有找到，换个关键词试试（建议英文/拼音）";
+      } catch (e) {
+        this.oError = "搜索失败: " + (e.message || e);
+      }
+      this.oLoading = false;
+    },
+    async importOnline(r) {
+      if (this.oBusy) return;
+      this.oBusy = r.id;
+      try {
+        const PC = globalThis.PianoCore;
+        if (!PC || !PC.Sequence) throw new Error("解析引擎未就绪");
+        const u8 = await downloadMidi(r.downloadUrl);
+        const seq = PC.Sequence.midiToSequence(PC.Sequence.parseMidi(u8));
+        if (!seq.events.length) throw new Error("该 MIDI 没有可练的音符");
+        const name = r.name;
+        addScore(name, "abc", PC.Sequence.toABC(seq, { title: name }), { src: "bitmidi " + r.url });
+        this.scores = allScores();
+        this.queuePush();
+        uni.showToast({ title: "已导入：" + name, icon: "none" });
+      } catch (e) {
+        uni.showToast({ title: "导入失败: " + (e.message || e), icon: "none" });
+      }
+      this.oBusy = 0;
     },
     async importOne(f) {
       const base = f.name.replace(/\.[^.]+$/, "");
@@ -235,6 +328,7 @@ export default {
             } catch (e) { fail++; }
           }
           self.scores = allScores();
+          self.queuePush();
           uni.showToast({ title: `成功 ${ok} 个${fail ? "，失败 " + fail + " 个" : ""}`, icon: "none" });
         },
       });
@@ -276,5 +370,8 @@ export default {
 .chip-n { font-size: 11px; opacity: 0.75; margin-left: 4px; }
 .search { padding: 8px 14px; }
 .search-in { font-size: 14px; }
+.osearch { display: flex; align-items: center; gap: 8px; }
+.osearch .search-in { flex: 1; }
+.more { text-align: center; padding: 12px 0; color: #5b6cff; font-size: 14px; font-weight: 600; }
 .src { margin: 4px 20px 0; line-height: 1.6; }
 </style>

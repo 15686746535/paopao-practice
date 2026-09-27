@@ -54,6 +54,24 @@
       </view>
     </view>
 
+    <!-- 曲谱云同步 -->
+    <view class="section-h"><text class="section-t">曲谱云同步</text></view>
+    <view class="card list-card">
+      <view class="item">
+        <text>我的同步码</text>
+        <text class="item-go" @click="copySync">{{ syncKey }} ⧉</text>
+      </view>
+      <view class="item" style="flex-direction: column; align-items: stretch;">
+        <text class="muted" style="font-size: 12px; line-height: 1.6;">
+          导入的曲谱自动上传云端。换手机/重装后，在此输入原同步码即可找回全部曲谱。
+        </text>
+        <view style="display: flex; gap: 8px; margin-top: 8px;">
+          <input class="sync-in" v-model="syncInput" placeholder="输入原同步码恢复曲谱" />
+          <button class="btn" size="mini" @click="restoreSync">恢复</button>
+        </view>
+      </view>
+    </view>
+
     <!-- 关于 -->
     <view class="section-h"><text class="section-t">关于</text></view>
     <view class="card list-card">
@@ -72,13 +90,15 @@
 
 <script>
 import { getSettings, setSetting } from "../../utils/settings.js";
+import { getSyncKey, setSyncKey, pullScores } from "../../utils/cloudsync.js";
+import { saveAll, allScores } from "../../utils/store.js";
 import "../../core/records.js";
 
 const PC = globalThis.PianoCore;
 
 export default {
   data() {
-    return { records: [], settings: getSettings() };
+    return { records: [], settings: getSettings(), syncKey: "", syncInput: "" };
   },
   computed: {
     stats() {
@@ -100,8 +120,40 @@ export default {
   onShow() {
     this.records = (PC && PC.Records ? PC.Records.all() : []).slice(0, 12);
     this.settings = getSettings();
+    this.syncKey = getSyncKey();
   },
   methods: {
+    copySync() {
+      const done = () => uni.showToast({ title: "已复制，请妥善保存", icon: "none" });
+      // #ifdef H5
+      try {
+        navigator.clipboard.writeText(this.syncKey).then(done, () => uni.showToast({ title: this.syncKey, icon: "none" }));
+        return;
+      } catch (e) { /* 走降级 */ }
+      // #endif
+      uni.setClipboardData({ data: this.syncKey, success: done });
+    },
+    restoreSync() {
+      const code = (this.syncInput || "").trim();
+      if (!code) return uni.showToast({ title: "先输入同步码", icon: "none" });
+      try {
+        setSyncKey(code);
+      } catch (e) {
+        return uni.showToast({ title: e.message, icon: "none" });
+      }
+      this.syncKey = getSyncKey();
+      this.syncInput = "";
+      uni.showLoading({ title: "正在恢复…" });
+      pullScores().then((remote) => {
+        uni.hideLoading();
+        if (!remote.length) return uni.showToast({ title: "该同步码没有云端曲谱", icon: "none" });
+        const local = allScores();
+        const ids = new Set(local.map((s) => s.id));
+        const additions = remote.filter((s) => s && s.id && !ids.has(s.id));
+        saveAll(local.concat(additions));
+        uni.showToast({ title: "已恢复 " + additions.length + " 首曲谱", icon: "none" });
+      });
+    },
     setMode(v) { this.settings = setSetting("mode", v === 0 ? "wait" : "follow"); },
     setHands(v) { this.settings = setSetting("hands", ["both", "1", "2"][v]); },
     setSpeed(v) { this.settings = setSetting("speedPct", v); },
@@ -129,6 +181,10 @@ export default {
 
 <style>
 .page { padding: 12px 0 30px; }
+.sync-in {
+  flex: 1; border: 1px solid #e3e6ef; border-radius: 8px;
+  padding: 7px 10px; font-size: 13px; box-sizing: border-box;
+}
 .stats { display: flex; }
 .stat { flex: 1; text-align: center; }
 .stat-n { font-size: 22px; font-weight: 800; color: #5b6cff; font-variant-numeric: tabular-nums; }

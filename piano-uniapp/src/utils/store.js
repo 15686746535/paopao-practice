@@ -69,9 +69,12 @@ export function allScores() {
 
 function save(list) { uni.setStorageSync(KEY, JSON.stringify(list)); }
 
+/** 整表覆盖保存（云同步合并后写回用）；新增时补 ts 时间戳供合并排序 */
+export function saveAll(list) { if (Array.isArray(list)) save(list); }
+
 export function addScore(name, type, content, extra = {}) {
   const list = allScores();
-  const item = { id: "u" + Date.now(), name, type, content, ...extra };
+  const item = { id: "u" + Date.now(), ts: Date.now(), name, type, content, ...extra };
   list.unshift(item);
   save(list);
   return item;

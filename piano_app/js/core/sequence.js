@@ -158,6 +158,7 @@
     noteTracks.forEach((track, idx) => {
       const hand = handForTrack(track, idx, hasMulti);
       for (const n of track.notes) {
+        if (n.ch === 9) continue; // GM 打击乐通道(鼓组)不是琴键，转钢琴谱时丢弃
         const t = t2s(n.on);
         flat.push({ t, dur: Math.max(0.05, t2s(n.off) - t), midi: n.note, vel: n.vel, hand });
       }

@@ -11,16 +11,34 @@
     if (s.length !== 32) return (u || "").toLowerCase();
     return `${s.slice(0, 8)}-${s.slice(8, 12)}-${s.slice(12, 16)}-${s.slice(16, 20)}-${s.slice(20)}`;
   };
-  const b64ToU8 = (b64) => {
-    const bin = atob(b64 || "");
-    const u8 = new Uint8Array(bin.length);
-    for (let i = 0; i < bin.length; i++) u8[i] = bin.charCodeAt(i);
-    return u8;
+  // 插件桥接线格式（Conversion.kt 契约，两方向不对称！）：
+  //   写(App→琴)：空格分隔小写十六进制 "80 80 f0..."（stringToBytes 按空格 split）
+  //   收(琴→App)：无分隔符大写十六进制 "808190..."（自定义 ByteArray.toHexString 直连）
+  // 解析按半字节流、分隔符与大小写无关 —— 与官方 JS 客户端 hexStringToDataView 逐字节等价
+  const hexToU8 = (hex) => {
+    const s = String(hex || "");
+    const out = [];
+    let buf = 0, pair = false;
+    for (let i = 0; i < s.length; i++) {
+      const c = s.charCodeAt(i);
+      let d;
+      if (c >= 48 && c <= 57) d = c - 48;        // 0-9
+      else if (c >= 65 && c <= 70) d = c - 55;   // A-F
+      else if (c >= 97 && c <= 102) d = c - 87;  // a-f
+      else continue;                              // 跳过空白等非十六进制字符
+      buf = (buf << 4) | d;
+      pair = !pair;
+      if (!pair) { out.push(buf & 0xff); buf = 0; }
+    }
+    return new Uint8Array(out);
   };
-  const u8ToB64 = (u8) => btoa(String.fromCharCode(...u8));
+  const u8ToHex = (u8) =>
+    Array.from(u8, (b) => b.toString(16).padStart(2, "0")).join(" ");
 
   const NAME_PREFIXES = ["MP", "POP", "PianoProdigy", "GPP", "Xkey"];
   const PIANO_SVC = "03b80e5a-ede8-4b33-a751-6ce34ec4c700";
+  // 原生插件句柄：requestDevice 时注入，GATT 对象模型（makeCharacteristic/makeDevice）跨作用域使用
+  let plugin = null;
 
   function btLog(text) {
     try {
@@ -28,6 +46,21 @@
       else console.log("[BT]", text);
     } catch (e) { /* ignore */ }
   }
+
+  // 取回上次原生崩溃（若曾闪退），等首页日志框就绪后展示；读后即清
+  (function reportLastCrash() {
+    let tries = 0;
+    const timer = setInterval(() => {
+      tries++;
+      const cl = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.CrashLog;
+      if (cl && typeof cl.last === "function" && window.PianoBLE && window.PianoBLE.onLog) {
+        clearInterval(timer);
+        Promise.resolve(cl.last()).then((r) => {
+          if (r && r.content) btLog("⚠ 检测到上次异常退出（原生崩溃）:\n" + r.content);
+        }).catch(() => { /* ignore */ });
+      } else if (tries > 30) clearInterval(timer);
+    }, 500);
+  })();
   function errText(e) {
     return e && (e.message || e.localizedMessage || JSON.stringify(e));
   }
@@ -126,22 +159,39 @@
         if (notifying) return;
         notifying = true;
         const key = `notification|${deviceId}|${svcUuid}|${uuid}`;
-        await addListener(P, key, (event) => {
-          const u8 = b64ToU8(event && event.value);
+        let firstPacket = false;
+        const handle = await addListener(plugin, key, (event) => {
+          if (!firstPacket) { firstPacket = true; btLog("← 收到琴端数据: " + (event && event.value)); }
+          const u8 = hexToU8(event && event.value);
           const dv = new DataView(u8.buffer);
           for (const fn of listeners.value) {
             try { fn({ target: { value: dv } }); } catch (e) { /* ignore */ }
           }
         });
-        await P.startNotifications({ deviceId, service: svcUuid, characteristic: uuid });
+        if (!handle) btLog("⚠ 通知监听注册失败（addListener 被拒）——通知将无法送达");
+        await plugin.startNotifications({ deviceId, service: svcUuid, characteristic: uuid });
+        btLog(`通知订阅完成，监听键: ${key}`);
+        // 3 秒无数据提示：用于区分「琴没在发」vs「派发断了」
+        setTimeout(() => {
+          if (!firstPacket) btLog("⚠ 订阅后 3 秒未收到琴端数据 —— 若按键琴键仍无此行，请先把琴断电重开再连一次");
+        }, 3000);
       },
       async writeValue(buf) {
         const u8 = buf instanceof Uint8Array ? buf : new Uint8Array(buf);
-        await P.write({ deviceId, service: svcUuid, characteristic: uuid, value: u8ToB64(u8), writeType: "withResponse" });
+        await plugin.write({ deviceId, service: svcUuid, characteristic: uuid, value: u8ToHex(u8), writeType: "withResponse" });
       },
       async writeValueWithoutResponse(buf) {
         const u8 = buf instanceof Uint8Array ? buf : new Uint8Array(buf);
-        await P.write({ deviceId, service: svcUuid, characteristic: uuid, value: u8ToB64(u8), writeType: "withoutResponse" });
+        await plugin.write({ deviceId, service: svcUuid, characteristic: uuid, value: u8ToHex(u8), writeType: "withoutResponse" });
+      },
+      // Web Bluetooth 标准事件接口（ble-h5 调 characteristicvaluechanged）
+      addEventListener(ev, fn) {
+        if (ev === "characteristicvaluechanged" && typeof fn === "function") listeners.value.push(fn);
+      },
+      removeEventListener(ev, fn) {
+        if (ev !== "characteristicvaluechanged") return;
+        const i = listeners.value.indexOf(fn);
+        if (i >= 0) listeners.value.splice(i, 1);
       },
       __on(ev, fn) { if (listeners[ev]) listeners[ev].push(fn); },
     };
@@ -171,7 +221,7 @@
         get connected() { return device.__connected === true; },
         async connect() {
           const key = `disconnected|${deviceId}`;
-          await addListener(P, key, () => {
+          await addListener(plugin, key, () => {
             device.__connected = false;
             btLog("钢琴连接已断开");
             for (const fn of listeners.disconnected) {
@@ -179,10 +229,13 @@
             }
           });
           btLog("连接 GATT…");
-          await P.connect({ deviceId });
+          await plugin.connect({ deviceId });
           device.__connected = true;
-          const services = await P.getServices({ deviceId });
-          btLog(`服务发现完成（${(services || []).length} 个服务）`);
+          const res = await plugin.getServices({ deviceId });
+          // 插件返回 { services: BleService[] } 包装对象（Android/JS 实现一致），必须解包
+          const services = (res && res.services) || [];
+          const svcList = services.map((s) => dash(s.uuid)).join("、");
+          btLog(`服务发现完成（${services.length} 个服务）: ${svcList}`);
           return {
             getPrimaryService: async (u) => {
               const svc = (services || []).find((s) => norm(s.uuid) === norm(u));
@@ -192,7 +245,7 @@
           };
         },
         disconnect() {
-          try { P.disconnect({ deviceId }); } catch (e) { /* ignore */ }
+          try { plugin.disconnect({ deviceId }); } catch (e) { /* ignore */ }
           device.__connected = false;
           for (const fn of listeners.disconnected) {
             try { fn(); } catch (e) { /* ignore */ }
@@ -214,6 +267,7 @@
         throw new Error("BluetoothLe 插件未注入");
       }
       btLog("原生蓝牙初始化（申请蓝牙权限）…");
+      plugin = P;
       try {
         await P.initialize({ androidNeverForLocation: true });
         btLog("✓ 权限就绪，蓝牙已启用");
@@ -240,5 +294,5 @@
     },
   };
 
-  console.log("[BT shim] v4 已加载");
+  console.log("[BT shim] v8 已加载（桥接十六进制线格式修复）");
 })();

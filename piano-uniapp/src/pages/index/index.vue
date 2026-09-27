@@ -91,11 +91,19 @@ export default {
     // 首页也要看到 BLE 日志（连接过程发生在首页）
     PianoBLE.onLog = (t) => {
       this.logs.push(`[${new Date().toLocaleTimeString("zh-CN", { hour12: false })}] ${t}`);
-      if (this.logs.length > 40) this.logs.shift();
+      if (this.logs.length > 200) this.logs.shift();
+      this.$nextTick && this.$nextTick(() => this.scrollLog());
     };
     PianoBLE.onDisconnect = () => { this.bleOn = PianoBLE.connected; };
   },
   methods: {
+    scrollLog() {
+      // 日志框自动滚到最新一行（H5/APP WebView 环境下生效）
+      try {
+        const el = document.querySelector(".hero-log");
+        if (el) el.scrollTop = el.scrollHeight;
+      } catch (e) { /* 非 H5 环境忽略 */ }
+    },
     openScore(s) {
       uni.navigateTo({ url: "/pages/practice/practice?id=" + encodeURIComponent(encodeURIComponent(s.id)) });
     },
@@ -150,9 +158,10 @@ export default {
 .hero-info .muted { color: rgba(255, 255, 255, 0.75); margin-top: 4px; }
 .hero-actions { display: flex; gap: 10px; margin-top: 14px; }
 .hero-log {
-  margin-top: 10px; max-height: 110px; overflow: hidden;
+  margin-top: 10px; max-height: 200px; overflow-y: auto;
   background: rgba(0, 0, 0, 0.25); border-radius: 8px;
   padding: 6px 10px; font-size: 11px; font-family: monospace; color: #b8f0d0;
+  -webkit-overflow-scrolling: touch;
 }
 .btn.ghost { background: rgba(255, 255, 255, 0.16); border-color: transparent; color: #fff; }
 .btn.round { border-radius: 30px; padding-left: 22px; padding-right: 22px; }

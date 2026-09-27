@@ -10,6 +10,7 @@ export const PianoBLE = {
   onLog: null,
   onDisconnect: null,
   onPianoNote: null,
+  rxCount: 0, // 琴→App 收到的通知包数（RX 诊断用）
   _mock: false,
   _queue: Promise.resolve(),
 
@@ -25,6 +26,7 @@ export const PianoBLE = {
 
   async connect() {
     if (this._mock) return "MockPiano";
+    if (this.connected && this.device) return this.device.name || this.device.id; // 防重入：重复连接会叠加通知监听器
     if (!navigator.bluetooth) {
       throw new Error("当前浏览器不支持 Web Bluetooth，请用 Chrome/Edge 通过 https 访问");
     }
@@ -122,7 +124,8 @@ export const PianoBLE = {
   // BLE-MIDI 线上格式: [header(0x8x)][timestamp(0x8x)][status][data1][data2] ...
   // 每条消息前都有 1 字节时间戳；裸 MIDI(90 3c 64) 做兼容分支
   _rx(data) {
-    if (!data || data.length < 2) return;
+    if (!data || !data.length) return;
+    this.rxCount++;
     const hex = Array.from(data).map((b) => b.toString(16).padStart(2, "0")).join(" ");
     const looksBLE = (data[0] & 0x80) !== 0 && (data[1] & 0x80) !== 0;
     const events = [];

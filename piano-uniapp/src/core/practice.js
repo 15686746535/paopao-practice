@@ -1,6 +1,6 @@
 // PianoCore.Practice —— 跟弹判定 / 等待模式 / 练习评分
 // 纯状态机，不依赖 DOM。外部注入:
-//   ble    : { lightOn(note,color), lightOff(note), lightsClear() }   可为 null
+//   ble    : { lightOn(note,color), lightOff(note), lightsClear(), noteOn(note,vel), noteOff(note) }   可为 null
 //   sound  : { playNote(midi, durSec) }                               可为 null
 // 回调: onProgress(idx,total,current), onWrong(note), onAdvance(ev,idx), onComplete(stats), onState(stateText)
 (function () {
@@ -190,6 +190,16 @@
         fe.state = fe.hits.size ? "partial" : "open";
         if (this.sound) {
           for (const n of fe.notes) this.sound.playNote(n.midi, Math.max(0.12, fe.dur * 0.95));
+        }
+        // 钢琴端同步发声（本地合成音之外，琴本身也奏出该音，与官方 App 行为一致）
+        if (this.ble && typeof this.ble.noteOn === "function") {
+          for (const n of fe.notes) {
+            this.ble.noteOn(n.midi, 100);
+            const offMs = Math.max(120, (fe.dur * 0.95 * 1000) / this.speed);
+            setTimeout(() => {
+              try { this.ble && this.ble.noteOff(n.midi); } catch (e) { /* ignore */ }
+            }, offMs);
+          }
         }
         if (this.ble) {
           for (const n of fe.notes) {
