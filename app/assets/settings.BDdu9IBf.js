@@ -1,0 +1,1 @@
+import{z as t,y as n}from"./index-wPEb9Ajm.js";const s="pp_settings_v1",r={speedPct:100,mode:"wait",hands:"both"};function e(){try{const t=n(s);if(!t)return{...r};const e="string"==typeof t?JSON.parse(t):t;return{...r,...e}}catch(t){return{...r}}}function o(n,r){const o=e();return o[n]=r,t(s,JSON.stringify(o)),o}export{e as g,o as s};
