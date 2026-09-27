@@ -7,6 +7,8 @@
 - **安卓 App 下载**：[Releases · v1.0.18](https://github.com/15686746535/paopao-practice/releases/download/v1.0.18/app-1018.apk)
 - **在线网页版**：[/app/](https://15686746535.github.io/paopao-practice/app/)（免安装，需支持 Web Bluetooth 的浏览器：Chrome / Edge 等；微信/QQ 内请选「在浏览器打开」；iOS 暂不支持蓝牙）
 
+**源代码**：[paopao-practice-src](https://github.com/15686746535/paopao-practice-src)（uni-app 前端 / Capacitor 安卓壳 / piano_app Web / 测试 / 曲库）
+
 ## 目录结构
 
 ```
